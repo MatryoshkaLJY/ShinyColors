@@ -5,7 +5,6 @@ const css = `
 #sczh-choice-hints[hidden],#sczh-choice-hints [hidden]{display:none!important}
 #sczh-choice-hints .sczh-choice-hint{position:absolute;box-sizing:border-box;transform:translate(-50%,0);text-align:center;line-height:1.35;padding:5px 9px;border-radius:8px;background:rgba(26,29,43,.92);color:#fff;border:1px solid rgba(255,255,255,.7);box-shadow:0 2px 7px #0005;white-space:normal;overflow-wrap:anywhere}
 #sczh-choice-hints .sczh-choice-hint[data-grade="perfect"],#sczh-choice-hints .sczh-choice-hint[data-grade="up"]{background:rgba(22,87,65,.94)}
-#sczh-choice-hints .sczh-choice-hint[data-grade="down"]{background:rgba(120,39,57,.94)}
 #sczh-choice-hints .sczh-choice-hint[data-missing="true"]{color:#e5e5ea;background:rgba(65,67,79,.9)}
 #sczh-choice-hints .sczh-choice-source{display:block;font-size:.72em;opacity:.75;margin-top:1px}
 `
