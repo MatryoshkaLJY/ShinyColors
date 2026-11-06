@@ -1,4 +1,5 @@
 import importlib.util
+from copy import deepcopy
 from pathlib import Path
 import unittest
 
@@ -40,6 +41,33 @@ class ImportTest(unittest.TestCase):
         self.assertEqual(choice['source'], correction['source'])
         with self.assertRaises(ValueError):
             importer.apply_corrections(groups, [{**correction, 'title': '1000'}])
+
+    def test_event_corrections_preserve_effects_and_target_the_verified_card(self):
+        source = 'https://shinycolors.wiki/wiki/P-SSR1_Hana'
+        group = {'kind': 'event', 'title': 'メモなんだが', 'source': source, 'choices': [
+            {'text': '役に立てばいいんだけど', 'effects': {'vocal': 20, 'mental': 5, 'sp': 10}},
+            {'text': '羽那のための秘密兵器だ', 'effects': {'dance': 20, 'mental': 5, 'sp': 10}},
+            {'text': '飾メモなんだが……', 'effects': {'visual': 20, 'mental': 5, 'sp': 10}}]}
+        other_card = deepcopy(group)
+        other_card['source'] = 'https://shinycolors.wiki/wiki/another_card'
+        other_event = deepcopy(group)
+        other_event['title'] = 'another event'
+        groups = [deepcopy(group), other_card, other_event]
+        correction = {'kind': 'event', 'title': group['title'], 'groupSource': source,
+                      'matchText': '飾メモなんだが……', 'text': 'メモなんだが……',
+                      'source': 'https://wikiwiki.jp/shinycolors/【Eyes On You】鈴木羽那'}
+        importer.apply_corrections(groups, [correction])
+        fixed = groups[0]['choices'][2]
+        self.assertEqual(fixed['text'], correction['text'])
+        self.assertEqual(fixed['source'], correction['source'])
+        self.assertEqual(fixed['effects'], group['choices'][2]['effects'])
+        self.assertEqual(groups[0]['choices'][:2], group['choices'][:2])
+        self.assertEqual(other_card['choices'], group['choices'])
+        self.assertEqual(other_event['choices'], group['choices'])
+        # Rebuilding also works once the upstream Wiki has fixed its own typo.
+        importer.apply_corrections(groups, [correction])
+        with self.assertRaises(ValueError):
+            importer.apply_corrections(groups, [{**correction, 'matchText': 'unknown', 'text': 'unknown'}])
 
 
 if __name__ == '__main__':

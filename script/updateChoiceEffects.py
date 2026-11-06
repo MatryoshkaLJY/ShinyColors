@@ -150,9 +150,12 @@ def apply_corrections(groups, corrections):
     for correction in corrections:
         applied = False
         for group in groups:
-            if all(group.get(key) == correction[key] for key in ('kind', 'character', 'title')):
+            if (all(group.get(key) == correction[key] for key in ('kind', 'character', 'title') if key in correction)
+                    and ('groupSource' not in correction or group.get('source') == correction['groupSource'])):
                 for choice in group['choices']:
-                    if choice.get('grade') == correction['grade']:
+                    matches = (choice.get('grade') == correction['grade'] if 'grade' in correction else
+                               'matchText' in correction and choice.get('text') in (correction['matchText'], correction['text']))
+                    if matches:
                         choice['text'] = correction['text']
                         choice['source'] = correction['source']
                         applied = True

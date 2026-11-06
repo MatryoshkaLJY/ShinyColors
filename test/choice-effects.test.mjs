@@ -212,3 +212,21 @@ test('all 15 Mei morning conversations match verified Japanese choices, includin
     }
   }
 })
+
+test('Hana Eyes On You choices match verified scenario text after translation, caching and shuffle', () => {
+  const { groups } = JSON.parse(readFileSync(new URL('../src/data/choice-effects.json', import.meta.url)))
+  const scenarios = JSON.parse(readFileSync(new URL('./fixtures/hana-ssr1-choices.json', import.meta.url)))
+  const lookup = createChoiceResolver(groups)
+  for (const { path, choices } of scenarios) {
+    const tracks = [{ speaker: '羽那', text: '……？' }, ...choices.map(choice => ({ select: choice.original })), { label: 'end' }]
+    captureChoiceGroups(tracks, path, lookup)
+    tracks.slice(1, -1).forEach((track, index) => { track.select = choices[index].translation })
+    const cached = JSON.parse(JSON.stringify(tracks))
+    captureChoiceGroups(cached, path, lookup)
+    const displayed = cached.filter(track => track.select).reverse().map(track => ({ item: {}, hint: track[CHOICE_HINT_KEY] }))
+    for (const { hint } of resolveDisplayedChoices(displayed, lookup)) {
+      const expected = choices.find(choice => choice.original === hint.original)
+      assert.deepEqual(hint.effect?.effects, expected.effects, hint.original)
+    }
+  }
+})

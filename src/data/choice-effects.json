@@ -20571,12 +20571,13 @@
           }
         },
         {
-          "text": "飾メモなんだが……",
+          "text": "メモなんだが……",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/【Eyes On You】鈴木羽那"
         }
       ]
     },
@@ -20625,12 +20626,13 @@
           }
         },
         {
-          "text": "何次の仕事の話をしよう",
+          "text": "次の仕事の話をしよう",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/【Eyes On You】鈴木羽那"
         },
         {
           "text": "……いや！",

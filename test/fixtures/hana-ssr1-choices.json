@@ -1,0 +1,18 @@
+[
+  {
+    "path": "/assets/json/produce_events/202700401.json",
+    "choices": [
+      { "original": "役に立てば\\nいいんだけど", "translation": "能帮到你的话\\n就好了", "effects": { "vocal": 20, "mental": 5, "sp": 10 } },
+      { "original": "メモなんだが……", "translation": "是笔记……", "effects": { "visual": 20, "mental": 5, "sp": 10 } },
+      { "original": "羽那のための\\n秘密兵器だ", "translation": "是为羽那准备的\\n秘密武器", "effects": { "dance": 20, "mental": 5, "sp": 10 } }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202700404.json",
+    "choices": [
+      { "original": "……いや！", "translation": "……没事！", "effects": { "visual": 20, "mental": 10, "sp": 10 } },
+      { "original": "この件のことは──", "translation": "关于这件事", "effects": { "vocal": 20, "mental": 10, "sp": 10 } },
+      { "original": "次の仕事の話をしよう", "translation": "来聊聊下次工作吧", "effects": { "dance": 20, "mental": 10, "sp": 10 } }
+    ]
+  }
+]
