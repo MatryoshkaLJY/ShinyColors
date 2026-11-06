@@ -6,6 +6,8 @@
   "author": "biuuu",
   "license": "MIT",
   "scripts": {
+    "test": "node --experimental-default-type=module --test test/*.test.mjs",
+    "choices:update": "python3 script/updateChoiceEffects.py",
     "build": "rollup --config ./script/build.js",
     "data": "node ./script/cleanDist.js && cross-env PUBLISH=skip node ./script/deploy.js",
     "dev": "npm run data && rollup --config ./script/build.js --environment BUILD:development,DEV && npm run server",

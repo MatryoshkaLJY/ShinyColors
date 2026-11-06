@@ -4,6 +4,7 @@ import watchText from './modules/text'
 import './modules/request'
 import resourceHook from './modules/resourse'
 import transStory from './modules/story'
+import choiceHints from './modules/choice-hints'
 import { isReady } from './modules/get-module'
 import addFont from './utils/fontFace'
 import './utils/keepBgm'
@@ -16,6 +17,7 @@ const main = async () => {
       addFont(),
       transPhrase(),
       watchText(),
+      choiceHints(),
       transStory()])
   } catch (e) {
     log(e)

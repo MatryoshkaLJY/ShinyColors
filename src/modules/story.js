@@ -10,6 +10,7 @@ import { getModule } from './get-module'
 import showAiTransHint from '../utils/aiTransHint'
 import { setStoryMap } from './story/trackStory'
 import { getTextTrans, getSelectTrans } from './story/utils'
+import { captureChoiceEffects } from './choice-hints'
 
 export const storyCache = {
   name: '',
@@ -103,6 +104,7 @@ const transStory = async () => {
     const res = await originLoad.apply(this, args)
     const type = args[0]
     if (!type) return res
+    captureChoiceEffects(res, type)
     if (config.dev && type.includes('/assets/json/')) requestLog('STORY', '#ad37c2', args, res)
     if (type.includes('/produce_events/') ||
       type.includes('/produce_communications/') ||

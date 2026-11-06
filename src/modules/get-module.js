@@ -19,6 +19,9 @@ const conditions = new Map([
   }],
   ['TRACK_MANAGER', (module) => {
     return module?.[DEFAULT_KEY]?.TrackManager
+  }],
+  ['ADV', (module) => {
+    return module?.[DEFAULT_KEY]?.AdvPlayer && module?.[DEFAULT_KEY]?.TrackManager
   }]
 ])
 
@@ -27,7 +30,8 @@ const resultMap = new Map([
   ['SCENARIO', (module) => module[DEFAULT_KEY]],
   ['PHRASE', (module) => module[DEFAULT_KEY]._polyglot.phrases],
   ['WEBP', (module) => module[DEFAULT_KEY]],
-  ['TRACK_MANAGER', (module) => module[DEFAULT_KEY].TrackManager]
+  ['TRACK_MANAGER', (module) => module[DEFAULT_KEY].TrackManager],
+  ['ADV', (module) => module[DEFAULT_KEY]]
 ])
 
 const isReady = () => {
@@ -92,7 +96,8 @@ const findModule = (id, conditionFunc) => {
 
 const getModule = async (name) => {
   const { moduleId } = await getHash
-  let [md, id] = findModule(moduleId[name], conditions.get(name))
+  // AdvPlayer and TrackManager are exports of the same scenario module.
+  let [md, id] = findModule(moduleId[name === 'ADV' ? 'TRACK_MANAGER' : name], conditions.get(name))
   return md ? resultMap.get(name)(md) : null
 }
 

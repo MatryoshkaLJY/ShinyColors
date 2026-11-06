@@ -1,0 +1,13 @@
+choice-effects.json is derived from choice and stat tables maintained by
+Shinycolors Wiki contributors: https://shinycolors.wiki/
+
+Source page URLs are recorded in each group's "source" field. The imported
+tables have been filtered and converted to JSON by script/updateChoiceEffects.py.
+Verified transcription corrections also cite the Japanese Shinycolors Wiki:
+https://wikiwiki.jp/shinycolors/
+
+Shinycolors Wiki publishes its text under the Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International License:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Game dialogue and character names belong to their respective rights holders.

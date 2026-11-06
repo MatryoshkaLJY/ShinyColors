@@ -1,9 +1,10 @@
 .vscode/
 node_modules/
 dist/
-data/
+/data/
 localfont/
 localtext/
 yarn-error.log
 npm-debug.log
 debug.log
+__pycache__/
