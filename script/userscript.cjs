@@ -35,6 +35,7 @@ const createHeader = (env = process.env) => `// ==UserScript==
 // @updateURL    ${updateURL}
 // @downloadURL  ${downloadURL}
 // @supportURL   https://github.com/${repository}/issues
+// @copyright    Original code: Copyright (c) 2019 biuuu, MIT
 // @copyright    Effect data: Shinycolors Wiki contributors, CC BY-NC-SA 4.0
 // ==/UserScript==`
 

@@ -85,6 +85,13 @@ npm run build
 `npm run build` 可独立构建包含效果库的 `dist/ShinyColors.user.js`，汉化译文仍使用脚本配置的数据源，不需要先下载翻译仓库。
 
 ## License
-The code is [MIT](https://github.com/biuuu/ShinyColors/blob/master/LICENSE) licensed,
-but the translation text has another License. see [details](https://github.com/biuuu/ShinyColors/tree/master/data)
+
+本项目基于 [biuuu/ShinyColors](https://github.com/biuuu/ShinyColors)，本 fork 增加了选项效果提示、角色匹配和自动发布功能。
+
+- 程序代码遵循 [MIT](LICENSE)，保留原作者 `Copyright (c) 2019 biuuu` 及完整许可声明。
+- 从 Shinycolors Wiki 整理的效果数据按 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans) 标注，保留贡献者署名、来源链接及提取、转换和修正说明；详见 [效果数据许可](src/data/LICENSE)。该数据的再分发及改编需遵守其非商业、署名和相同方式共享条件。
+- 游戏素材、剧情原文和人工译文的权利归各自权利人，不因程序代码采用 MIT 而自动获得 MIT 授权。人工翻译来源见 [SCTranslationData](https://github.com/ShinyGroup/SCTranslationData)。
+- 构建出的单文件 `ShinyColors.user.js` 内嵌原程序、效果数据和打包依赖的许可声明，Release 同时提供相应的许可证附件。
+
+建议在项目介绍中说明上游来源和本 fork 的改动；这是独立维护的增强版，不表示原作者、Wiki 贡献者或游戏官方对本 fork 的认可。
 

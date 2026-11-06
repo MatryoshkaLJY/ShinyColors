@@ -56,11 +56,11 @@ jobs:
 
           安装或更新 ShinyColors.user.js。各设备安装一次后，开启用户脚本管理器的自动更新。
 
-          效果数据许可见 LICENSE-effects.txt；程序许可见 LICENSE-code.txt。
+          效果数据许可见 LICENSE-effects.txt；程序许可见 LICENSE-code.txt；依赖许可见 LICENSE-dependencies.txt。上述声明也已内嵌在安装脚本中。
           EOF
           gh release create "userscript-${USERSCRIPT_VERSION}" \
             dist/ShinyColors.user.js dist/ShinyColors.meta.js \
-            dist/LICENSE-code.txt dist/LICENSE-effects.txt \
+            dist/LICENSE-code.txt dist/LICENSE-effects.txt dist/LICENSE-dependencies.txt \
             --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
             --title "Userscript ${USERSCRIPT_VERSION}" \
             --notes-file dist/release-notes.md --latest

@@ -6,16 +6,22 @@ import { terser } from 'rollup-plugin-terser'
 import { readFileSync } from 'fs'
 // Rollup 2 loads the compiled config as CommonJS.
 const userscript = require('./userscript.cjs')
+const { bundledNotices } = require('./licenseNotices.cjs')
 
 const banner = userscript.createHeader()
 
 const plugins = [
   {
     name: 'userscript-release-files',
-    generateBundle () {
+    generateBundle (options, bundle) {
+      const chunk = bundle['ShinyColors.user.js']
+      const notices = bundledNotices(Object.keys(chunk.modules))
+      const end = chunk.code.indexOf('// ==/UserScript==') + '// ==/UserScript=='.length
+      chunk.code = `${chunk.code.slice(0, end)}\n${notices.comment}${chunk.code.slice(end)}`
       this.emitFile({ type: 'asset', fileName: 'ShinyColors.meta.js', source: `${banner}\n` })
       this.emitFile({ type: 'asset', fileName: 'LICENSE-code.txt', source: readFileSync('./LICENSE', 'utf8') })
       this.emitFile({ type: 'asset', fileName: 'LICENSE-effects.txt', source: readFileSync('./src/data/LICENSE', 'utf8') })
+      this.emitFile({ type: 'asset', fileName: 'LICENSE-dependencies.txt', source: `${notices.dependencies}\n` })
     }
   },
   resolve({ preferBuiltins: false }),
