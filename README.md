@@ -1,3 +1,13 @@
+# ShinyColors 汉化与选项效果提示
+
+[![一键安装最新版](https://img.shields.io/badge/一键安装-最新版本-ff6499?style=for-the-badge)](https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js)
+
+**[点击安装脚本](https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js)** · [详细安装说明](src/README.md) · [更新记录](https://github.com/MatryoshkaLJY/ShinyColors/releases)
+
+先安装 [Tampermonkey（油猴）](https://www.tampermonkey.net/)，再点击上方按钮，在油猴弹出的页面确认安装，最后刷新[游戏页面](https://shinycolors.enza.fun/home)。Chrome 用户需在油猴扩展详情中允许用户脚本运行，操作见[安装说明](src/README.md)。
+
+安装后开启油猴的自动更新，即可持续获取本仓库发布的新版。访客无需下载源码或自行构建。
+
 <a href="https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js"><img src="https://www.shiny.fun/data/image/banner.jpg?v=2" alt="安装个人增强版"></a>
 <p align="center">
 <a href="https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml"><img alt="Build Status" src="https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml/badge.svg?branch=master"></a>

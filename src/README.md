@@ -1,5 +1,5 @@
 ## 使用
-1. 浏览器建议使用 [Edge](https://www.microsoft.com/zh-cn/edge) 或者 [Chrome](https://www.google.com/intl/zh-CN/chrome/)，首先安装 [Violentmonkey](https://violentmonkey.github.io/get-it/) 扩展
+1. 在浏览器中安装 [Tampermonkey（油猴）](https://www.tampermonkey.net/) 扩展。Chrome 用户打开 `chrome://extensions/` → Tampermonkey → 详情，开启“允许运行用户脚本”；没有该选项时，开启扩展页面右上角的“开发者模式”。[油猴官方说明](https://www.tampermonkey.net/faq.php#Q209)
 2. 扩展安装完成后，点击 [个人增强版固定安装地址](https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js)，根据扩展的提示安装脚本
 3. 回到游戏页面刷新
 
