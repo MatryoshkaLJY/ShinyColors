@@ -1,4 +1,4 @@
-import { formatChoiceEffect, projectChoiceBounds } from './choiceEffects.js'
+import { formatChoiceEffect, formatChoiceStats, projectChoiceBounds } from './choiceEffects.js'
 
 const css = `
 #sczh-choice-hints{position:fixed;inset:0;pointer-events:none!important;z-index:2147483000;font-family:HummingStd-E,"Microsoft YaHei",sans-serif}
@@ -6,6 +6,10 @@ const css = `
 #sczh-choice-hints .sczh-choice-hint{position:absolute;box-sizing:border-box;transform:translate(-50%,0);text-align:center;line-height:1.35;padding:5px 9px;border-radius:8px;background:rgba(26,29,43,.92);color:#fff;border:1px solid rgba(255,255,255,.7);box-shadow:0 2px 7px #0005;white-space:normal;overflow-wrap:anywhere}
 #sczh-choice-hints .sczh-choice-hint[data-grade="perfect"],#sczh-choice-hints .sczh-choice-hint[data-grade="up"]{background:rgba(22,87,65,.94)}
 #sczh-choice-hints .sczh-choice-hint[data-missing="true"]{color:#e5e5ea;background:rgba(65,67,79,.9)}
+#sczh-choice-hints .sczh-choice-stat{display:inline-block;white-space:nowrap}
+#sczh-choice-hints .sczh-choice-stat[data-stat="vocal"]{color:#ff82b3}
+#sczh-choice-hints .sczh-choice-stat[data-stat="dance"]{color:#70c7ff}
+#sczh-choice-hints .sczh-choice-stat[data-stat="visual"]{color:#ffe071}
 #sczh-choice-hints .sczh-choice-source{display:block;font-size:.72em;opacity:.75;margin-top:1px}
 `
 
@@ -86,7 +90,17 @@ export const createChoiceOverlay = (game, enabled, report = () => {}) => {
       element.className = 'sczh-choice-hint'
       element.dataset.grade = hint?.effect?.grade || ''
       element.dataset.missing = String(!hint?.effect)
-      element.textContent = formatChoiceEffect(hint?.kind, hint?.effect)
+      const stats = hint?.kind === 'event' ? formatChoiceStats(hint.effect) : []
+      if (stats.length) {
+        stats.forEach(({ stat, text }, index) => {
+          if (index) element.appendChild(document.createTextNode(' · '))
+          const value = document.createElement('span')
+          value.className = 'sczh-choice-stat'
+          value.dataset.stat = stat
+          value.textContent = text
+          element.appendChild(value)
+        })
+      } else element.textContent = formatChoiceEffect(hint?.kind, hint?.effect)
       const source = document.createElement('span')
       source.className = 'sczh-choice-source'
       source.textContent = hint?.effect ? 'Wiki · 基础效果' : 'Wiki 暂未收录或选项未匹配'

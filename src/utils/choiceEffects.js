@@ -125,6 +125,10 @@ export const captureChoiceGroups = (tracks, path, resolve, identifyCharacter = (
 }
 
 const labels = { vocal: 'Vo', dance: 'Da', visual: 'Vi', mental: 'Me', sp: 'SP' }
+export const formatChoiceStats = effect => Object.keys(labels)
+  .filter(stat => Number.isFinite(effect?.effects?.[stat]) && effect.effects[stat] !== 0)
+  .map(stat => ({ stat, text: `${labels[stat]} ${effect.effects[stat] > 0 ? '+' : ''}${effect.effects[stat]}` }))
+
 export const formatChoiceEffect = (kind, effect) => {
   if (!effect) return '效果数据暂缺'
   if (kind === 'morning') {
@@ -137,8 +141,7 @@ export const formatChoiceEffect = (kind, effect) => {
   if (kind === 'audition') {
     return { up: '心情上升', neutral: '心情不变', down: '心情下降' }[effect.grade] || '效果数据暂缺'
   }
-  const parts = Object.keys(labels).filter(key => Number.isFinite(effect.effects?.[key]) && effect.effects[key] !== 0)
-    .map(key => `${labels[key]} ${effect.effects[key] > 0 ? '+' : ''}${effect.effects[key]}`)
+  const parts = formatChoiceStats(effect).map(part => part.text)
   return parts.length ? parts.join(' · ') : '效果数据暂缺'
 }
 
