@@ -84,6 +84,20 @@ npm run build
 
 `npm run build` 可独立构建包含效果库的 `dist/ShinyColors.user.js`，汉化译文仍使用脚本配置的数据源，不需要先下载翻译仓库。
 
+### 离线批量检查选项匹配
+
+准备好本地 [SCTranslationData](https://github.com/ShinyGroup/SCTranslationData) 仓库或解压后的快照后，可以直接检查，不必逐段进入游戏：
+
+```bash
+npm run choices:audit -- --translations ../SCTranslationData --report dist/choice-effects-audit.json --markdown dist/choice-effects-audit.md
+```
+
+下载剧情快照需要网络；这个检查命令本身不访问网络，只读取本地 `data/story/**/*.csv` 和内置效果库。它通过 CSV 的 `info` 行识别剧情类型和场景 ID，使用运行时同一套匹配函数，并重放汉化、JSON 缓存和选项顺序打乱后的查找。
+
+JSON 报告包含逐类覆盖数、缺失原文、剧情文件、候选 Wiki 来源、来源冲突、动态选项池及 CSV 解析警告；可选的 Markdown 报告便于直接阅读。候选相似记录仅供人工核对，不会自动填充效果。追加 `--strict` 可在发现缺失、解析警告或无法确定的场景时返回非零状态；`--catalogue /path/to/choice-effects.json` 可对比旧效果库。
+
+本次完整检查的 [待核对清单](docs/choice-effects-audit.md) 基于翻译仓库提交 `60d451090aea86631815a0522238eb5f3d196e1b` 和报告中的效果库 SHA-256：共检查 1,309 组，1,136 组全部匹配，37 组部分匹配，136 组未匹配。这是该快照的覆盖情况，不包含快照缺少的剧情，也不能单独证明 Wiki 的数值正确。清单中的记录尚需逐项核对或补齐。
+
 ## License
 
 本项目基于 [biuuu/ShinyColors](https://github.com/biuuu/ShinyColors)，本 fork 增加了选项效果提示、角色匹配和自动发布功能。

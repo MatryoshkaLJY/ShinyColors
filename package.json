@@ -9,6 +9,7 @@
   "scripts": {
     "test": "node --experimental-default-type=module --test test/*.test.mjs",
     "choices:update": "python3 script/updateChoiceEffects.py",
+    "choices:audit": "node --experimental-default-type=module script/auditChoiceEffects.mjs",
     "build": "rollup --config ./script/build.js",
     "verify:userscript": "node script/verifyUserscript.cjs",
     "data": "node ./script/cleanDist.js && cross-env PUBLISH=skip node ./script/deploy.js",
