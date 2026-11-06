@@ -3,28 +3,21 @@ import json from '@rollup/plugin-json'
 import resolve from '@rollup/plugin-node-resolve'
 import cmjs from '@rollup/plugin-commonjs'
 import { terser } from 'rollup-plugin-terser'
-import { version } from '../package.json'
+import { readFileSync } from 'fs'
+// Rollup 2 loads the compiled config as CommonJS.
+const userscript = require('./userscript.cjs')
 
-const banner = `// ==UserScript==
-// @name         偶像大师ShinyColors汉化
-// @namespace    https://github.com/biuuu/ShinyColors
-// @version      ${version}
-// @description  录剧情视频到公开的网站请先取得译者同意，提交翻译或问题请到 https://github.com/biuuu/ShinyColors
-// @icon         https://shinycolors.enza.fun/icon_192x192.png
-// @author       biuuu
-// @match        https://shinycolors.enza.fun/*
-// @run-at       document-start
-// @grant        GM_xmlhttpRequest
-// @grant        GM_registerMenuCommand
-// @grant        GM_unregisterMenuCommand
-// @connect      api.interpreter.caiyunai.com
-// @connect      translate.google.cn
-// @connect      fanyi.baidu.com
-// @updateURL    https://www.shiny.fun/ShinyColors.user.js
-// @supportURL   https://github.com/biuuu/ShinyColors/issues
-// ==/UserScript==`
+const banner = userscript.createHeader()
 
 const plugins = [
+  {
+    name: 'userscript-release-files',
+    generateBundle () {
+      this.emitFile({ type: 'asset', fileName: 'ShinyColors.meta.js', source: `${banner}\n` })
+      this.emitFile({ type: 'asset', fileName: 'LICENSE-code.txt', source: readFileSync('./LICENSE', 'utf8') })
+      this.emitFile({ type: 'asset', fileName: 'LICENSE-effects.txt', source: readFileSync('./src/data/LICENSE', 'utf8') })
+    }
+  },
   resolve({ preferBuiltins: false }),
   cmjs({ ignore: ['stream'], include: /node_modules/ }),
   json(),
@@ -63,6 +56,7 @@ export default {
     name: 'shinycolors_zh',
     banner: banner,
     intro: `const ENVIRONMENT = "${process.env.BUILD === 'development' ? 'development' : ''}";
+    const USERSCRIPT_DOWNLOAD_URL = ${JSON.stringify(userscript.downloadURL)};
     const DEV = ${process.env.DEV ? true : false};
     const SHOW_UPDATE_TEXT = ${process.env.TEXT ? true : false};
     const COLLECT_CARD_RATE = ${process.env.CARD ? true : false};`

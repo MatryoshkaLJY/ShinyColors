@@ -1,7 +1,9 @@
 ## 使用
 1. 浏览器建议使用 [Edge](https://www.microsoft.com/zh-cn/edge) 或者 [Chrome](https://www.google.com/intl/zh-CN/chrome/)，首先安装 [Violentmonkey](https://violentmonkey.github.io/get-it/) 扩展
-2. 扩展安装完成后，点击脚本的地址 https://www.shiny.fun/ShinyColors.user.js ，根据扩展的提示安装脚本
+2. 扩展安装完成后，点击 [个人增强版固定安装地址](https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js)，根据扩展的提示安装脚本
 3. 回到游戏页面刷新
+
+每台设备从同一地址安装一次，并开启脚本管理器中的自动更新。此前如果关闭过更新检查，需要重新开启。更新完成后，整页刷新游戏以加载新版。仓库每次推送到 `master` 后，会自动构建并发布新版；各设备按脚本管理器的检查周期获取更新。
 
 游戏地址：[直接打开](https://shinycolors.enza.fun/home) ，新用户也可以通过我的 [招待链接](https://go.enza.fun/YLZXbw) 来开始游戏。
 

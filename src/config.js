@@ -140,7 +140,7 @@ const menuCommand = {
   update: {
     id: 0, title: '检查更新',
     callback: () => {
-      window.open(`${config.origin}/ShinyColors.user.js`)
+      window.open(USERSCRIPT_DOWNLOAD_URL)
     }
   },
   resize: {

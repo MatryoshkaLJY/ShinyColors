@@ -1,6 +1,6 @@
-<a href="https://www.shiny.fun/ShinyColors.user.js"><img src="https://www.shiny.fun/data/image/banner.jpg?v=2" alt="检查更新"></a>
+<a href="https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js"><img src="https://www.shiny.fun/data/image/banner.jpg?v=2" alt="安装个人增强版"></a>
 <p align="center">
-<a href="https://github.com/biuuu/ShinyColors/actions/workflows/pages/pages-build-deployment"><img alt="Build Status" src="https://github.com/biuuu/ShinyColors/actions/workflows/pages/pages-build-deployment/badge.svg?branch=gh-pages"></a>
+<a href="https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml"><img alt="Build Status" src="https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml/badge.svg?branch=master"></a>
 <a href="https://github.com/biuuu/ShinyColors/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/biuuu/ShinyColors.svg"></a>
 <a href="https://idolmaster.jp/"><img alt="THE IDOLM@STER" src="https://img.shields.io/badge/IDOL-M%40STER-ff779c.svg"></a>
 <a href="https://shinycolors.enza.fun/"><img alt="283 Production" src="https://img.shields.io/badge/283-Production-9a77ff.svg"></a>
@@ -9,14 +9,14 @@
 ---
 
 ## 简介
-安装插件：[说明](https://github.com/biuuu/ShinyColors/blob/master/src/README.md)
+安装插件：[说明](https://github.com/MatryoshkaLJY/ShinyColors/blob/master/src/README.md)
 
 提交翻译：[说明](https://github.com/ShinyGroup/SCTranslationData)
 
 ## Devlopment
 ```bash
 # 全局安装 pnpm
-npm install -g pnpm
+npm install -g pnpm@10.11.0
 
 # 用 pnpm 安装模块
 pnpm install
@@ -27,9 +27,31 @@ pnpm dev
 # 构建用户脚本
 pnpm build
 
+# 检查自动更新元数据和构建产物
+pnpm verify:userscript
+
 # 打包CSV和构建用户脚本，并push到当前repo的gh-pages分支
 pnpm deploy
 ```
+
+### 自动发布与多设备更新
+
+固定安装地址：[安装最新个人增强版](https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js)。首次发布完成后，该地址始终指向最新版本。
+
+每台设备安装一次，然后在 Tampermonkey / Violentmonkey 中开启该脚本的更新检查。如果之前关闭过自动更新，需要重新开启；如果手工覆盖过更新地址，需要恢复为脚本元数据中的地址：
+
+```text
+更新检查：https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.meta.js
+脚本下载：https://github.com/MatryoshkaLJY/ShinyColors/releases/latest/download/ShinyColors.user.js
+```
+
+以后修改代码或内置效果库并推送到 `master`，GitHub Actions 的 [Publish userscript](https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml) 会测试、构建并发布 Release。每次运行自动生成递增的脚本版本（例如 `1.13.0.1.1`），无需为每次修改手动改版本号。发布失败时继续使用上一个成功版本。此流程使用 Node.js 22 和仓库内的 pnpm 锁文件，不需要个人访问令牌或 GitHub Pages。
+
+新 fork 如果提示工作流未启用，在仓库 Actions 页面启用工作流，然后选择 Publish userscript → Run workflow → master 完成首次发布。后续推送会自动触发。
+
+各设备按脚本管理器设置的周期检查更新；需要立即更新时，在管理器中手动检查更新。已打开的游戏页面应在更新完成后整页刷新。本地服务器只用于本地安装和调试，多设备更新直接使用上面的 HTTPS 地址。
+
+程序和内置选项效果库随 Release 更新；汉化译文通过 `config.origin` 加载。
 
 ### 选项效果提示
 

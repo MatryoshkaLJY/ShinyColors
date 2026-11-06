@@ -1,0 +1,66 @@
+name: Publish userscript
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: userscript-release
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    if: github.repository == 'MatryoshkaLJY/ShinyColors' && github.ref == 'refs/heads/master'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Install dependencies from lockfile
+        run: |
+          npm install --global pnpm@10.11.0
+          pnpm install --frozen-lockfile --ignore-scripts
+      - name: Test
+        run: |
+          pnpm test
+          python3 -m unittest discover -s test -p 'test_*.py'
+      - name: Build and verify release
+        run: |
+          pnpm build
+          pnpm verify:userscript
+          node -e 'console.log("USERSCRIPT_VERSION=" + require("./script/userscript.cjs").scriptVersion())' >> "$GITHUB_ENV"
+      - name: Publish versioned release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/master" --jq .object.sha)"
+          if [ "$current_sha" != "$GITHUB_SHA" ]; then
+            echo 'A newer commit is on master; skipping this release.'
+            exit 0
+          fi
+          cat > dist/release-notes.md <<EOF
+          自动构建版本：${USERSCRIPT_VERSION}
+
+          源码：https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}
+
+          安装或更新 ShinyColors.user.js。各设备安装一次后，开启用户脚本管理器的自动更新。
+
+          效果数据许可见 LICENSE-effects.txt；程序许可见 LICENSE-code.txt。
+          EOF
+          gh release create "userscript-${USERSCRIPT_VERSION}" \
+            dist/ShinyColors.user.js dist/ShinyColors.meta.js \
+            dist/LICENSE-code.txt dist/LICENSE-effects.txt \
+            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --title "Userscript ${USERSCRIPT_VERSION}" \
+            --notes-file dist/release-notes.md --latest
