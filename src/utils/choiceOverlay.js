@@ -1,34 +1,12 @@
-import { formatChoiceEffect, formatChoiceStats, projectChoiceBounds } from './choiceEffects.js'
+import { formatChoiceEffect, formatChoiceStats } from './choiceEffects.js'
 
-const css = `
-#sczh-choice-hints{position:fixed;inset:0;pointer-events:none!important;z-index:2147483000;font-family:HummingStd-E,"Microsoft YaHei",sans-serif}
-#sczh-choice-hints[hidden],#sczh-choice-hints [hidden]{display:none!important}
-#sczh-choice-hints .sczh-choice-hint{position:absolute;box-sizing:border-box;transform:translate(-50%,0);text-align:center;line-height:1.35;padding:5px 9px;border-radius:8px;background:rgba(26,29,43,.92);color:#fff;border:1px solid rgba(255,255,255,.7);box-shadow:0 2px 7px #0005;white-space:normal;overflow-wrap:anywhere}
-#sczh-choice-hints .sczh-choice-hint[data-grade="perfect"],#sczh-choice-hints .sczh-choice-hint[data-grade="up"]{background:rgba(22,87,65,.94)}
-#sczh-choice-hints .sczh-choice-hint[data-missing="true"]{color:#e5e5ea;background:rgba(65,67,79,.9)}
-#sczh-choice-hints .sczh-choice-stat{display:inline-block;white-space:nowrap}
-#sczh-choice-hints .sczh-choice-stat[data-stat="vocal"]{color:#ff82b3}
-#sczh-choice-hints .sczh-choice-stat[data-stat="dance"]{color:#70c7ff}
-#sczh-choice-hints .sczh-choice-stat[data-stat="visual"]{color:#ffe071}
-#sczh-choice-hints .sczh-choice-source{display:block;font-size:.72em;opacity:.75;margin-top:1px}
-`
+const colors = { vocal: 0xff82b3, dance: 0x70c7ff, visual: 0xffe071 }
 
-export const createChoiceOverlay = (game, enabled, report = () => {}) => {
+// Render hints in the same scene as the options. DOM overlays are not drawn in
+// canvas fullscreen and do not inherit the game's mobile CSS rotation/scaling.
+export const createChoiceOverlay = (aoba, enabled, report = () => {}) => {
+  const game = aoba.game
   let root, owner, entries = [], frame = null
-  const ensureRoot = () => {
-    if (!root) {
-      const style = document.createElement('style')
-      style.textContent = css
-      document.head.appendChild(style)
-      root = document.createElement('div')
-      root.id = 'sczh-choice-hints'
-      root.setAttribute('aria-label', '选项效果提示')
-      root.hidden = true
-    }
-    // Fullscreen only displays descendants of the fullscreen element.
-    const parent = document.fullscreenElement || document.body
-    if (root.parentNode !== parent) parent.appendChild(root)
-  }
   const stop = () => {
     if (frame !== null) cancelAnimationFrame(frame)
     frame = null
@@ -36,8 +14,12 @@ export const createChoiceOverlay = (game, enabled, report = () => {}) => {
   const hide = player => {
     if (player && player !== owner) return
     stop()
-    if (root) { root.hidden = true; root.replaceChildren() }
-    owner = null
+    if (root) {
+      if (root.parent) root.parent.removeChild(root)
+      // Text textures belong to this overlay, not the game's shared assets.
+      if (!root.destroyed && !root._destroyed) root.destroy({ children: true })
+    }
+    root = owner = null
     entries = []
   }
   const visible = item => {
@@ -47,30 +29,84 @@ export const createChoiceOverlay = (game, enabled, report = () => {}) => {
     }
     return item.worldAlpha !== 0
   }
+  // getBounds() is in renderer coordinates. Convert all four corners into the
+  // overlay parent's coordinates, including scaled/translated scene parents.
+  const localBounds = bounds => {
+    const points = [
+      [bounds.x, bounds.y], [bounds.x + bounds.width, bounds.y],
+      [bounds.x, bounds.y + bounds.height], [bounds.x + bounds.width, bounds.y + bounds.height]
+    ].map(([x, y]) => root.toLocal({ x, y }))
+    const xs = points.map(p => p.x), ys = points.map(p => p.y)
+    const x = Math.min(...xs), y = Math.min(...ys)
+    return { x, y, width: Math.max(...xs) - x, height: Math.max(...ys) - y }
+  }
+  const text = (value, fontSize, fill = 0xffffff) => {
+    const label = new aoba.Text(value, {
+      fontFamily: 'HummingStd-E,"Microsoft YaHei",sans-serif',
+      fontSize, fill, align: 'center', wordWrap: true, breakWords: true,
+      wordWrapWidth: 300
+    })
+    label.interactive = false
+    return label
+  }
   const update = () => {
     frame = null
     try {
       if (!owner || owner.destroyed || owner._destroyed || !owner._selectList?.active || !owner.parent) return hide()
-      ensureRoot()
-      const renderer = game.renderer
-      const canvas = renderer?.view
-      const rect = canvas?.getBoundingClientRect()
-      const screen = renderer?.screen || { width: game.width, height: game.height }
-      root.hidden = !enabled() || document.hidden || !rect || !canvas.isConnected
-      if (!root.hidden) {
-        for (const { item, element } of entries) {
-          const box = visible(item) ? projectChoiceBounds(item.getBounds(), rect, screen) : null
-          element.hidden = !box
-          if (!box) continue
-          const fontSize = Math.max(10, Math.min(19, 17 * box.scale))
-          const width = Math.min(Math.max(box.width, 150 * box.scale), rect.width * .48)
-          element.style.fontSize = `${fontSize}px`
-          element.style.width = `${width}px`
-          // Bounds come from the option itself, so bubbles can move or shuffle.
-          const left = Math.max(rect.left + width / 2, Math.min(rect.right - width / 2, box.left))
-          element.style.left = `${left}px`
-          const height = element.offsetHeight
-          element.style.top = `${Math.max(rect.top, Math.min(rect.bottom - height, box.top + 3 * box.scale))}px`
+      // Keep the layer above the bubbles, without putting it inside an item:
+      // children of an item would change getBounds() and feed back into layout.
+      if (root.parent !== owner.parent) owner.parent.addChild(root)
+      const screen = game.renderer?.screen || { x: 0, y: 0, width: game.width, height: game.height }
+      const viewport = localBounds({ x: screen.x || 0, y: screen.y || 0, width: screen.width, height: screen.height })
+      const canvasRect = game.renderer?.view?.getBoundingClientRect()
+      // Use the long edge so a 90-degree CSS rotation has the same text size.
+      const displayScale = canvasRect && Math.max(canvasRect.width, canvasRect.height) / Math.max(screen.width, screen.height)
+      const unit = viewport.width / screen.width
+      const fontSize = (displayScale > 0 ? Math.max(17, 10 / displayScale) : 17) * unit
+      root.visible = enabled() && !document.hidden && visible(owner)
+      if (root.visible && viewport.width > 0 && viewport.height > 0) {
+        for (const entry of entries) {
+          const { item, panel, background, labels, source } = entry
+          const box = visible(item) ? localBounds(item.getBounds()) : null
+          panel.visible = !!box && [box.x, box.y, box.width, box.height].every(Number.isFinite) && box.width > 0 && box.height > 0
+          if (!panel.visible) continue
+          const width = Math.min(Math.max(box.width, 150), viewport.width * .48)
+          const contentWidth = Math.max(1, width - 18)
+          let x = 0, y = 5, rowHeight = 0
+          const rows = [[]]
+          for (const label of labels) {
+            if (label.style.fontSize !== fontSize) label.style.fontSize = fontSize
+            if (label.style.wordWrapWidth !== contentWidth) label.style.wordWrapWidth = contentWidth
+            if (x && x + label.width > contentWidth) {
+              y += rowHeight
+              x = rowHeight = 0
+              rows.push([])
+            }
+            label.position.set(x, y)
+            rows[rows.length - 1].push(label)
+            x += label.width + 6
+            rowHeight = Math.max(rowHeight, label.height)
+          }
+          for (const row of rows) {
+            const used = row.reduce((sum, label) => sum + label.width + 6, -6)
+            row.forEach(label => { label.x += (width - used) / 2 })
+          }
+          if (source.style.fontSize !== fontSize * 12 / 17) source.style.fontSize = fontSize * 12 / 17
+          if (source.style.wordWrapWidth !== contentWidth) source.style.wordWrapWidth = contentWidth
+          source.position.set((width - source.width) / 2, y + rowHeight + 1)
+          const height = source.y + source.height + 5
+          if (entry.width !== width || entry.height !== height) {
+            background.clear()
+            background.lineStyle(1, 0xffffff, .7)
+            background.beginFill(entry.color, .94)
+            background.drawRoundedRect(0, 0, width, height, 8)
+            background.endFill()
+            entry.width = width
+            entry.height = height
+          }
+          panel.position.set(
+            Math.max(viewport.x, Math.min(viewport.x + viewport.width - width, box.x + (box.width - width) / 2)),
+            Math.max(viewport.y, Math.min(viewport.y + viewport.height - height, box.y + box.height + 3)))
         }
       }
       frame = requestAnimationFrame(update)
@@ -81,34 +117,36 @@ export const createChoiceOverlay = (game, enabled, report = () => {}) => {
   }
   const show = (player, choices) => {
     hide()
-    // Other menus use the same player; only annotated produce choices qualify.
     if (!choices.some(choice => choice.hint)) return
-    ensureRoot()
-    owner = player
-    entries = choices.map(({ item, hint }) => {
-      const element = document.createElement('div')
-      element.className = 'sczh-choice-hint'
-      element.dataset.grade = hint?.effect?.grade || ''
-      element.dataset.missing = String(!hint?.effect)
-      const stats = hint?.kind === 'event' ? formatChoiceStats(hint.effect) : []
-      if (stats.length) {
-        stats.forEach(({ stat, text }, index) => {
-          if (index) element.appendChild(document.createTextNode(' · '))
-          const value = document.createElement('span')
-          value.className = 'sczh-choice-stat'
-          value.dataset.stat = stat
-          value.textContent = text
-          element.appendChild(value)
-        })
-      } else element.textContent = formatChoiceEffect(hint?.kind, hint?.effect)
-      const source = document.createElement('span')
-      source.className = 'sczh-choice-source'
-      source.textContent = hint?.effect ? 'Wiki · 基础效果' : 'Wiki 暂未收录或选项未匹配'
-      element.appendChild(source)
-      root.appendChild(element)
-      return { item, hint, element }
-    })
-    update()
+    try {
+      owner = player
+      root = new aoba.Container()
+      // Hints must never intercept a tap or change selection hit testing.
+      root.interactive = false
+      root.interactiveChildren = false
+      owner.parent.addChild(root)
+      entries = choices.map(({ item, hint }) => {
+        const panel = new aoba.Container()
+        panel.interactive = panel.interactiveChildren = false
+        const background = new aoba.Graphics()
+        panel.addChild(background)
+        const stats = hint?.kind === 'event' ? formatChoiceStats(hint.effect) : []
+        const labels = stats.length
+          ? stats.map(stat => text(stat.text, 17, colors[stat.stat] || 0xffffff))
+          : [text(formatChoiceEffect(hint?.kind, hint?.effect), 17)]
+        labels.forEach(label => panel.addChild(label))
+        const source = text(hint?.effect ? 'Wiki · 基础效果' : 'Wiki 暂未收录或选项未匹配', 12)
+        source.alpha = .75
+        panel.addChild(source)
+        root.addChild(panel)
+        const color = !hint?.effect ? 0x41434f : ['perfect', 'up'].includes(hint.effect.grade) ? 0x165741 : 0x1a1d2b
+        return { item, panel, background, labels, source, color }
+      })
+      update()
+    } catch (error) {
+      report(error)
+      hide()
+    }
   }
   return { show, hide }
 }

@@ -22,7 +22,7 @@ export default async function choiceHints () {
   try {
     const [adv, aoba] = await Promise.all([getModule('ADV'), getModule('AOBA')])
     if (!adv?.AdvPlayer || !aoba?.game) return
-    const overlay = createChoiceOverlay(aoba.game, () => config.choiceHints !== 'off', log)
+    const overlay = createChoiceOverlay(aoba, () => config.choiceHints !== 'off', log)
     installed = installChoiceHooks(adv.AdvPlayer, (player, choices) => {
       overlay.show(player, resolveDisplayedChoices(choices, resolve))
     }, overlay.hide, log)
