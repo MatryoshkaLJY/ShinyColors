@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06",
+  "updatedAt": "2026-11-07",
   "attribution": "Shinycolors Wiki contributors",
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "groups": [
@@ -409,8 +409,9 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "少し力を抜こう",
-          "grade": "down"
+          "text": "少し力を抜こう！",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/オーディション前選択肢_大崎甘奈"
         },
         {
           "text": "その気持ちがあれば大丈夫だ！",
