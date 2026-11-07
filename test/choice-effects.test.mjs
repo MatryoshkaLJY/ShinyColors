@@ -230,3 +230,27 @@ test('Hana Eyes On You choices match verified scenario text after translation, c
     }
   }
 })
+
+
+test('Amana audition choices retain all three grades after translation, caching and shuffling', () => {
+  const { groups } = JSON.parse(readFileSync(new URL('../src/data/choice-effects.json', import.meta.url)))
+  const scenarios = JSON.parse(readFileSync(new URL('./fixtures/amana-audition.json', import.meta.url)))
+  const lookup = createChoiceResolver(groups)
+  assert.equal(scenarios.length, 4)
+  for (const { path, choices } of scenarios) {
+    const tracks = [{ speaker: '甘奈', text: 'opening' }, ...choices.map(choice => ({ select: choice.original })), { label: 'end' }]
+    captureChoiceGroups(tracks, path, lookup, identifyCharacter)
+    for (const track of tracks.filter(track => track.select)) {
+      const expected = choices.find(choice => choice.original === track.select)
+      assert.equal(track[CHOICE_HINT_KEY].effect?.grade, expected.grade, `${path}: ${expected.original}`)
+      track.select = expected.translation
+    }
+    const cached = JSON.parse(JSON.stringify(tracks))
+    captureChoiceGroups(cached, path, lookup, identifyCharacter)
+    const displayed = cached.filter(track => track.select).reverse().map(track => ({ item: {}, hint: track[CHOICE_HINT_KEY] }))
+    for (const { hint } of resolveDisplayedChoices(displayed, lookup)) {
+      const expected = choices.find(choice => choice.original === hint.original)
+      assert.equal(hint.effect?.grade, expected.grade, `${path}: ${hint.original}`)
+    }
+  }
+})

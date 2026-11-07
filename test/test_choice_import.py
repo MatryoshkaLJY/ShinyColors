@@ -1,4 +1,5 @@
 import importlib.util
+import json
 from copy import deepcopy
 from pathlib import Path
 import unittest
@@ -68,6 +69,30 @@ class ImportTest(unittest.TestCase):
         importer.apply_corrections(groups, [correction])
         with self.assertRaises(ValueError):
             importer.apply_corrections(groups, [{**correction, 'matchText': 'unknown', 'text': 'unknown'}])
+
+
+    def test_amana_audition_correction_is_scoped_and_survives_rebuilds(self):
+        corrections = json.loads((Path(__file__).resolve().parent.parent /
+            'src/data/choice-effect-corrections.json').read_text(encoding='utf-8'))
+        correction = next(c for c in corrections if c['kind'] == 'audition' and c.get('character') == 'Amana_Osaki')
+        group = {'kind': 'audition', 'character': 'Amana_Osaki', 'title': '6',
+                 'source': correction['groupSource'], 'choices': [
+                     {'text': '少し力を抜こう', 'grade': 'down'},
+                     {'text': 'その気持ちがあれば大丈夫だ！', 'grade': 'neutral'},
+                     {'text': 'これを見てくれ', 'grade': 'up'}]}
+        other_character = {**deepcopy(group), 'character': 'Tenka_Osaki'}
+        other_title = {**deepcopy(group), 'title': '5'}
+        other_source = {**deepcopy(group), 'source': 'another source'}
+        groups = [deepcopy(group), other_character, other_title, other_source]
+        before = deepcopy(groups)
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(groups[0]['choices'][0], {
+            'text': '少し力を抜こう！', 'grade': 'down', 'source': correction['source']})
+        self.assertEqual(groups[0]['choices'][1:], before[0]['choices'][1:])
+        self.assertEqual(groups[1:], before[1:])
+        rebuilt = deepcopy(groups)
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(groups, rebuilt)
 
 
 if __name__ == '__main__':
