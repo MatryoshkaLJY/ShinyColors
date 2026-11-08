@@ -80,7 +80,7 @@ npm run build
 
 更新脚本缓存 Wiki 响应，支持中断后重跑。要重新获取最新页面，指定新的缓存目录：`python3 script/updateChoiceEffects.py --cache /tmp/sc-choice-wiki-new`。请求失败或解析结果不完整时不会覆盖已有数据。
 
-手动补充时，在 `groups` 中添加 `kind`（`event` / `morning` / `audition`）、`title`、`source` 和完整的 `choices`。剧情选项使用 `effects`（`vocal`、`dance`、`visual`、`mental`、`sp`）；早间对话使用 `character`（`choice-characters.json` 中的键）和 `grade`（`perfect` / `good` / `normal`），试镜前对话使用 `grade`（`up` / `neutral` / `down`）。每个 `text` 必须是游戏原始日文。已核实的抄录错误可写入 `src/data/choice-effect-corrections.json`，附上核对来源；更新脚本会自动应用这些修正，避免重建时丢失。修正也应同步反馈 Wiki。
+手动补充时，在 `groups` 中添加 `kind`（`event` / `morning` / `audition`）、`title`、`source` 和完整的 `choices`。剧情选项使用 `effects`（`vocal`、`dance`、`visual`、`mental`、`sp`）；早间对话使用 `character`（`choice-characters.json` 中的键）和 `grade`（`perfect` / `good` / `normal`），试镜前对话使用 `grade`（`up` / `neutral` / `down`）。每个 `text` 必须是游戏原始日文。已核实的抄录错误可写入 `src/data/choice-effect-corrections.json`，附上核对来源；更新脚本会自动应用这些修正，避免重建时丢失。修正也应同步反馈 Wiki。整组表格修正使用 `choices` 和 `matchChoices`（修正前的完整选项文字）校验目标；补充缺失组使用 `add: true`。已核实的原文写法差异可在对应选项的 `aliases` 中列出，别名限定在所属选项组或角色内。
 
 `npm run build` 可独立构建包含效果库的 `dist/ShinyColors.user.js`，汉化译文仍使用脚本配置的数据源，不需要先下载翻译仓库。
 
@@ -96,7 +96,7 @@ npm run choices:audit -- --translations ../SCTranslationData --report dist/choic
 
 JSON 报告包含逐类覆盖数、缺失原文、剧情文件、候选 Wiki 来源、来源冲突、动态选项池及 CSV 解析警告；可选的 Markdown 报告便于直接阅读。候选相似记录仅供人工核对，不会自动填充效果。追加 `--strict` 可在发现缺失、解析警告或无法确定的场景时返回非零状态；`--catalogue /path/to/choice-effects.json` 可对比旧效果库。
 
-本次完整检查的 [待核对清单](docs/choice-effects-audit.md) 基于翻译仓库提交 `60d451090aea86631815a0522238eb5f3d196e1b` 和报告中的效果库 SHA-256：共检查 1,309 组，1,136 组全部匹配，37 组部分匹配，136 组未匹配。这是该快照的覆盖情况，不包含快照缺少的剧情，也不能单独证明 Wiki 的数值正确。清单中的记录尚需逐项核对或补齐。
+本次完整检查的 [待核对清单](docs/choice-effects-audit.md) 基于翻译仓库提交 `60d451090aea86631815a0522238eb5f3d196e1b` 和报告中的效果库 SHA-256：共检查 1,309 组，1,278 组全部匹配，2 组部分匹配，29 组未匹配。早间对话 317/317 组、试镜前对话 106/106 组全部匹配；剩余 31 组均为剧情分支。这是该快照的覆盖情况，不包含快照缺少的剧情，也不能单独证明 Wiki 的数值正确。清单中的记录尚需逐项核对或补齐。本次已按日文攻略和原文文件修复 140 组，独立的原文、译文与预期效果保存在 `test/fixtures/verified-choice-repairs.json`，每次发布自动重放汉化、缓存和打乱顺序后的匹配测试。
 
 ## License
 

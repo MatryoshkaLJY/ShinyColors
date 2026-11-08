@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-11-07",
-  "attribution": "Shinycolors Wiki contributors",
+  "updatedAt": "2026-11-08",
+  "attribution": "Shinycolors Wiki contributors; Japanese reference sources are cited per group or choice",
   "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
   "groups": [
     {
@@ -29,16 +29,19 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "なんでも似合うぞ",
-          "grade": "normal"
+          "text": "これから、たくさん着れるさ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
           "text": "甘奈は、本当に服が好きなんだな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
-          "text": "これから、たくさん着られるさ",
-          "grade": "perfect"
+          "text": "なんでも似合うぞ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         }
       ],
       "character": "Amana_Osaki"
@@ -49,16 +52,19 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "派手なので行こう",
-          "grade": "normal"
+          "text": "シンプルに行こう",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
           "text": "流行りに合わせよう",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
-          "text": "シンプルにいこう",
-          "grade": "perfect"
+          "text": "派手なのがいい",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         }
       ],
       "character": "Amana_Osaki"
@@ -89,16 +95,19 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "俺も仲のいい兄弟がほしかった",
-          "grade": "normal"
-        },
-        {
-          "text": "甘奈のほうがお姉さんみたいだ",
-          "grade": "good"
-        },
-        {
           "text": "本当に仲がいいな",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
+        },
+        {
+          "text": "甘奈の方がお姉さんみたいだ",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
+        },
+        {
+          "text": "俺も仲のいい兄弟が欲しかった",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         }
       ],
       "character": "Amana_Osaki"
@@ -109,16 +118,19 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "時々、休むのも大事だぞ",
-          "grade": "normal"
-        },
-        {
-          "text": "ストレッチすると少し楽になるぞ",
-          "grade": "good"
-        },
-        {
           "text": "俺も一緒に頑張るぞ",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
+        },
+        {
+          "text": "ストレッチをすると少し楽になるぞ",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
+        },
+        {
+          "text": "時々、休むのも大事だぞ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         }
       ],
       "character": "Amana_Osaki"
@@ -129,16 +141,19 @@
       "source": "https://shinycolors.wiki/wiki/Amana_Osaki/Commus",
       "choices": [
         {
-          "text": "混みそうだな",
-          "grade": "normal"
+          "text": "俺も広告は見るようにしてる",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
           "text": "好きなだけ買えるな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         },
         {
-          "text": "俺も広告は見るようにしている",
-          "grade": "perfect"
+          "text": "混みそうだな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88"
         }
       ],
       "character": "Amana_Osaki"
@@ -1225,12 +1240,13 @@
       "source": "https://shinycolors.wiki/wiki/Asahi_Serizawa/Commus",
       "choices": [
         {
-          "text": "この子ともどもよろしくお願いしま",
+          "text": "この子ともどもよろしくお願いします",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         },
         {
           "text": "──毎度ありがとうございます",
@@ -1238,7 +1254,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         },
         {
           "text": "喜んでいただけたら何よりです",
@@ -1246,7 +1263,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         }
       ]
     },
@@ -1863,28 +1881,31 @@
       "source": "https://shinycolors.wiki/wiki/Chiyoko_Sonoda/Commus",
       "choices": [
         {
-          "text": "でかっこいい武器の使い方を見せてくれ",
+          "text": "かっこいい武器の使い方を見せてくれ",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "必ず伝わるよよ",
+          "text": "必ず伝わるよ",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "あ楽しみにしてるぞ、チョコアイドル",
+          "text": "楽しみにしてるぞ、チョコアイドル",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -2065,16 +2086,19 @@
       "source": "https://shinycolors.wiki/wiki/Chiyuki_Kuwayama/Commus",
       "choices": [
         {
-          "text": "そのうち慣れてくるさ",
-          "grade": "normal"
+          "text": "千雪の魅力が詰まってると思うぞ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
           "text": "アイドルとしての写真だからな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
-          "text": "千雪の魅力が詰まってると思うぞ",
-          "grade": "perfect"
+          "text": "そのうちに慣れてくるさ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         }
       ],
       "character": "Chiyuki_Kuwayama"
@@ -2682,16 +2706,19 @@
       "source": "https://shinycolors.wiki/wiki/Fuyuko_Mayuzumi/Commus",
       "choices": [
         {
-          "text": "確かに、少し恥ずかしいな",
-          "grade": "normal"
-        },
-        {
-          "text": "いい家族じゃないか",
-          "grade": "good"
-        },
-        {
           "text": "もっと大きい仕事を見せてあげよう",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
+        },
+        {
+          "text": "良い家族じゃないか",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
+        },
+        {
+          "text": "確かに、少し恥ずかしいな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ],
       "character": "Fuyuko_Mayuzumi"
@@ -2922,16 +2949,19 @@
       "source": "https://shinycolors.wiki/wiki/Fuyuko_Mayuzumi/Commus",
       "choices": [
         {
-          "text": "油断するなよ",
-          "grade": "down"
+          "text": "今日も冬優子は最高だ",
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "いつも通りやろう",
-          "grade": "neutral"
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
-          "text": "今日も冬優子は最高だ",
-          "grade": "up"
+          "text": "油断はするなよ",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ],
       "character": "Fuyuko_Mayuzumi"
@@ -6075,7 +6105,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         },
         {
           "text": "だったら笑わないのはどうだ？",
@@ -6083,15 +6114,20 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         },
         {
           "text": "格好いい決めポーズを撮ろう",
+          "aliases": [
+            "格好いい\\n決めポ－ズを撮ろう"
+          ],
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         }
       ]
     },
@@ -6547,16 +6583,19 @@
       "source": "https://shinycolors.wiki/wiki/Kaho_Komiya/Commus",
       "choices": [
         {
-          "text": "仲間のことを陰から支えているなんてかっこいいな",
-          "grade": "normal"
+          "text": "果穂がいてくれると安心できるな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
+        },
+        {
+          "text": "仲間を陰から支えるなんてかっこいいな",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         },
         {
           "text": "みんなが来るまでに疲れるかも",
-          "grade": "good"
-        },
-        {
-          "text": "果穂がいてくれると安心できるな",
-          "grade": "perfect"
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         }
       ],
       "character": "Kaho_Komiya"
@@ -7044,16 +7083,19 @@
       "source": "https://shinycolors.wiki/wiki/Kiriko_Yukoku/Commus",
       "choices": [
         {
+          "text": "美味しいそば屋なら知ってるぞ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
+        },
+        {
+          "text": "ファミレスなんかがいいと思うぞ？",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
+        },
+        {
           "text": "家によんで手料理を振る舞うのは？",
-          "grade": "normal"
-        },
-        {
-          "text": "ファミレスなんかがいいと思うぞ",
-          "grade": "good"
-        },
-        {
-          "text": "美味しいそば屋なら知っているぞ",
-          "grade": "perfect"
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ],
       "character": "Kiriko_Yukoku"
@@ -7084,16 +7126,19 @@
       "source": "https://shinycolors.wiki/wiki/Kiriko_Yukoku/Commus",
       "choices": [
         {
-          "text": "ピカピカにするのが好きなのか？",
-          "grade": "normal"
+          "text": "いつも事務所の中を拭いてくれてるよな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
           "text": "いや、えらいよ！",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
-          "text": "いつも事務所の中を拭いてくれてるよな",
-          "grade": "perfect"
+          "text": "ピカピカにするのがすきなのか？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ],
       "character": "Kiriko_Yukoku"
@@ -7204,16 +7249,19 @@
       "source": "https://shinycolors.wiki/wiki/Kiriko_Yukoku/Commus",
       "choices": [
         {
-          "text": "新品の文房具使うの躊躇っちゃうよな",
-          "grade": "normal"
-        },
-        {
-          "text": "文房具が増えていくとワクワクするよな",
-          "grade": "good"
-        },
-        {
           "text": "霧子はすごく勉強が得意そうだ",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
+        },
+        {
+          "text": "文房具が増えてくとワクワクするよな",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
+        },
+        {
+          "text": "新品の文房具使うの躊躇っちゃうよな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ],
       "character": "Kiriko_Yukoku"
@@ -7499,12 +7547,13 @@
       "source": "https://shinycolors.wiki/wiki/Kiriko_Yukoku/Commus",
       "choices": [
         {
-          "text": "霧子の思いを叶えてあげなきゃ",
+          "text": "霧子の想いを叶えてあげなきゃ",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
           "text": "付箋……あったかな……",
@@ -7512,7 +7561,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
           "text": "霧子の言葉を聞かなきゃ",
@@ -7520,7 +7570,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ]
     },
@@ -8012,12 +8063,13 @@
       "source": "https://shinycolors.wiki/wiki/Kogane_Tsukioka/Commus",
       "choices": [
         {
-          "text": "ダンスに気合を入れよう",
+          "text": "ダンスに気合をいれよう",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
           "text": "歌に集中しよう",
@@ -8025,7 +8077,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
           "text": "笑顔を見せよう",
@@ -8033,7 +8086,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         }
       ]
     },
@@ -8198,16 +8252,19 @@
       "source": "https://shinycolors.wiki/wiki/Koito_Fukumaru/Commus",
       "choices": [
         {
+          "text": "──飴、食べないか？",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
+        },
+        {
+          "text": "──チョコ、少し溶けてるけど",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
+        },
+        {
           "text": "……あれ、何もなかった",
-          "grade": "normal"
-        },
-        {
-          "text": "――チョコ、少し溶けてるけど",
-          "grade": "good"
-        },
-        {
-          "text": "――飴、食べないか？",
-          "grade": "perfect"
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         }
       ],
       "character": "Koito_Fukumaru"
@@ -9015,16 +9072,19 @@
       "source": "https://shinycolors.wiki/wiki/Luca_Ikaruga/Commus",
       "choices": [
         {
-          "text": "なかなかいいじゃないか",
-          "grade": "normal"
-        },
-        {
-          "text": "これは、街だな",
-          "grade": "good"
-        },
-        {
           "text": "ファンと一緒に撮ったのか？",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
+        },
+        {
+          "text": "これは、街だな……",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
+        },
+        {
+          "text": "なかなかいいじゃないか",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
         }
       ],
       "character": "Luca_Ikaruga"
@@ -9095,16 +9155,19 @@
       "source": "https://shinycolors.wiki/wiki/Luca_Ikaruga/Commus",
       "choices": [
         {
-          "text": "問題はないが……",
-          "grade": "normal"
-        },
-        {
-          "text": "使うときはひと声かけてほしい",
-          "grade": "good"
-        },
-        {
           "text": "鍵がないんだが……",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
+        },
+        {
+          "text": "使う時はひと声かけてほしい",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
+        },
+        {
+          "text": "問題はないが……",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB"
         }
       ],
       "character": "Luca_Ikaruga"
@@ -9539,16 +9602,19 @@
       "source": "https://shinycolors.wiki/wiki/Madoka_Higuchi/Commus",
       "choices": [
         {
-          "text": "う、嘘だろ！",
-          "grade": "normal"
+          "text": "ありがとう！",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         },
         {
           "text": "まずい！",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         },
         {
-          "text": "ありがとう",
-          "grade": "perfect"
+          "text": "う、嘘だろ！",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         }
       ],
       "character": "Madoka_Higuchi"
@@ -10096,16 +10162,19 @@
       "source": "https://shinycolors.wiki/wiki/Mamimi_Tanaka/Commus",
       "choices": [
         {
-          "text": "いい香りだな",
-          "grade": "normal"
-        },
-        {
-          "text": "摩美々もかいで見て",
-          "grade": "good"
-        },
-        {
           "text": "造花じゃないか！",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
+        },
+        {
+          "text": "摩美々もかいでみて",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
+        },
+        {
+          "text": "いい香りだな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         }
       ],
       "character": "Mamimi_Tanaka"
@@ -10853,16 +10922,19 @@
       "source": "https://shinycolors.wiki/wiki/Mano_Sakuragi/Commus",
       "choices": [
         {
-          "text": "ピーちゃんって俺のこと？",
-          "grade": "normal"
-        },
-        {
-          "text": "本当にピーちゃんが大好きだな",
-          "grade": "good"
-        },
-        {
           "text": "素敵なハーモニーになったか？",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
+        },
+        {
+          "text": "本当にピーちゃんが好きだな",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
+        },
+        {
+          "text": "ピーちゃんって俺のこと？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ],
       "character": "Mano_Sakuragi"
@@ -10973,16 +11045,22 @@
       "source": "https://shinycolors.wiki/wiki/Mano_Sakuragi/Commus",
       "choices": [
         {
-          "text": "屋内撮影でもいい？",
-          "grade": "normal"
+          "text": "大自然のロケで富士山の頂上だ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "ホラー映画の撮影で夜の森ロケはどうだ？",
-          "grade": "good"
+          "aliases": [
+            "ホラ―映画の撮影で\\n夜の森ロケはどうだ？"
+          ],
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "大自然のロケで富士山の頂上だ",
-          "grade": "perfect"
+          "text": "屋内撮影でもいい？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ],
       "character": "Mano_Sakuragi"
@@ -10993,16 +11071,19 @@
       "source": "https://shinycolors.wiki/wiki/Mano_Sakuragi/Commus",
       "choices": [
         {
-          "text": "Doそんな弱気じゃダメだ！wn",
-          "grade": "down"
+          "text": "失敗したっていい！",
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "必ず成功できる！",
-          "grade": "neutral"
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "失敗したっていい！",
-          "grade": "up"
+          "text": "そんな弱気じゃダメだ！",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ],
       "character": "Mano_Sakuragi"
@@ -11113,20 +11194,22 @@
       "source": "https://shinycolors.wiki/wiki/Mano_Sakuragi/Commus",
       "choices": [
         {
-          "text": "もっと自信を持っていいよ",
+          "text": "もっと自信持っていいよ",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "レッスンはつらいだけだったか？",
+          "text": "レッスンはつらいだけだったのか？",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "真乃はこれから伸びるよ",
@@ -11134,7 +11217,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -11330,16 +11414,19 @@
       "source": "https://shinycolors.wiki/wiki/Meguru_Hachimiya/Commus",
       "choices": [
         {
-          "text": "俺も友達がほしいな",
-          "grade": "normal"
+          "text": "友達作りが上手だな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "大事にするんだぞ",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
-          "text": "友達作りが上手だな",
-          "grade": "perfect"
+          "text": "俺も友達がほしいなぁ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         }
       ],
       "character": "Meguru_Hachimiya"
@@ -11750,14 +11837,15 @@
       "source": "https://shinycolors.wiki/wiki/Meguru_Hachimiya/Commus",
       "choices": [
         {
-          "text": "とにかく気合だ！",
+          "text": "とにかく気合いだ！",
           "effects": {
             "vocal": 5,
             "dance": 10,
             "visual": 5,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "まわりのみんなを支えるつもりでいこう",
@@ -11765,7 +11853,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "アイドルを楽しんでこい！",
@@ -11774,7 +11863,8 @@
             "visual": 10,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         }
       ]
     },
@@ -11846,12 +11936,13 @@
       "source": "https://shinycolors.wiki/wiki/Meguru_Hachimiya/Commus",
       "choices": [
         {
-          "text": "今以上にアイドルの仕事を頑張らなくちゃ",
+          "text": "今以上にアイドルの仕事を頑張らなくちゃな",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "行けるとこまで進もう",
@@ -11859,7 +11950,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "これからはもっと大変になるぞ",
@@ -11867,7 +11959,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         }
       ]
     },
@@ -13219,16 +13312,19 @@
       "source": "https://shinycolors.wiki/wiki/Natsuha_Arisugawa/Commus",
       "choices": [
         {
-          "text": "グッドモーニング！",
-          "grade": "normal"
+          "text": "夏葉！　おはよう！",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
           "text": "おはようございます",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
-          "text": "夏葉！ おはよう！",
-          "grade": "perfect"
+          "text": "グッドモーニング",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         }
       ],
       "character": "Natsuha_Arisugawa"
@@ -13259,16 +13355,19 @@
       "source": "https://shinycolors.wiki/wiki/Natsuha_Arisugawa/Commus",
       "choices": [
         {
-          "text": "疲れないか？",
-          "grade": "normal"
+          "text": "それじゃあこのまま自主レッスンだな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
           "text": "俺も走ってみるかな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
-          "text": "それじゃあこのまま自主レッスンだな",
-          "grade": "perfect"
+          "text": "疲れないのか？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         }
       ],
       "character": "Natsuha_Arisugawa"
@@ -13599,16 +13698,19 @@
       "source": "https://shinycolors.wiki/wiki/Natsuha_Arisugawa/Commus",
       "choices": [
         {
-          "text": "油断大敵だ",
-          "grade": "down"
-        },
-        {
-          "text": "いつだって心配はしているさ",
-          "grade": "neutral"
-        },
-        {
           "text": "夏葉なら心配ない",
-          "grade": "up"
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
+        },
+        {
+          "text": "いつだって心配はしてるさ",
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
+        },
+        {
+          "text": "油断大敵だ",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         }
       ],
       "character": "Natsuha_Arisugawa"
@@ -14059,16 +14161,19 @@
       "source": "https://shinycolors.wiki/wiki/Nichika_Nanakusa/Commus",
       "choices": [
         {
-          "text": "お小遣い……大変なんだな",
-          "grade": "normal"
+          "text": "俺が……まとめ購入しようか",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
           "text": "そんなに面白いのか？",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
-          "text": "おれが……まとめ購入しようか",
-          "grade": "perfect"
+          "text": "お小遣い……大変なんだな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         }
       ],
       "character": "Nichika_Nanakusa"
@@ -14505,16 +14610,19 @@
       "source": "https://shinycolors.wiki/wiki/Rinze_Morino/Commus",
       "choices": [
         {
-          "text": "凛世なら何を着ても大丈夫",
-          "grade": "normal"
+          "text": "洋服も似合うと思う",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "着物が一番だ",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "洋服も似合うと思う",
-          "grade": "perfect"
+          "text": "凛世なら、何を着ても大丈夫",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ],
       "character": "Rinze_Morino"
@@ -14665,16 +14773,19 @@
       "source": "https://shinycolors.wiki/wiki/Rinze_Morino/Commus",
       "choices": [
         {
-          "text": "メールより手紙がいいな",
-          "grade": "normal"
+          "text": "いい返事を書こう",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "文字って不思議だ",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "いい返事を書こう",
-          "grade": "perfect"
+          "text": "メールより手紙がいいよな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ],
       "character": "Rinze_Morino"
@@ -14685,16 +14796,19 @@
       "source": "https://shinycolors.wiki/wiki/Rinze_Morino/Commus",
       "choices": [
         {
-          "text": "新しいのをあげようか？",
-          "grade": "normal"
-        },
-        {
-          "text": "捨ててもいいぞ",
-          "grade": "good"
-        },
-        {
           "text": "懐かしいな",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
+        },
+        {
+          "text": "捨ててもいいぞ？",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
+        },
+        {
+          "text": "新しいのをあげようか？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ],
       "character": "Rinze_Morino"
@@ -14705,16 +14819,19 @@
       "source": "https://shinycolors.wiki/wiki/Rinze_Morino/Commus",
       "choices": [
         {
-          "text": "泣いてしまいそうだ",
-          "grade": "normal"
+          "text": "きっと会いに行くよ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "想像もできないな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "きっと会いにいくよ",
-          "grade": "perfect"
+          "text": "泣いてしまいそうだ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ],
       "character": "Rinze_Morino"
@@ -14825,16 +14942,19 @@
       "source": "https://shinycolors.wiki/wiki/Rinze_Morino/Commus",
       "choices": [
         {
-          "text": "トップアイドルを目指そうな",
-          "grade": "down"
-        },
-        {
-          "text": "一緒に頑張った成果を見せような",
-          "grade": "neutral"
-        },
-        {
           "text": "今日は、何のために頑張るんだ？",
-          "grade": "up"
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
+        },
+        {
+          "text": "一緒にがんばった成果を見せような",
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
+        },
+        {
+          "text": "トップアイドルを目指そうな",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ],
       "character": "Rinze_Morino"
@@ -15102,16 +15222,19 @@
       "source": "https://shinycolors.wiki/wiki/Sakuya_Shirase/Commus",
       "choices": [
         {
-          "text": "何か素敵な出会いがあれば良いな",
-          "grade": "normal"
+          "text": "気持ちいい朝だよな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "精一杯サポートする",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
-          "text": "気持ちいい朝だよな",
-          "grade": "perfect"
+          "text": "何か素敵な出会いがあればいいな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ],
       "character": "Sakuya_Shirase"
@@ -15462,16 +15585,19 @@
       "source": "https://shinycolors.wiki/wiki/Sakuya_Shirase/Commus",
       "choices": [
         {
-          "text": "似合ってる",
-          "grade": "down"
+          "text": "でも、足りないものがある",
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "最高だ！",
-          "grade": "neutral"
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
-          "text": "でも、足りないものがある",
-          "grade": "up"
+          "text": "似合っている",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ],
       "character": "Sakuya_Shirase"
@@ -15821,16 +15947,19 @@
       "source": "https://shinycolors.wiki/wiki/Tenka_Osaki/Commus",
       "choices": [
         {
-          "text": "ひとりで来るのも新鮮だぞ",
-          "grade": "normal"
-        },
-        {
-          "text": "いつも仲がいいな",
-          "grade": "good"
-        },
-        {
           "text": "仕事もなるべく一緒にしておくよ",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
+        },
+        {
+          "text": "いつも仲が良いな",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
+        },
+        {
+          "text": "ひとりで来るのも新鮮だぞ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         }
       ],
       "character": "Tenka_Osaki"
@@ -16141,16 +16270,19 @@
       "source": "https://shinycolors.wiki/wiki/Tenka_Osaki/Commus",
       "choices": [
         {
-          "text": "俺は必要なさそうだな",
-          "grade": "down"
+          "text": "今の甜花ならできるはずだ",
+          "grade": "up",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         },
         {
           "text": "困ったときには頼ってくれ",
-          "grade": "neutral"
+          "grade": "neutral",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         },
         {
-          "text": "今の甜花ならできるはずだ",
-          "grade": "up"
+          "text": "俺は必要無さそうだな",
+          "grade": "down",
+          "source": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         }
       ],
       "character": "Tenka_Osaki"
@@ -16798,28 +16930,31 @@
       "source": "https://shinycolors.wiki/wiki/Toru_Asakura/Commus",
       "choices": [
         {
-          "text": "いやいや、そんな……",
+          "text": "いやいや、 そんな……",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
-          "text": "え────",
+          "text": "え──",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
-          "text": "そ、そうか……いい挨拶できてるぞ",
+          "text": "そ、そうか…… いい挨拶できてるぞ",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         }
       ]
     },
@@ -16860,20 +16995,22 @@
       "source": "https://shinycolors.wiki/wiki/Toru_Asakura/Commus",
       "choices": [
         {
-          "text": "わからないんだよ",
-          "effects": {
-            "visual": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
-          "text": "教えてほしいんだ･･････",
+          "text": "教えてほしいんだ……",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
+        },
+        {
+          "text": "わからないんだよ……",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
           "text": "空回りしてるよな",
@@ -16881,7 +17018,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         }
       ]
     },
@@ -16953,28 +17091,31 @@
       "source": "https://shinycolors.wiki/wiki/Toru_Asakura/Commus",
       "choices": [
         {
-          "text": "────のぼってるよ",
+          "text": "──のぼってるよ",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
-          "text": "────息してるなら命だよ、もちろん",
+          "text": "──息してるなら命だよ、もちろん",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
-          "text": "────走ろう あと50周",
+          "text": "──走ろう　あと50周",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F"
         }
       ]
     },
@@ -17015,16 +17156,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "真面目だな",
-          "grade": "normal"
-        },
-        {
-          "text": "俺は勉強嫌いだった",
-          "grade": "good"
-        },
-        {
           "text": "勉強好きなんだな",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "俺は勉強嫌いだったなぁ",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "真面目だな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17035,16 +17179,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "じゃあ、そろそろレッスン行くか",
-          "grade": "normal"
+          "text": "社長の真似",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "はづきさんの真似",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "社長の真似",
-          "grade": "perfect"
+          "text": "ならそろそろレッスンに行くか",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17055,16 +17202,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "他のメンバーと一緒に考えたらどうだ？",
-          "grade": "normal"
+          "text": "少し的を絞るか",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "俺も一緒に考えよう",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "少し的を絞るか",
-          "grade": "perfect"
+          "text": "他のメンバーにも相談してみたら？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17075,16 +17225,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "よく調べてるな",
-          "grade": "normal"
+          "text": "でも俺の方が詳しいな",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "ライバルだもんな",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "でも俺のほうが詳しいな",
-          "grade": "perfect"
+          "text": "よく調べてるな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17095,16 +17248,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "普段の生活、見直そうな",
-          "grade": "normal"
-        },
-        {
-          "text": "コーヒー入れるか",
-          "grade": "good"
-        },
-        {
           "text": "後で眠そうだったら、説教な",
-          "grade": "perfect"
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "コーヒー淹れるか",
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "普段の生活、見直そうな",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17135,16 +17291,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "みんな結華のことを認めてるんだよ",
-          "grade": "normal"
+          "text": "舞台衣装でも意見をもらおうか",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "他のみんなの衣装も選んでみるか",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "舞台衣装でも意見を貰おうか",
-          "grade": "perfect"
+          "text": "みんな結華のことを認めてるんだよ",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -17175,16 +17334,19 @@
       "source": "https://shinycolors.wiki/wiki/Yuika_Mitsumine/Commus",
       "choices": [
         {
-          "text": "1度リセットしてみるのはどうだ",
-          "grade": "normal"
+          "text": "収納スペースをＤＩＹだ",
+          "grade": "perfect",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "コンテナ借りるのはどうかな？",
-          "grade": "good"
+          "grade": "good",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "収納スペースをDIYだ",
-          "grade": "perfect"
+          "text": "１度リセットしてみるのはどうだ？",
+          "grade": "normal",
+          "source": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ],
       "character": "Yuika_Mitsumine"
@@ -18345,7 +18507,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%83%B3%E3%81%B2%E3%81%84%E3%82%8D%E3%81%AF%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "やっぱり上着を貸そうか？",
@@ -18353,15 +18516,20 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%83%B3%E3%81%B2%E3%81%84%E3%82%8D%E3%81%AF%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "早く晴れて欲しいよな",
+          "aliases": [
+            "早く晴れてほしいよな"
+          ],
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%83%B3%E3%81%B2%E3%81%84%E3%82%8D%E3%81%AF%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -18558,11 +18726,15 @@
       "choices": [
         {
           "text": "待ってろ、今――",
+          "aliases": [
+            "待ってろ、今──"
+          ],
           "effects": {
             "vocal": 15,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E7%9B%B4%E3%81%97%E3%81%A6%E3%80%81%E5%BF%83%E3%81%AF%E8%A7%A3%E3%81%91%E3%81%A6%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "ほら、つかまって",
@@ -18570,7 +18742,8 @@
             "visual": 15,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E7%9B%B4%E3%81%97%E3%81%A6%E3%80%81%E5%BF%83%E3%81%AF%E8%A7%A3%E3%81%91%E3%81%A6%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "手を貸すよ",
@@ -18578,7 +18751,8 @@
             "visual": 15,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E7%9B%B4%E3%81%97%E3%81%A6%E3%80%81%E5%BF%83%E3%81%AF%E8%A7%A3%E3%81%91%E3%81%A6%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         }
       ]
     },
@@ -18905,15 +19079,17 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B3%A3%E3%81%91%E3%82%88%E6%B4%97%E6%BF%AF%E6%A9%9F%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
-          "text": "にちかのお腹がいっばいなら……",
+          "text": "にちかのお腹がいっぱいなら……",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B3%A3%E3%81%91%E3%82%88%E6%B4%97%E6%BF%AF%E6%A9%9F%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
           "text": "そんなにかぶっちゃったか",
@@ -18921,7 +19097,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B3%A3%E3%81%91%E3%82%88%E6%B4%97%E6%BF%AF%E6%A9%9F%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         }
       ]
     },
@@ -19029,7 +19206,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%90%BD%E4%B8%8B%E4%BA%88%E6%B8%AC%E5%9C%B0%E7%82%B9%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "ご明察だ",
@@ -19037,15 +19215,17 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%90%BD%E4%B8%8B%E4%BA%88%E6%B8%AC%E5%9C%B0%E7%82%B9%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
-          "text": "実は……",
+          "text": "実はな……",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%90%BD%E4%B8%8B%E4%BA%88%E6%B8%AC%E5%9C%B0%E7%82%B9%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         }
       ]
     },
@@ -19060,15 +19240,20 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         },
         {
           "text": "何の種目に出たんだ？",
+          "aliases": [
+            "なんの種目に出たんだ？"
+          ],
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         },
         {
           "text": "優勝できたか？",
@@ -19076,7 +19261,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         }
       ]
     },
@@ -19179,12 +19365,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SR3_Mano",
       "choices": [
         {
-          "text": "きっとあっという間だぞ",
+          "text": "きっと、あっという間だぞ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%97%E3%81%98%E3%81%BE%E3%81%AB%E8%8F%AF%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "どこかでバッタリ会うかもな",
@@ -19192,7 +19379,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%97%E3%81%98%E3%81%BE%E3%81%AB%E8%8F%AF%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "連絡してみてもいいんじゃないか",
@@ -19200,7 +19388,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%97%E3%81%98%E3%81%BE%E3%81%AB%E8%8F%AF%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -19594,12 +19783,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SR4_Sakuya",
       "choices": [
         {
-          "text": "咲耶に合うものを着よう",
+          "text": "咲耶に似合うものを着よう",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%9C%9F%E7%B4%85%E4%B8%80%E8%BC%AA%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "咲耶が着たいものを着よう",
@@ -19607,7 +19797,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%9C%9F%E7%B4%85%E4%B8%80%E8%BC%AA%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "咲耶はどうしたい？",
@@ -19615,7 +19806,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%9C%9F%E7%B4%85%E4%B8%80%E8%BC%AA%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ]
     },
@@ -20719,15 +20911,17 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Hopeland%E3%80%91%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D"
         },
         {
-          "text": "絶真ん中で",
+          "text": "真ん中で",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Hopeland%E3%80%91%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D"
         },
         {
           "text": "右で",
@@ -20735,7 +20929,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Hopeland%E3%80%91%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D"
         }
       ]
     },
@@ -21179,11 +21374,15 @@
       "choices": [
         {
           "text": "星がみえないことはあるけどな",
+          "aliases": [
+            "星が見えないことは\\nあるけどな"
+          ],
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9C%A7%E3%83%BB%E9%9F%B3%E3%83%BB%E7%87%A6%E3%83%BB%E7%87%A6%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
           "text": "霧子もおかえりだぞ？",
@@ -21191,7 +21390,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9C%A7%E3%83%BB%E9%9F%B3%E3%83%BB%E7%87%A6%E3%83%BB%E7%87%A6%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
           "text": "霧子も、早く帰らなきゃな",
@@ -21199,7 +21399,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9C%A7%E3%83%BB%E9%9F%B3%E3%83%BB%E7%87%A6%E3%83%BB%E7%87%A6%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ]
     },
@@ -21493,15 +21694,17 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         },
         {
-          "text": "俺の―――",
+          "text": "俺の──",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         },
         {
           "text": "ま、円香！",
@@ -21509,7 +21712,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99"
         }
       ]
     },
@@ -22276,7 +22480,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96%E3%81%AE%E5%8D%B0%E8%B1%A1%E6%B4%BE%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "３分、計ろうな",
@@ -22284,15 +22489,17 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96%E3%81%AE%E5%8D%B0%E8%B1%A1%E6%B4%BE%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "お湯、熱いから気をつけてくれ",
+          "text": "お湯、熱いから気を付けてくれ",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96%E3%81%AE%E5%8D%B0%E8%B1%A1%E6%B4%BE%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -23172,12 +23379,22 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR10_Hiori",
       "choices": [
         {
+          "text": "煮物って言ったっけ",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A8%E3%83%90%E3%83%BC%E3%83%BB%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%90%E3%83%BC%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
+        },
+        {
           "text": "揚げ物だったか",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A8%E3%83%90%E3%83%BC%E3%83%BB%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%90%E3%83%BC%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "……卵焼き？",
@@ -23185,15 +23402,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
-        },
-        {
-          "text": "煮物っていったっけ",
-          "effects": {
-            "visual": 20,
-            "mental": 5,
-            "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A8%E3%83%90%E3%83%BC%E3%83%BB%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%90%E3%83%BC%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         }
       ]
     },
@@ -23445,20 +23655,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR10_Mamimi",
       "choices": [
         {
-          "text": "気付きかないうちに──",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "そもそもオンオフってあるのか？",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
           "text": "この後収録だからオンにする方法を……",
@@ -23466,7 +23669,17 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
+        },
+        {
+          "text": "気付かないうちに──",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         }
       ]
     },
@@ -23476,20 +23689,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR10_Mamimi",
       "choices": [
         {
-          "text": "お疲れてたんじゃないか？",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "いや……",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
           "text": "収録でも──",
@@ -23497,7 +23703,17 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
+        },
+        {
+          "text": "疲れてたんじゃないのか？",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         }
       ]
     },
@@ -23604,28 +23820,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR10_Meguru",
       "choices": [
         {
-          "text": "『脅しのようになりますが』──！？",
-          "effects": {
-            "vocal": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
           "text": "『ご注意いただきたい点につきまして』",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
-          "text": "『Re:製品サンプルニつきまして』",
+          "text": "『脅しのようになりますが』──！？",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
+        },
+        {
+          "text": "『Re:製品サンプルにつきまして』",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         }
       ]
     },
@@ -24072,12 +24291,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR11_Fuyuko",
       "choices": [
         {
-          "text": "慎重になった当然だ",
+          "text": "慎重になって当然だ",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "根底にある魅力か……",
@@ -24085,7 +24305,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "断るのも手だよ",
@@ -24093,7 +24314,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ]
     },
@@ -24134,28 +24356,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR11_Fuyuko",
       "choices": [
         {
-          "text": "『俺の目から見た冬優子は……』",
-          "effects": {
-            "vocal": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
           "text": "『今日は星が綺麗だ』",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
-          "text": "『周り道も悪くないよ』",
+          "text": "『俺の目から見た冬優子は……』",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
+        },
+        {
+          "text": "『回り道も悪くないよ』",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ]
     },
@@ -24535,15 +24760,17 @@
             "visual": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%84%E3%81%A4%E3%81%8B%E5%B8%B0%E3%82%8A%E3%81%9F%E3%81%8B%E5%A0%B4%E6%89%80%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
-          "text": "佐世保のグルメ地紹介かな",
+          "text": "佐世保のグルメ紹介かな",
           "effects": {
             "dance": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%84%E3%81%A4%E3%81%8B%E5%B8%B0%E3%82%8A%E3%81%9F%E3%81%8B%E5%A0%B4%E6%89%80%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
           "text": "恋鐘はどうなんだ？",
@@ -24551,7 +24778,8 @@
             "vocal": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%84%E3%81%A4%E3%81%8B%E5%B8%B0%E3%82%8A%E3%81%9F%E3%81%8B%E5%A0%B4%E6%89%80%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         }
       ]
     },
@@ -24930,16 +25158,21 @@
             "dance": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90TOTT%E3%82%92%E8%AA%93%E3%81%A3%E3%81%A6%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
           "text": "よかった……",
+          "aliases": [
+            "よかった……！"
+          ],
           "effects": {
             "vocal": 30,
             "visual": 10,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90TOTT%E3%82%92%E8%AA%93%E3%81%A3%E3%81%A6%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
           "text": "──でも……",
@@ -24948,7 +25181,8 @@
             "visual": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90TOTT%E3%82%92%E8%AA%93%E3%81%A3%E3%81%A6%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         }
       ]
     },
@@ -25373,7 +25607,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%BE%85%E3%81%A1%E3%81%BC%E3%81%86%E3%81%91%E6%AC%A1%E5%9B%9E%E4%BA%88%E5%91%8A%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "じゃあA",
@@ -25381,15 +25616,20 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%BE%85%E3%81%A1%E3%81%BC%E3%81%86%E3%81%91%E6%AC%A1%E5%9B%9E%E4%BA%88%E5%91%8A%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "C",
+          "aliases": [
+            "Cで"
+          ],
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%BE%85%E3%81%A1%E3%81%BC%E3%81%86%E3%81%91%E6%AC%A1%E5%9B%9E%E4%BA%88%E5%91%8A%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ]
     },
@@ -25616,16 +25856,18 @@
             "visual": 10,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90The%20thing%20is%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
-          "text": "大人したらかな",
+          "text": "成人したらかな",
           "effects": {
             "vocal": 10,
             "visual": 30,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90The%20thing%20is%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "そう思った時からかな",
@@ -25634,7 +25876,8 @@
             "dance": 10,
             "mental": 15,
             "sp": 20
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90The%20thing%20is%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         }
       ]
     },
@@ -28972,12 +29215,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR2_Kaho",
       "choices": [
         {
-          "text": "果穂はいいところに気づくな",
+          "text": "果穂はいいところに気付くな",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%96%B0%E8%A3%85%E5%82%99%E3%83%BB%E3%83%90%E3%83%96%E3%83%AB%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         },
         {
           "text": "そんなに水があったら……",
@@ -28985,7 +29229,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%96%B0%E8%A3%85%E5%82%99%E3%83%BB%E3%83%90%E3%83%96%E3%83%AB%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         },
         {
           "text": "泳げるようになるかもしれないな！",
@@ -28993,7 +29238,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%96%B0%E8%A3%85%E5%82%99%E3%83%BB%E3%83%90%E3%83%96%E3%83%AB%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82"
         }
       ]
     },
@@ -30442,7 +30688,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%80%91%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         },
         {
           "text": "ゲームのことも忘れずにな",
@@ -30450,15 +30697,17 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%80%91%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         },
         {
-          "text": "アイドルになって、『好き』も増えただろう？",
+          "text": "アイドルになって、『好き』も増えたはずだ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%80%91%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1"
         }
       ]
     },
@@ -30935,30 +31184,33 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR3_Chiyoko",
       "choices": [
         {
-          "text": "ーー悪い、考えすぎないでくれ！",
+          "text": "──悪い、考えすぎないでくれ！",
           "effects": {
             "vocal": 10,
             "dance": 10,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "……少し、考えてみてほしい",
+          "text": "……少し考えてみてほしい",
           "effects": {
             "vocal": 10,
             "visual": 10,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "……俺はーー",
+          "text": "……俺は──",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -31004,7 +31256,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
           "text": "わかった",
@@ -31012,15 +31265,17 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "ーー頑張れ",
+          "text": "──頑張れ",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -31532,12 +31787,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR3_Hiori",
       "choices": [
         {
-          "text": "灯織は預言者だ",
+          "text": "灯織は予言者だ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E4%BC%B8%E3%81%B0%E3%81%99%E6%89%8B%E3%81%AB%E4%B9%97%E3%81%9B%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "言霊ってやつだな",
@@ -31545,7 +31801,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E4%BC%B8%E3%81%B0%E3%81%99%E6%89%8B%E3%81%AB%E4%B9%97%E3%81%9B%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         },
         {
           "text": "ここまで晴れるといいことがありそう",
@@ -31553,7 +31810,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E4%BC%B8%E3%81%B0%E3%81%99%E6%89%8B%E3%81%AB%E4%B9%97%E3%81%9B%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94"
         }
       ]
     },
@@ -31659,25 +31917,28 @@
           "text": "お疲れ様",
           "effects": {
             "dance": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9B%B2%E3%81%8C%E3%82%8A%E8%A7%92%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%91%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         },
         {
           "text": "頑張ったな",
           "effects": {
             "visual": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9B%B2%E3%81%8C%E3%82%8A%E8%A7%92%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%91%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         },
         {
-          "text": "ありがとな なんてな！",
+          "text": "ありがとな",
           "effects": {
             "vocal": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9B%B2%E3%81%8C%E3%82%8A%E8%A7%92%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%91%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C"
         }
       ]
     },
@@ -31911,23 +32172,26 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%A2%A8%E5%90%B9%E3%81%8F%E4%B8%98%E3%81%AB%E3%81%AF%E3%82%88%E6%9D%A5%E3%82%93%E3%81%AD%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
-          "text": "俺も早く衣替えしなきゃな",
+          "text": "俺も早く衣替えしなきゃな！",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%A2%A8%E5%90%B9%E3%81%8F%E4%B8%98%E3%81%AB%E3%81%AF%E3%82%88%E6%9D%A5%E3%82%93%E3%81%AD%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
-          "text": "恋鐘はどんなことしたいんだ？",
+          "text": "恋鐘はどんなことがしたいんだ？",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%A2%A8%E5%90%B9%E3%81%8F%E4%B8%98%E3%81%AB%E3%81%AF%E3%82%88%E6%9D%A5%E3%82%93%E3%81%AD%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         }
       ]
     },
@@ -32872,12 +33136,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR3_Rinze",
       "choices": [
         {
-          "text": "――夏休みもらっちゃうんだ",
+          "text": "──夏休み、もらっちゃうんだ",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "宿題、終わったか",
@@ -32885,15 +33150,17 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "――あ、ひぐらしだ",
+          "text": "──あ、ひぐらしだ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -32934,28 +33201,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR3_Rinze",
       "choices": [
         {
-          "text": "――窓から放そうか",
+          "text": "──窓から放そうか",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "――驚いてるかな、この蝶",
+          "text": "──驚いてるかな、この蝶",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
-          "text": "――なんて蝶かな？",
+          "text": "──なんて蝶かな？",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -33657,7 +33927,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
           "text": "『どうしたんだ？』",
@@ -33665,15 +33936,17 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
-          "text": "『――ええと空調は……』",
+          "text": "（──ええと、空調は……）",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         }
       ]
     },
@@ -33719,7 +33992,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
           "text": "ちょっと停めるか……",
@@ -33727,15 +34001,17 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
-          "text": "――そういえば……",
+          "text": "──そういえば……",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         }
       ]
     },
@@ -33900,12 +34176,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR4_Hinana",
       "choices": [
         {
-          "text": "びっくれしたな",
+          "text": "びっくりしたな",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90S%21GNATURE%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
           "text": "よかったのか？",
@@ -33913,7 +34190,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90S%21GNATURE%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
           "text": "残念だったな",
@@ -33921,7 +34199,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90S%21GNATURE%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         }
       ]
     },
@@ -34872,7 +35151,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B7%B1%E6%9F%93%E3%82%81%E3%80%81%E3%81%84%E3%82%8D%E3%81%BF%E3%81%90%E3%81%95%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "うん、確かに落ち着いたよ",
@@ -34880,15 +35160,20 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B7%B1%E6%9F%93%E3%82%81%E3%80%81%E3%81%84%E3%82%8D%E3%81%BF%E3%81%90%E3%81%95%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "――どこからかいい匂いがする……",
+          "aliases": [
+            "──どこからか\\nいい匂いがする……"
+          ],
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B7%B1%E6%9F%93%E3%82%81%E3%80%81%E3%81%84%E3%82%8D%E3%81%BF%E3%81%90%E3%81%95%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -34935,7 +35220,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%97%A5%E3%80%85%E3%82%92%E7%B4%A1%E3%81%90%E3%82%A4%E3%83%B3%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%8E%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "なるはやで帰ろう",
@@ -34943,15 +35229,20 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%97%A5%E3%80%85%E3%82%92%E7%B4%A1%E3%81%90%E3%82%A4%E3%83%B3%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%8E%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         },
         {
           "text": "――おっ",
+          "aliases": [
+            "──おっ"
+          ],
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%97%A5%E3%80%85%E3%82%92%E7%B4%A1%E3%81%90%E3%82%A4%E3%83%B3%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%8E%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B"
         }
       ]
     },
@@ -35086,28 +35377,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR4_Mikoto",
       "choices": [
         {
-          "text": "俳優とか……？",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "トレーナーかな",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90DIVA%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4"
         },
         {
-          "text": "プロデュサーだ！",
+          "text": "俳優とか……？",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90DIVA%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4"
+        },
+        {
+          "text": "プロデューサーだ！",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90DIVA%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4"
         }
       ]
     },
@@ -35399,11 +35693,15 @@
       "choices": [
         {
           "text": "――っくしゅん！",
+          "aliases": [
+            "──っくしゅん！"
+          ],
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "忘れ物取りに、事務所にさ",
@@ -35411,7 +35709,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "寮に戻るんなら送るぞ？",
@@ -35419,7 +35718,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -35430,11 +35730,15 @@
       "choices": [
         {
           "text": "それくれた人がさ――",
+          "aliases": [
+            "それ\\nくれた人がさ──"
+          ],
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "なんか、な",
@@ -35442,7 +35746,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         },
         {
           "text": "えいっ！考える間に破ろう",
@@ -35450,7 +35755,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96"
         }
       ]
     },
@@ -35497,7 +35803,8 @@
             "visual": 10,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B5%B7%E3%81%A8%E5%A4%AA%E9%99%BD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A1%E3%83%83%E3%82%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "──いい声だな",
@@ -35506,15 +35813,17 @@
             "dance": 10,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B5%B7%E3%81%A8%E5%A4%AA%E9%99%BD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A1%E3%83%83%E3%82%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
-          "text": "──珍しいな",
+          "text": "珍しいな",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B5%B7%E3%81%A8%E5%A4%AA%E9%99%BD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A1%E3%83%83%E3%82%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ]
     },
@@ -35679,12 +35988,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR4_Toru",
       "choices": [
         {
-          "text": "でも、自分のことも大切にしないと",
+          "text": "でも、自分のことも大事にしないと",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%9B%BD%E9%81%93%E6%B2%BF%E3%81%84%E3%81%AB%E3%80%81%E6%86%B6%E5%85%89%E5%B9%B4%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
           "text": "……けど……",
@@ -35692,7 +36002,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%9B%BD%E9%81%93%E6%B2%BF%E3%81%84%E3%81%AB%E3%80%81%E6%86%B6%E5%85%89%E5%B9%B4%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
           "text": "……透のためなんだ",
@@ -35700,7 +36011,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%9B%BD%E9%81%93%E6%B2%BF%E3%81%84%E3%81%AB%E3%80%81%E6%86%B6%E5%85%89%E5%B9%B4%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
         }
       ]
     },
@@ -36117,20 +36429,22 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR5_Chiyuki",
       "choices": [
         {
+          "text": "温泉饅頭も捨てがたいな",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%A8%E7%B4%85%E8%91%89%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
+        },
+        {
           "text": "千雪らしいな",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
-        },
-        {
-          "text": "温泉鰻頭も捨てがたいな",
-          "effects": {
-            "dance": 20,
-            "mental": 5,
-            "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%A8%E7%B4%85%E8%91%89%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         },
         {
           "text": "もうすっかり秋だな",
@@ -36138,7 +36452,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%A8%E7%B4%85%E8%91%89%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA"
         }
       ]
     },
@@ -36246,15 +36561,17 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90multi-angle%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
-          "text": "────そうだ、席は取ったか？",
+          "text": "──そうだ、席は取ったか？",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90multi-angle%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "……ちなみに俺は",
@@ -36262,7 +36579,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90multi-angle%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ]
     },
@@ -36805,28 +37123,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR5_Kiriko",
       "choices": [
         {
-          "text": "それじゃ空の上かもしれないな",
-          "effects": {
-            "dance": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
           "text": "ここにいるのは……",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%90%B4%E3%83%BB%E7%A6%BD%E3%83%BB%E7%A9%BA%E3%83%BB%E8%8F%AF%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
-          "text": "もし、いたら────",
+          "text": "それじゃ空の上かも しれないな",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%90%B4%E3%83%BB%E7%A6%BD%E3%83%BB%E7%A9%BA%E3%83%BB%E8%8F%AF%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
+        },
+        {
+          "text": "もし、いたら──",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%90%B4%E3%83%BB%E7%A6%BD%E3%83%BB%E7%A9%BA%E3%83%BB%E8%8F%AF%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ]
     },
@@ -37895,28 +38216,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR5_Toru",
       "choices": [
         {
-          "text": "……わからないよ",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "……見えないよ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A4%9C%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%84%E3%82%8D%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
         },
         {
-          "text": "……みえるよ",
+          "text": "……見えるよ",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A4%9C%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%84%E3%82%8D%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
+        },
+        {
+          "text": "……わからないよ",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A4%9C%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%84%E3%82%8D%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F"
         }
       ]
     },
@@ -38019,28 +38343,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR5_Yuika",
       "choices": [
         {
-          "text": "ありがとうな……",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "正しい手順、か",
           "effects": {
             "dance": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "……ありがとうな",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "（──ああ……）",
           "effects": {
             "visual": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ]
     },
@@ -38050,20 +38377,22 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR5_Yuika",
       "choices": [
         {
-          "text": "───……！",
-          "effects": {
-            "vocal": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
           "text": "嬉しい感想だなぁ……！",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
+        },
+        {
+          "text": "──……！",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
           "text": "結華だから──！",
@@ -38071,7 +38400,8 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ]
     },
@@ -38889,28 +39219,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR6_Kiriko",
       "choices": [
         {
-          "text": "ははは、雪だ",
+          "text": "ははは雪だ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
-          "text": "待っててくれ、傘持ってくよ",
+          "text": "待っててくれ傘持ってくよ",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         },
         {
-          "text": "くしゅ……",
+          "text": "くしゅっ……",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90"
         }
       ]
     },
@@ -39019,7 +39352,8 @@
             "visual": 10,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%B0%E3%81%8F%E3%81%A1%E3%81%9A%E3%81%95%E3%82%93%E3%81%A7%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
           "text": "重たくないか？",
@@ -39028,15 +39362,17 @@
             "dance": 10,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%B0%E3%81%8F%E3%81%A1%E3%81%9A%E3%81%95%E3%82%93%E3%81%A7%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
-          "text": "すっかり寝入っているな",
+          "text": "すっかり寝入ってるな",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%B0%E3%81%8F%E3%81%A1%E3%81%9A%E3%81%95%E3%82%93%E3%81%A7%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         }
       ]
     },
@@ -39047,27 +39383,33 @@
       "choices": [
         {
           "text": "この後の撮影で────",
+          "aliases": [
+            "この後の撮影で──"
+          ],
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88-%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%88%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
-          "text": "今はとことん休憩することにする",
+          "text": "今はとことん 休憩することにする",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88-%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%88%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
-          "text": "虹がかかることを期待してみる",
+          "text": "虹がかかることを 期待してみる",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88-%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%88%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         }
       ]
     },
@@ -39819,23 +40161,26 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B8%A6%E3%81%A8%E6%B7%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
           "text": "一緒に頑張ろうな",
           "effects": {
-            "visual": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
-          "text": "────頑張れ！",
-          "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B8%A6%E3%81%A8%E6%B7%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
+        },
+        {
+          "text": "──頑張れ！",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B8%A6%E3%81%A8%E6%B7%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ]
     },
@@ -40005,23 +40350,26 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E2%99%A1%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "それにしても────",
+          "text": "それにしても──",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E2%99%A1%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         },
         {
-          "text": "じゃあ改めて、業務上の確認だ",
+          "text": "じゃあ改めて、 業務上の確認だ",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E2%99%A1%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF"
         }
       ]
     },
@@ -40343,23 +40691,29 @@
         {
           "text": "そんなことはない",
           "effects": {
+            "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Keep%E2%86%92it%20up%E2%99%A1%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
           "text": "もっと応援したくなるんだ",
           "effects": {
+            "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Keep%E2%86%92it%20up%E2%99%A1%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
-          "text": "俺は嬉しなるな",
+          "text": "俺は嬉しくなるな",
           "effects": {
+            "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Keep%E2%86%92it%20up%E2%99%A1%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         }
       ]
     },
@@ -40871,15 +41225,17 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E3%80%81%E6%9C%88%E3%81%AE%E6%BA%80%E3%81%A1%E3%82%8B%E9%A0%83%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
-          "text": "素直を気持ちを話せばいい",
+          "text": "素直な気持ちを話せばいい",
           "effects": {
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E3%80%81%E6%9C%88%E3%81%AE%E6%BA%80%E3%81%A1%E3%82%8B%E9%A0%83%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         },
         {
           "text": "その人のことを教えてくれ",
@@ -40887,7 +41243,8 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E3%80%81%E6%9C%88%E3%81%AE%E6%BA%80%E3%81%A1%E3%82%8B%E9%A0%83%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98"
         }
       ]
     },
@@ -40965,7 +41322,17 @@
             "visual": 15,
             "mental": 10,
             "sp": 15
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E6%A7%98%E3%81%B8%E7%B4%A1%E3%81%90%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
+        },
+        {
+          "text": "いい笑顔だ",
+          "effects": {
+            "visual": 25,
+            "mental": 10,
+            "sp": 15
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E6%A7%98%E3%81%B8%E7%B4%A1%E3%81%90%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         },
         {
           "text": "楽しそうな顔だ",
@@ -40974,15 +41341,8 @@
             "visual": 15,
             "mental": 10,
             "sp": 15
-          }
-        },
-        {
-          "text": "いい笑顏だ",
-          "effects": {
-            "visual": 25,
-            "mental": 10,
-            "sp": 15
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E6%A7%98%E3%81%B8%E7%B4%A1%E3%81%90%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         }
       ]
     },
@@ -41178,20 +41538,22 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR7_Mamimi",
       "choices": [
         {
-          "text": "いや……！やっぱり────",
+          "text": "いや……！やっぱり──",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Have%20a%20bad%20day%E2%99%A5%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
-          "text": "こないだだってさ────",
+          "text": "こないだだってさ──",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Have%20a%20bad%20day%E2%99%A5%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         },
         {
           "text": "でも……",
@@ -41199,7 +41561,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Have%20a%20bad%20day%E2%99%A5%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85"
         }
       ]
     },
@@ -41307,15 +41670,17 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%B2%E3%81%A8%E3%81%A4%E3%80%81%E3%81%AF%E3%81%9F%E3%81%9F%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "遅くなったけど、その衣装────",
+          "text": "遅くなったけど、その衣装──",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%B2%E3%81%A8%E3%81%A4%E3%80%81%E3%81%AF%E3%81%9F%E3%81%9F%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
           "text": "俺、楽しみなんだ",
@@ -41323,7 +41688,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%B2%E3%81%A8%E3%81%A4%E3%80%81%E3%81%AF%E3%81%9F%E3%81%9F%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -41733,7 +42099,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%82%A4%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
           "text": "お礼を言わないとな",
@@ -41741,15 +42108,17 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%82%A4%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         },
         {
-          "text": "美味しかったな",
+          "text": "美味かったな",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%82%A4%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89"
         }
       ]
     },
@@ -42507,20 +42876,22 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR8_Chiyoko",
       "choices": [
         {
-          "text": "同時だよな？",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
           "text": "すごい偶然だ",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
+        },
+        {
+          "text": "『同時だよな？』",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
           "text": "（どっちだ……！？）",
@@ -42528,7 +42899,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -42538,28 +42910,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR8_Chiyoko",
       "choices": [
         {
-          "text": "『大丈夫か』────",
-          "effects": {
-            "vocal": 20,
-            "mental": 5,
-            "sp": 10
-          }
-        },
-        {
-          "text": "『遅くなって』────",
+          "text": "『遅くなって』──",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "『何か』────",
+          "text": "『何か』──",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
+        },
+        {
+          "text": "『大丈夫か』──",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -42569,28 +42944,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR8_Chiyoko",
       "choices": [
         {
-          "text": "（こういう時に────）",
-          "effects": {
-            "vocal": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
-          "text": "（俺が伝えたのは────）",
-          "effects": {
-            "dance": 20,
-            "mental": 10,
-            "sp": 10
-          }
-        },
-        {
-          "text": "（頑張って────）",
+          "text": "（頑張って──）",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
+        },
+        {
+          "text": "（こういう時に──）",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
+        },
+        {
+          "text": "（俺が伝えたのは）",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -43282,12 +43660,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR8_Koito",
       "choices": [
         {
-          "text": "だけど無理をさせるのは……）",
+          "text": "（だけど無理をさせるのは……）",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%AA%93%E3%82%92%E3%81%82%E3%81%91%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         },
         {
           "text": "（なるべく今の形を……）",
@@ -43295,7 +43674,8 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%AA%93%E3%82%92%E3%81%82%E3%81%91%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         },
         {
           "text": "言葉のかわりに……",
@@ -43303,7 +43683,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%AA%93%E3%82%92%E3%81%82%E3%81%91%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         }
       ]
     },
@@ -44058,25 +44439,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR8_Sakuya",
       "choices": [
         {
+          "text": "（感想は──）",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%81%E3%82%92%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8B%E3%81%9B%E3%81%A6%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
+        },
+        {
           "text": "（咲耶、見てたかな）",
           "effects": {
+            "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%81%E3%82%92%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8B%E3%81%9B%E3%81%A6%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         },
         {
-          "text": "（感想は――）",
+          "text": "ほんと──",
           "effects": {
+            "visual": 20,
             "mental": 10,
             "sp": 10
-          }
-        },
-        {
-          "text": "（ほんと――）",
-          "effects": {
-            "mental": 10,
-            "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%81%E3%82%92%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8B%E3%81%9B%E3%81%A6%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6"
         }
       ]
     },
@@ -44401,7 +44788,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         },
         {
           "text": "こんなところにあったのか",
@@ -44409,15 +44797,17 @@
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         },
         {
-          "text": "……このままだと消えてしもう",
+          "text": "……このままだと消えてしまう",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2"
         }
       ]
     },
@@ -44711,15 +45101,17 @@
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90d%21scovery%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
-          "text": "ハンドメイドのお店……",
+          "text": "ハンドメイドのお店……？",
           "effects": {
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90d%21scovery%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         },
         {
           "text": "ちょっと待ってくれ……",
@@ -44727,7 +45119,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90d%21scovery%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C"
         }
       ]
     },
@@ -45072,25 +45465,28 @@
           "text": "撮影日楽しみだな",
           "effects": {
             "dance": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         },
         {
-          "text": "敵な家主さんだったな",
+          "text": "素敵な家主さんだったな",
           "effects": {
             "visual": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         },
         {
           "text": "今日はどうだった？",
           "effects": {
             "vocal": 20,
-            "mental": 5,
+            "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8"
         }
       ]
     },
@@ -45224,28 +45620,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR9_Mano",
       "choices": [
         {
-          "text": "タオルだな",
+          "text": "（タオルだな）",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "キーホルダーか",
+          "text": "（キーホルダーか）",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "クリーム……?",
+          "text": "（クリーム……？）",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -45255,28 +45654,31 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR9_Mano",
       "choices": [
         {
-          "text": "よく気が付くな……!",
+          "text": "よく気が付くな……！",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "悪いな……!",
+          "text": "悪いな……！",
           "effects": {
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         },
         {
-          "text": "俺がいくべきだったな……!",
+          "text": "俺が行くべきだったな……！",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83"
         }
       ]
     },
@@ -45348,12 +45750,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR9_Mei",
       "choices": [
         {
-          "text": "何もあきらめずに行こう",
+          "text": "絶対に好きになってもらおう",
           "effects": {
-            "vocal": 20,
+            "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%9F%E3%81%97%E3%83%BB%E3%83%9E%E3%82%B9%E3%83%88%E3%80%91%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D"
         },
         {
           "text": "迷っている時間はない",
@@ -45361,15 +45764,17 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%9F%E3%81%97%E3%83%BB%E3%83%9E%E3%82%B9%E3%83%88%E3%80%91%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D"
         },
         {
-          "text": "絶対に好きになったもらおう",
+          "text": "何もあきらめずに行こう",
           "effects": {
-            "visual": 20,
+            "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%9F%E3%81%97%E3%83%BB%E3%83%9E%E3%82%B9%E3%83%88%E3%80%91%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D"
         }
       ]
     },
@@ -45593,12 +45998,13 @@
       "source": "https://shinycolors.wiki/wiki/P-SSR9_Nichika",
       "choices": [
         {
-          "text": "……考えてみてくれ+20",
+          "text": "……考えてみてくれ",
           "effects": {
             "vocal": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
           "text": "やめておくか？",
@@ -45606,7 +46012,8 @@
             "visual": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
           "text": "……にちか？",
@@ -45614,7 +46021,8 @@
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         }
       ]
     },
@@ -45660,15 +46068,17 @@
             "visual": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
-          "text": "いただくな+20",
+          "text": "いただくな",
           "effects": {
             "vocal": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         },
         {
           "text": "美味しそうだ",
@@ -45676,7 +46086,8 @@
             "dance": 20,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B"
         }
       ]
     },
@@ -46124,11 +46535,15 @@
       "choices": [
         {
           "text": "子供ならどう思うのかな？",
+          "aliases": [
+            "子どもなら\\nどう思うのかな？"
+          ],
           "effects": {
             "dance": 25,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "冬優子も楽しいか？",
@@ -46136,7 +46551,8 @@
             "vocal": 25,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         },
         {
           "text": "また今度来ようかな",
@@ -46144,7 +46560,8 @@
             "visual": 25,
             "mental": 10,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
         }
       ]
     },
@@ -46594,6 +47011,545 @@
           }
         }
       ]
+    },
+    {
+      "kind": "event",
+      "title": "懸命さと、あと",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+      "choices": [
+        {
+          "text": "懸命さだけじゃない",
+          "effects": {
+            "vocal": 10,
+            "dance": 10,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "さらに上を見てる",
+          "effects": {
+            "dance": 10,
+            "visual": 10,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "もっとまぶしい",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "『まだ知らない』から怖い",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+      "choices": [
+        {
+          "text": "（……あんまり詳しくないんだけど）",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "（ちょっと困ったような顔してたんだよな）",
+          "effects": {
+            "vocal": 10,
+            "visual": 10,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "…………",
+          "effects": {
+            "dance": 10,
+            "visual": 10,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "00 いつもの",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+      "choices": [
+        {
+          "text": "もしかして、勉強した？",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "（たぶん無意識なんだけど）",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "さすがだな",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "00 なんだっていいんだ",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+      "choices": [
+        {
+          "text": "（気付いてないとか？）",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "（間違いじゃないってことか？）",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "（こういう作戦だったりして）",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "夏の音が聴こえる",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%B7%E3%83%A5%E3%82%AB%E3%81%AE%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+      "choices": [
+        {
+          "text": "氷いっぱいの麦茶、かな",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "定番！キンキンの瓶ラムネ",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "やっぱりビール……なんてな！",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "訪い",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+      "choices": [
+        {
+          "text": "霧子にもできてるよ影",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "猫みたいなのがいる……ほら、影",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "また来た……！",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "眠らずに",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+      "choices": [
+        {
+          "text": "ルカが幸せになれる仕事を任せたい",
+          "effects": {
+            "dance": 10,
+            "visual": 30,
+            "mental": 15,
+            "sp": 20
+          }
+        },
+        {
+          "text": "コメティックの一員として──",
+          "effects": {
+            "vocal": 30,
+            "visual": 10,
+            "mental": 15,
+            "sp": 20
+          }
+        },
+        {
+          "text": "ルカがやりたいと思うこと",
+          "effects": {
+            "vocal": 10,
+            "dance": 30,
+            "mental": 15,
+            "sp": 20
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "アイドルになって、",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+      "choices": [
+        {
+          "text": "アイドルに対して",
+          "effects": {
+            "vocal": 30,
+            "dance": 10,
+            "mental": 15,
+            "sp": 20
+          }
+        },
+        {
+          "text": "ルカを信じてるんだ",
+          "effects": {
+            "dance": 30,
+            "visual": 10,
+            "mental": 15,
+            "sp": 20
+          }
+        },
+        {
+          "text": "改めて思ったんだ",
+          "effects": {
+            "dance": 10,
+            "visual": 30,
+            "mental": 15,
+            "sp": 20
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "重ならないでよ",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+      "choices": [
+        {
+          "text": "ルカがどう思ってても",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "俺は、プロデューサーだから",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "それが俺の仕事だから",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "みえぬ",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+      "choices": [
+        {
+          "text": "何をもらえるのかな……",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "ちょっとしたもので大丈夫だよ",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "あまり無理しなくていいからな",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "うまれぬ",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+      "choices": [
+        {
+          "text": "それは──",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "特別な感情か……",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "恋愛感情ってことかな？",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "また、かへる",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+      "choices": [
+        {
+          "text": "どうするのが正解かなんてさ……",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "そうだよな……",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "想いを伝えることは──",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "水、風、緑",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99",
+      "choices": [
+        {
+          "text": "（腕を掴む）",
+          "effects": {
+            "vocal": 10,
+            "visual": 10,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "（手を伸ばす）",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "危ない！",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "多難へのアプローチ",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%85%89%E3%81%AF%E5%85%89%E3%81%B8%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2",
+      "choices": [
+        {
+          "text": "だけどなあ",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "楽しかったら……",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "それなら……",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "決壊",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D",
+      "choices": [
+        {
+          "text": "どうしたんだ…？",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "俺のほうこそ……",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "見ているしか……",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "あたしのこと",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3",
+      "choices": [
+        {
+          "text": "……全然知らなかったんだな",
+          "effects": {
+            "visual": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "今までごめんな",
+          "effects": {
+            "vocal": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        },
+        {
+          "text": "ありがとう",
+          "effects": {
+            "dance": 20,
+            "mental": 10,
+            "sp": 10
+          }
+        }
+      ]
+    },
+    {
+      "kind": "event",
+      "title": "彼女なりに",
+      "source": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3",
+      "choices": [
+        {
+          "text": "途上の人間ですから",
+          "effects": {
+            "dance": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "彼女なりに努力をしています",
+          "effects": {
+            "vocal": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        },
+        {
+          "text": "央路さんからいい影響を受けていると思います",
+          "effects": {
+            "visual": 20,
+            "mental": 5,
+            "sp": 10
+          }
+        }
+      ]
     }
-  ]
+  ],
+  "licenseScope": "The CC license notice covers English Wiki-derived tables. Japanese reference records cite their sources individually; game text belongs to its original rights holders."
 }

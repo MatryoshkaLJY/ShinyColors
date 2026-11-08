@@ -1,0 +1,5012 @@
+[
+  {
+    "path": "/assets/json/produce_events/102400405.json",
+    "character": "Nichika_Nanakusa",
+    "sourceFile": "data/story/七草にちか/Landing Point編/5 懸命さと、あと（努力了，之后）.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/Landing%20Point%E7%B7%A8/5%20%E6%87%B8%E5%91%BD%E3%81%95%E3%81%A8%E3%80%81%E3%81%82%E3%81%A8%EF%BC%88%E5%8A%AA%E5%8A%9B%E4%BA%86%EF%BC%8C%E4%B9%8B%E5%90%8E%EF%BC%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+    "choices": [
+      {
+        "original": "さらに上を見てる",
+        "translation": "有着更高的追求",
+        "effects": {
+          "dance": 10,
+          "visual": 10,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "さらに上を見てる"
+      },
+      {
+        "original": "懸命さだけじゃない",
+        "translation": "不仅仅是在努力",
+        "effects": {
+          "vocal": 10,
+          "dance": 10,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "懸命さだけじゃない"
+      },
+      {
+        "original": "もっとまぶしい",
+        "translation": "比他们更加耀眼",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "もっとまぶしい"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/102400100111.json",
+    "character": "Nichika_Nanakusa",
+    "sourceFile": "data/story/七草にちか/Morning/Morning⑪.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/Morning/Morning%E2%91%AA.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+    "choices": [
+      {
+        "original": "俺が……\\nまとめ購入しようか",
+        "translation": "那我……\\n就买完吧",
+        "grade": "perfect",
+        "referenceText": "俺が……まとめ購入しようか"
+      },
+      {
+        "original": "そんなに面白いのか？",
+        "translation": "有这么有趣吗？",
+        "grade": "good",
+        "referenceText": "そんなに面白いのか？"
+      },
+      {
+        "original": "お小遣い……\\n大変なんだな",
+        "translation": "零花钱……\\n真不容易啊",
+        "grade": "normal",
+        "referenceText": "お小遣い……大変なんだな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202401401.json",
+    "character": "Nichika_Nanakusa",
+    "sourceFile": "data/story/七草にちか/【受けトル sun Q】七草にちか/【受けトル sun Q】七草にちか01.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B01.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+    "choices": [
+      {
+        "original": "やめておくか？",
+        "translation": "那就算了吧？",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "やめておくか？"
+      },
+      {
+        "original": "……考えてみてくれ",
+        "translation": "……再考虑下吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……考えてみてくれ"
+      },
+      {
+        "original": "……にちか？",
+        "translation": "……日花？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……にちか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202401404.json",
+    "character": "Nichika_Nanakusa",
+    "sourceFile": "data/story/七草にちか/【受けトル sun Q】七草にちか/【受けトル sun Q】七草にちか04.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B04.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8F%97%E3%81%91%E3%83%88%E3%83%AB%20sun%20Q%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+    "choices": [
+      {
+        "original": "いただくな",
+        "translation": "我开动了",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "いただくな"
+      },
+      {
+        "original": "綺麗だ",
+        "translation": "真好看啊",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "綺麗だ"
+      },
+      {
+        "original": "美味しそうだ",
+        "translation": "看着很有食欲",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "美味しそうだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202400802.json",
+    "character": "Nichika_Nanakusa",
+    "sourceFile": "data/story/七草にちか/【泣けよ洗濯機】七草にちか/食べたいやつ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E3%80%90%E6%B3%A3%E3%81%91%E3%82%88%E6%B4%97%E6%BF%AF%E6%A9%9F%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B/%E9%A3%9F%E3%81%B9%E3%81%9F%E3%81%84%E3%82%84%E3%81%A4.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B3%A3%E3%81%91%E3%82%88%E6%B4%97%E6%BF%AF%E6%A9%9F%E3%80%91%E4%B8%83%E8%8D%89%E3%81%AB%E3%81%A1%E3%81%8B",
+    "choices": [
+      {
+        "original": "にちかのお腹が\\nいっぱいなら……",
+        "translation": "既然日花\\n已经吃饱了",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "にちかのお腹がいっぱいなら……"
+      },
+      {
+        "original": "俺が食べるよ",
+        "translation": "我来吃掉吧",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺が食べるよ"
+      },
+      {
+        "original": "そんなに\\nかぶっちゃったか",
+        "translation": "重样的\\n有那么多吗",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "そんなにかぶっちゃったか"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100011.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning①.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "勉強好きなんだな",
+        "translation": "喜欢学习吗",
+        "grade": "perfect",
+        "referenceText": "勉強好きなんだな"
+      },
+      {
+        "original": "俺は勉強嫌いだったなぁ",
+        "translation": "我不喜欢学习",
+        "grade": "good",
+        "referenceText": "俺は勉強嫌いだったなぁ"
+      },
+      {
+        "original": "真面目だな",
+        "translation": "真是认真啊",
+        "grade": "normal",
+        "referenceText": "真面目だな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100021.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning②.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "社長の真似",
+        "translation": "模仿社长",
+        "grade": "perfect",
+        "referenceText": "社長の真似"
+      },
+      {
+        "original": "はづきさんの真似",
+        "translation": "模仿叶月小姐",
+        "grade": "good",
+        "referenceText": "はづきさんの真似"
+      },
+      {
+        "original": "ならそろそろ\\nレッスンに行くか",
+        "translation": "那么差不多该去上课了",
+        "grade": "normal",
+        "referenceText": "ならそろそろレッスンに行くか"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100031.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning③.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "少し的を絞るか",
+        "translation": "稍微缩小一下范围吧",
+        "grade": "perfect",
+        "referenceText": "少し的を絞るか"
+      },
+      {
+        "original": "俺も一緒に考えよう",
+        "translation": "我也一起来考虑吧",
+        "grade": "good",
+        "referenceText": "俺も一緒に考えよう"
+      },
+      {
+        "original": "他のメンバーにも\\n相談してみたら？",
+        "translation": "试试和其他成员\\n讨论一下？",
+        "grade": "normal",
+        "referenceText": "他のメンバーにも相談してみたら？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100041.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning④.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "でも俺の方が詳しいな",
+        "translation": "但是我更了解哦",
+        "grade": "perfect",
+        "referenceText": "でも俺の方が詳しいな"
+      },
+      {
+        "original": "ライバルだもんな",
+        "translation": "毕竟是竞争对手嘛",
+        "grade": "good",
+        "referenceText": "ライバルだもんな"
+      },
+      {
+        "original": "よく調べてるな",
+        "translation": "好好的调查过了啊",
+        "grade": "normal",
+        "referenceText": "よく調べてるな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100051.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning⑤.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A4.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "後で眠そうだったら、\\n説教な",
+        "translation": "过会儿还是困的话，\\n就要进行说教了哦",
+        "grade": "perfect",
+        "referenceText": "後で眠そうだったら、説教な"
+      },
+      {
+        "original": "コーヒー淹れるか",
+        "translation": "要沏杯咖啡吗",
+        "grade": "good",
+        "referenceText": "コーヒー淹れるか"
+      },
+      {
+        "original": "普段の生活、\\n見直そうな",
+        "translation": "该重新审视一下\\n平时的生活习惯了",
+        "grade": "normal",
+        "referenceText": "普段の生活、見直そうな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100071.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning⑦.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A6.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "舞台衣装でも\\n意見をもらおうか",
+        "translation": "那可以对舞台服装提意见吗",
+        "grade": "perfect",
+        "referenceText": "舞台衣装でも意見をもらおうか"
+      },
+      {
+        "original": "他のみんなの衣装も\\n選んでみるか",
+        "translation": "也试着给其他人选衣服吧",
+        "grade": "good",
+        "referenceText": "他のみんなの衣装も選んでみるか"
+      },
+      {
+        "original": "みんな結華のことを\\n認めてるんだよ",
+        "translation": "大家都认可结华了啊",
+        "grade": "normal",
+        "referenceText": "みんな結華のことを認めてるんだよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100700100091.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/Morning/Morning⑨.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/Morning/Morning%E2%91%A8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "収納スペースを\\nＤＩＹだ",
+        "translation": "自己设计整理空间",
+        "grade": "perfect",
+        "referenceText": "収納スペースをＤＩＹだ"
+      },
+      {
+        "original": "コンテナ\\n借りるのはどうかな？",
+        "translation": "借一些收纳箱怎么样？",
+        "grade": "good",
+        "referenceText": "コンテナ借りるのはどうかな？"
+      },
+      {
+        "original": "１度リセットして\\nみるのはどうだ？",
+        "translation": "再重新挑选一次周边怎么样？",
+        "grade": "normal",
+        "referenceText": "１度リセットしてみるのはどうだ？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200701102.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/【♡コメディ】三峰結華/走れば済むなら頑張りたいから.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E2%99%A1%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E8%B5%B0%E3%82%8C%E3%81%B0%E6%B8%88%E3%82%80%E3%81%AA%E3%82%89%E9%A0%91%E5%BC%B5%E3%82%8A%E3%81%9F%E3%81%84%E3%81%8B%E3%82%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E2%99%A1%E3%82%B3%E3%83%A1%E3%83%87%E3%82%A3%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "それにしても──",
+        "translation": "话虽如此——",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "それにしても──"
+      },
+      {
+        "original": "課題の方も頑張ってな",
+        "translation": "课题也要加油啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "課題の方も頑張ってな"
+      },
+      {
+        "original": "じゃあ改めて、\\n業務上の確認だ",
+        "translation": "那么再次进行一下\\n业务上的确认",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "じゃあ改めて、 業務上の確認だ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200701004.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/【雨に祝福】三峰結華/暗闇は、目を開ける前のときめき.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E6%9A%97%E9%97%87%E3%81%AF%E3%80%81%E7%9B%AE%E3%82%92%E9%96%8B%E3%81%91%E3%82%8B%E5%89%8D%E3%81%AE%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8D.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "──……！",
+        "translation": "──……！",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──……！"
+      },
+      {
+        "original": "嬉しい\\n感想だなぁ……！",
+        "translation": "很让人\\n开心的感想啊……！",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "嬉しい感想だなぁ……！"
+      },
+      {
+        "original": "結華だから──！",
+        "translation": "因为是结华──！",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "結華だから──！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200701003.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/【雨に祝福】三峰結華/私が歌い踊る限り.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E7%A7%81%E3%81%8C%E6%AD%8C%E3%81%84%E8%B8%8A%E3%82%8B%E9%99%90%E3%82%8A.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9B%A8%E3%81%AB%E7%A5%9D%E7%A6%8F%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "……ありがとうな",
+        "translation": "……谢谢",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "……ありがとうな"
+      },
+      {
+        "original": "正しい手順、か",
+        "translation": "正确的顺序，吗",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "正しい手順、か"
+      },
+      {
+        "original": "（──ああ……）",
+        "translation": "（──啊啊……）",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（──ああ……）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100300100011.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/Morning/Morning①.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/Morning/Morning%E2%91%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "友達作りが上手だな",
+        "translation": "很擅长交朋友呢",
+        "grade": "perfect",
+        "referenceText": "友達作りが上手だな"
+      },
+      {
+        "original": "大事にするんだぞ",
+        "translation": "要好好相处哦",
+        "grade": "good",
+        "referenceText": "大事にするんだぞ"
+      },
+      {
+        "original": "俺も友達がほしいなぁ",
+        "translation": "我也想要朋友啊",
+        "grade": "normal",
+        "referenceText": "俺も友達がほしいなぁ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/100300105.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/W.I.N.G.編/これがわたしだから.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/W.I.N.G.%E7%B7%A8/%E3%81%93%E3%82%8C%E3%81%8C%E3%82%8F%E3%81%9F%E3%81%97%E3%81%A0%E3%81%8B%E3%82%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "行けるとこまで\\n進もう",
+        "translation": "直到你所能到达的最远方\\n继续前进吧",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "行けるとこまで進もう"
+      },
+      {
+        "original": "今以上にアイドルの\\n仕事を頑張らなくちゃな",
+        "translation": "得付出更多的努力\\n做好偶像工作才行啊",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "今以上にアイドルの仕事を頑張らなくちゃな"
+      },
+      {
+        "original": "これからは\\nもっと大変になるぞ",
+        "translation": "今后的路\\n肯定会越来越难走哦",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "これからはもっと大変になるぞ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/100300102.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/W.I.N.G.編/アイドルとして.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/W.I.N.G.%E7%B7%A8/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%A8%E3%81%97%E3%81%A6.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "まわりのみんなを\\n支えるつもりでいこう",
+        "translation": "去支援周围的大家吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "まわりのみんなを支えるつもりでいこう"
+      },
+      {
+        "original": "とにかく気合いだ！",
+        "translation": "不管怎样，要有气势！",
+        "effects": {
+          "vocal": 5,
+          "dance": 10,
+          "visual": 5,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "とにかく気合いだ！"
+      },
+      {
+        "original": "アイドルを\\n楽しんでこい！",
+        "translation": "作为一个偶像\\n去好好享受这场演出吧！",
+        "effects": {
+          "dance": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "アイドルを楽しんでこい！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200301701.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【こころレイヤリング】八宮めぐる/1.『まだ知らない』から怖い.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/1.%E3%80%8E%E3%81%BE%E3%81%A0%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%80%8F%E3%81%8B%E3%82%89%E6%80%96%E3%81%84.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "（ちょっと困ったような\\n顔してたんだよな）",
+        "translation": "（看起来有些困扰啊）",
+        "effects": {
+          "vocal": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（ちょっと困ったような顔してたんだよな）"
+      },
+      {
+        "original": "（……あんまり\\n詳しくないんだけど）",
+        "translation": "（……虽说\\n我不是很了解）",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（……あんまり詳しくないんだけど）"
+      },
+      {
+        "original": "…………",
+        "translation": "…………",
+        "effects": {
+          "dance": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "…………"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200301703.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【こころレイヤリング】八宮めぐる/3.二歩目以降は容易い.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/3.%E4%BA%8C%E6%AD%A9%E7%9B%AE%E4%BB%A5%E9%99%8D%E3%81%AF%E5%AE%B9%E6%98%93%E3%81%84.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%93%E3%81%93%E3%82%8D%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%AA%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "『脅しのように\\nなりますが』──！？",
+        "translation": "『尽管这可能\\n像是有意吓唬』——！？",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『脅しのようになりますが』──！？"
+      },
+      {
+        "original": "『ご注意いただきたい\\n点につきまして』",
+        "translation": "『关于一些\\n需要注意的点』",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『ご注意いただきたい点につきまして』"
+      },
+      {
+        "original": "『Re:製品サンプルに\\nつきまして』",
+        "translation": "『Re：关于商品样品』",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『Re:製品サンプルにつきまして』"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200301203.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【たまゆらフレーミング】八宮めぐる/16_00 いつもの.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/16_00%20%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "（たぶん無意識\\nなんだけど）",
+        "translation": "（或许是\\n无意之中）",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（たぶん無意識なんだけど）"
+      },
+      {
+        "original": "もしかして、\\n勉強した？",
+        "translation": "这么说\\n是学到了？",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "もしかして、勉強した？"
+      },
+      {
+        "original": "さすがだな",
+        "translation": "不愧是巡啊",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "さすがだな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200301204.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【たまゆらフレーミング】八宮めぐる/20_00 なんだっていいんだ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/20_00%20%E3%81%AA%E3%82%93%E3%81%A0%E3%81%A3%E3%81%A6%E3%81%84%E3%81%84%E3%82%93%E3%81%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%9F%E3%81%BE%E3%82%86%E3%82%89%E3%83%95%E3%83%AC%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "（間違いじゃない\\nってことか？）",
+        "translation": "（这么说\\n不是上传失误？）",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（間違いじゃないってことか？）"
+      },
+      {
+        "original": "（気付いてないとか？）",
+        "translation": "（巡没发觉吗？）",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（気付いてないとか？）"
+      },
+      {
+        "original": "（こういう作戦\\nだったりして）",
+        "translation": "（这也是巡的计划吗）",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（こういう作戦だったりして）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200300802.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【シュカのまにまに】八宮めぐる/夏の音が聴こえる.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E3%82%B7%E3%83%A5%E3%82%AB%E3%81%AE%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E5%A4%8F%E3%81%AE%E9%9F%B3%E3%81%8C%E8%81%B4%E3%81%93%E3%81%88%E3%82%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%B7%E3%83%A5%E3%82%AB%E3%81%AE%E3%81%BE%E3%81%AB%E3%81%BE%E3%81%AB%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "定番！\\nキンキンの瓶ラムネ",
+        "translation": "必需品！\\n冰冰凉的弹珠汽水",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "定番！キンキンの瓶ラムネ"
+      },
+      {
+        "original": "氷いっぱいの麦茶、\\nかな",
+        "translation": "冰块满满的麦茶吧\\n大概",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "氷いっぱいの麦茶、かな"
+      },
+      {
+        "original": "やっぱりビール……\\nなんてな！",
+        "translation": "果然还是啤酒……\\n说笑的！",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "やっぱりビール……なんてな！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201901502.json",
+    "character": "Mei_Izumi",
+    "sourceFile": "data/story/和泉愛依/【あたし・マスト】和泉愛依/201901502.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D/%E3%80%90%E3%81%82%E3%81%9F%E3%81%97%E3%83%BB%E3%83%9E%E3%82%B9%E3%83%88%E3%80%91%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D/201901502.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%9F%E3%81%97%E3%83%BB%E3%83%9E%E3%82%B9%E3%83%88%E3%80%91%E5%92%8C%E6%B3%89%E6%84%9B%E4%BE%9D",
+    "choices": [
+      {
+        "original": "迷っている\\n時間はない",
+        "translation": "没有时间\\n犹豫不决了",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "迷っている時間はない"
+      },
+      {
+        "original": "絶対に好きに\\nなってもらおう",
+        "translation": "一定要让她\\n喜欢上",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "絶対に好きになってもらおう"
+      },
+      {
+        "original": "何もあきらめず\\nに行こう",
+        "translation": "不放弃任何一方地\\n继续前进",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "何もあきらめずに行こう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/101000304.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/G.R.A.D.編/マイ　スイート♡ウェポン.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/G.R.A.D.%E7%B7%A8/%E3%83%9E%E3%82%A4%E3%80%80%E3%82%B9%E3%82%A4%E3%83%BC%E3%83%88%E2%99%A1%E3%82%A6%E3%82%A7%E3%83%9D%E3%83%B3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "必ず伝わるよ",
+        "translation": "一定能传达给大家的",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "必ず伝わるよ"
+      },
+      {
+        "original": "かっこいい武器の\\n使い方を見せてくれ",
+        "translation": "让我看看你是如何使用\\n这样帅气武器的吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "かっこいい武器の使い方を見せてくれ"
+      },
+      {
+        "original": "楽しみにしてるぞ、\\nチョコアイドル",
+        "translation": "我很期待哦，\\n巧克力偶像",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "楽しみにしてるぞ、チョコアイドル"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201001401.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【うつくしいあした】  園田 智代子/うつくしいひび.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%20%20%E5%9C%92%E7%94%B0%20%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%B2%E3%81%B3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "『同時だよな？』",
+        "translation": "“我们同时发的吧？”",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『同時だよな？』"
+      },
+      {
+        "original": "すごい偶然だ",
+        "translation": "太巧了吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "すごい偶然だ"
+      },
+      {
+        "original": "（どっちだ……！？）",
+        "translation": "（该怎么说……！？）",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（どっちだ……！？）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201001403.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【うつくしいあした】  園田 智代子/彼女が思う彼女の責任の話.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%20%20%E5%9C%92%E7%94%B0%20%E6%99%BA%E4%BB%A3%E5%AD%90/%E5%BD%BC%E5%A5%B3%E3%81%8C%E6%80%9D%E3%81%86%E5%BD%BC%E5%A5%B3%E3%81%AE%E8%B2%AC%E4%BB%BB%E3%81%AE%E8%A9%B1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "（こういう時に──）",
+        "translation": "（这种时候——）",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（こういう時に──）"
+      },
+      {
+        "original": "（頑張って──）",
+        "translation": "（加油——）",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（頑張って──）"
+      },
+      {
+        "original": "（俺が伝えたのは）",
+        "translation": "（我想说的是）",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（俺が伝えたのは）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201001402.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【うつくしいあした】  園田 智代子/星落.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%20%20%E5%9C%92%E7%94%B0%20%E6%99%BA%E4%BB%A3%E5%AD%90/%E6%98%9F%E8%90%BD.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%86%E3%81%A4%E3%81%8F%E3%81%97%E3%81%84%E3%81%82%E3%81%97%E3%81%9F%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "『何か』──",
+        "translation": "“有什么”",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『何か』──"
+      },
+      {
+        "original": "『遅くなって』──",
+        "translation": "“来晚了——”",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『遅くなって』──"
+      },
+      {
+        "original": "『大丈夫か』──",
+        "translation": "“没事吧”——",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『大丈夫か』──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201000701.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【かきまぜたら＊ミルク】園田智代子/夢と憧れを追いかけていた.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E5%A4%A2%E3%81%A8%E6%86%A7%E3%82%8C%E3%82%92%E8%BF%BD%E3%81%84%E3%81%8B%E3%81%91%E3%81%A6%E3%81%84%E3%81%9F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "……少し\\n考えてみてほしい",
+        "translation": "……我希望\\n你能稍微考虑一下",
+        "effects": {
+          "vocal": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……少し考えてみてほしい"
+      },
+      {
+        "original": "──悪い、\\n考えすぎないでくれ！",
+        "translation": "——抱歉，\\n不要想太多！",
+        "effects": {
+          "vocal": 10,
+          "dance": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──悪い、考えすぎないでくれ！"
+      },
+      {
+        "original": "……俺は──",
+        "translation": "……我——",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……俺は──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201000703.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【かきまぜたら＊ミルク】園田智代子/大好きなクライマックスへ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E5%A4%A7%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%83%E3%82%AF%E3%82%B9%E3%81%B8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%8D%E3%81%BE%E3%81%9C%E3%81%9F%E3%82%89%EF%BC%8A%E3%83%9F%E3%83%AB%E3%82%AF%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "choices": [
+      {
+        "original": "わかった",
+        "translation": "我知道了",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "わかった"
+      },
+      {
+        "original": "楽しみにしてる",
+        "translation": "我很期待",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "楽しみにしてる"
+      },
+      {
+        "original": "──頑張れ",
+        "translation": "——加油",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──頑張れ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101400100021.json",
+    "character": "Amana_Osaki",
+    "sourceFile": "data/story/大崎甘奈/Morning/Morning②.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88/Morning/Morning%E2%91%A1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88",
+    "choices": [
+      {
+        "original": "これから、\\nたくさん着れるさ",
+        "translation": "从今以后\\n还会穿到更多衣服哦",
+        "grade": "perfect",
+        "referenceText": "これから、たくさん着れるさ"
+      },
+      {
+        "original": "甘奈は、\\n本当に服が\\n好きなんだな",
+        "translation": "甘奈\\n真的很喜欢衣服啊",
+        "grade": "good",
+        "referenceText": "甘奈は、本当に服が好きなんだな"
+      },
+      {
+        "original": "なんでも似合うぞ",
+        "translation": "你穿什么衣服都好看",
+        "grade": "normal",
+        "referenceText": "なんでも似合うぞ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101400100031.json",
+    "character": "Amana_Osaki",
+    "sourceFile": "data/story/大崎甘奈/Morning/Morning③.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88/Morning/Morning%E2%91%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88",
+    "choices": [
+      {
+        "original": "シンプルに行こう",
+        "translation": "简朴一点吧",
+        "grade": "perfect",
+        "referenceText": "シンプルに行こう"
+      },
+      {
+        "original": "流行りに合わせよう",
+        "translation": "紧跟流行吧",
+        "grade": "good",
+        "referenceText": "流行りに合わせよう"
+      },
+      {
+        "original": "派手なのがいい",
+        "translation": "华丽一点比较好",
+        "grade": "normal",
+        "referenceText": "派手なのがいい"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101400100051.json",
+    "character": "Amana_Osaki",
+    "sourceFile": "data/story/大崎甘奈/Morning/Morning⑤.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88/Morning/Morning%E2%91%A4.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88",
+    "choices": [
+      {
+        "original": "本当に仲がいいな",
+        "translation": "关系真不错呀",
+        "grade": "perfect",
+        "referenceText": "本当に仲がいいな"
+      },
+      {
+        "original": "甘奈の方が\\nお姉さんみたいだ",
+        "translation": "看起来甘奈\\n更像姐姐啊",
+        "grade": "good",
+        "referenceText": "甘奈の方がお姉さんみたいだ"
+      },
+      {
+        "original": "俺も仲のいい兄弟が\\n欲しかった",
+        "translation": "我也好想要一个\\n关系很不错的弟弟啊",
+        "grade": "normal",
+        "referenceText": "俺も仲のいい兄弟が欲しかった"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101400100061.json",
+    "character": "Amana_Osaki",
+    "sourceFile": "data/story/大崎甘奈/Morning/Morning⑥.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88/Morning/Morning%E2%91%A5.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88",
+    "choices": [
+      {
+        "original": "俺も一緒に頑張るぞ",
+        "translation": "我也一起和你加油把",
+        "grade": "perfect",
+        "referenceText": "俺も一緒に頑張るぞ"
+      },
+      {
+        "original": "ストレッチをすると\\n少し楽になるぞ",
+        "translation": "做一下舒展运动的话\\n身体会放松一些哦",
+        "grade": "good",
+        "referenceText": "ストレッチをすると少し楽になるぞ"
+      },
+      {
+        "original": "時々、\\n休むのも大事だぞ",
+        "translation": "有时候\\n休息也很重要哦",
+        "grade": "normal",
+        "referenceText": "時々、休むのも大事だぞ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101400100071.json",
+    "character": "Amana_Osaki",
+    "sourceFile": "data/story/大崎甘奈/Morning/Morning⑦.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88/Morning/Morning%E2%91%A6.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%98%E5%A5%88",
+    "choices": [
+      {
+        "original": "俺も広告は\\n見るようにしてる",
+        "translation": "我也有看到\\n那家店的广告哦",
+        "grade": "perfect",
+        "referenceText": "俺も広告は見るようにしてる"
+      },
+      {
+        "original": "好きなだけ買えるな",
+        "translation": "可以尽情买买买了",
+        "grade": "good",
+        "referenceText": "好きなだけ買えるな"
+      },
+      {
+        "original": "混みそうだな",
+        "translation": "估计会很拥挤啊",
+        "grade": "normal",
+        "referenceText": "混みそうだな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101500100051.json",
+    "character": "Tenka_Osaki",
+    "sourceFile": "data/story/大崎甜花/Morning/Morning⑤.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1/Morning/Morning%E2%91%A4.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1",
+    "choices": [
+      {
+        "original": "仕事もなるべく\\n一緒にしておくよ",
+        "translation": "那我尽量把你们\\n工作安排在一起哦",
+        "grade": "perfect",
+        "referenceText": "仕事もなるべく一緒にしておくよ"
+      },
+      {
+        "original": "いつも仲が良いな",
+        "translation": "一直关系都很好呢",
+        "grade": "good",
+        "referenceText": "いつも仲が良いな"
+      },
+      {
+        "original": "ひとりで来るのも\\n新鮮だぞ",
+        "translation": "一个人来事务所\\n也很新鲜哦",
+        "grade": "normal",
+        "referenceText": "ひとりで来るのも新鮮だぞ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/401500100023.json",
+    "character": "Tenka_Osaki",
+    "sourceFile": "data/story/大崎甜花/W.I.N.G.編/オーディション前⑥.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1/W.I.N.G.%E7%B7%A8/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E2%91%A5.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1",
+    "choices": [
+      {
+        "original": "今の甜花なら\\nできるはずだ",
+        "translation": "现在的甜花应\\n该可以办得到",
+        "grade": "up",
+        "referenceText": "今の甜花ならできるはずだ"
+      },
+      {
+        "original": "困ったときには\\n頼ってくれ",
+        "translation": "困难的时候可以\\n来依靠我",
+        "grade": "neutral",
+        "referenceText": "困ったときには頼ってくれ"
+      },
+      {
+        "original": "俺は必要無さそうだな",
+        "translation": "好像不需要我了啊",
+        "grade": "down",
+        "referenceText": "俺は必要無さそうだな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201500801.json",
+    "character": "Tenka_Osaki",
+    "sourceFile": "data/story/大崎甜花/【好きなものはなんですか？】大崎甜花/連載第１回『ゲーム』.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1/%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%80%91%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1/%E9%80%A3%E8%BC%89%E7%AC%AC%EF%BC%91%E5%9B%9E%E3%80%8E%E3%82%B2%E3%83%BC%E3%83%A0%E3%80%8F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A5%BD%E3%81%8D%E3%81%AA%E3%82%82%E3%81%AE%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A7%E3%81%99%E3%81%8B%EF%BC%9F%E3%80%91%E5%A4%A7%E5%B4%8E%E7%94%9C%E8%8A%B1",
+    "choices": [
+      {
+        "original": "ゲームのことも\\n忘れずにな",
+        "translation": "游戏的事情\\n也不用忘掉的",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ゲームのことも忘れずにな"
+      },
+      {
+        "original": "甜花の『好き』を\\n教えてくれないか？",
+        "translation": "甜花的“喜欢”\\n可以告诉我吗？",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "甜花の『好き』を教えてくれないか？"
+      },
+      {
+        "original": "アイドルになって、\\n『好き』も増えたはずだ",
+        "translation": "成为偶像之后，\\n“喜欢”应该也增加了",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "アイドルになって、『好き』も増えたはずだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100900100141.json",
+    "character": "Kaho_Komiya",
+    "sourceFile": "data/story/小宮果穂/Morning/Morning⑭.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/Morning/Morning%E2%91%AD.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82",
+    "choices": [
+      {
+        "original": "果穂がいてくれると\\n安心できるな",
+        "translation": "有果穗在的话\\n大家都会安心的",
+        "grade": "perfect",
+        "referenceText": "果穂がいてくれると安心できるな"
+      },
+      {
+        "original": "仲間を\\n陰から支えるなんて\\nかっこいいな",
+        "translation": "默默地支持伙伴们\\n感觉真是帅啊",
+        "grade": "good",
+        "referenceText": "仲間を陰から支えるなんてかっこいいな"
+      },
+      {
+        "original": "みんなが来るまでに\\n疲れるかも",
+        "translation": "等大家来的时候\\n果穗会很累的",
+        "grade": "normal",
+        "referenceText": "みんなが来るまでに疲れるかも"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200900601.json",
+    "character": "Kaho_Komiya",
+    "sourceFile": "data/story/小宮果穂/【新装備・バブルバスター！】小宮果穂/びしょ濡れ！？事務所は水の中.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E6%96%B0%E8%A3%85%E5%82%99%E3%83%BB%E3%83%90%E3%83%96%E3%83%AB%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%81%B3%E3%81%97%E3%82%87%E6%BF%A1%E3%82%8C%EF%BC%81%EF%BC%9F%E4%BA%8B%E5%8B%99%E6%89%80%E3%81%AF%E6%B0%B4%E3%81%AE%E4%B8%AD.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%96%B0%E8%A3%85%E5%82%99%E3%83%BB%E3%83%90%E3%83%96%E3%83%AB%E3%83%90%E3%82%B9%E3%82%BF%E3%83%BC%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82",
+    "choices": [
+      {
+        "original": "そんなに\\n水があったら……",
+        "translation": "要是真的\\n有那么多的水的话……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "そんなに水があったら……"
+      },
+      {
+        "original": "果穂は\\nいいところに気付くな",
+        "translation": "果穗\\n想到有意思的事情了呢",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "果穂はいいところに気付くな"
+      },
+      {
+        "original": "泳げるように\\nなるかもしれないな！",
+        "translation": "说不定\\n也可以用来游泳呢！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "泳げるようになるかもしれないな！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202301102.json",
+    "character": "Hinana_Ichikawa",
+    "sourceFile": "data/story/市川雛菜/【Keep→it up♡】市川雛菜/try try try.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/%E3%80%90Keep%E2%86%92it%20up%E2%99%A1%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/try%20try%20try.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90Keep%E2%86%92it%20up%E2%99%A1%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C",
+    "choices": [
+      {
+        "original": "もっと\\n応援したくなるんだ",
+        "translation": "会让人\\n更加想去支持",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "もっと応援したくなるんだ"
+      },
+      {
+        "original": "そんなことはない",
+        "translation": "没有那回事",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "そんなことはない"
+      },
+      {
+        "original": "俺は嬉しくなるな",
+        "translation": "我会很开心吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺は嬉しくなるな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202300803.json",
+    "character": "Hinana_Ichikawa",
+    "sourceFile": "data/story/市川雛菜/【S!GNATURE】市川雛菜/Follow_er.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/%E3%80%90S!GNATURE%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/Follow_er.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90S%21GNATURE%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C",
+    "choices": [
+      {
+        "original": "よかったのか？",
+        "translation": "这样好吗？",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "よかったのか？"
+      },
+      {
+        "original": "びっくりしたな",
+        "translation": "吓我一跳呢",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "びっくりしたな"
+      },
+      {
+        "original": "残念だったな",
+        "translation": "真是遗憾呢",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "残念だったな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202301304.json",
+    "character": "Hinana_Ichikawa",
+    "sourceFile": "data/story/市川雛菜/【d!scovery】市川雛菜/4.+ch♥♥se+.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/%E3%80%90d!scovery%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C/4.%2Bch%E2%99%A5%E2%99%A5se%2B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90d%21scovery%E3%80%91%E5%B8%82%E5%B7%9D%E9%9B%9B%E8%8F%9C",
+    "choices": [
+      {
+        "original": "ハンドメイドの\\nお店……？",
+        "translation": "手工店……？",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ハンドメイドのお店……？"
+      },
+      {
+        "original": "作る……？",
+        "translation": "自己做……？",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "作る……？"
+      },
+      {
+        "original": "ちょっと\\n待ってくれ……",
+        "translation": "等一下\\n等等……",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ちょっと待ってくれ……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/100800304.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/G.R.A.D.編/相談.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/G.R.A.D.%E7%B7%A8/%E7%9B%B8%E8%AB%87.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "付箋……\\nあったかな……",
+        "translation": "有没有便签呢……",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "付箋……あったかな……"
+      },
+      {
+        "original": "霧子の想いを\\n叶えてあげなきゃ",
+        "translation": "要实现雾子的想法才行",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "霧子の想いを叶えてあげなきゃ"
+      },
+      {
+        "original": "霧子の言葉を\\n聞かなきゃ",
+        "translation": "要听雾子说才行",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "霧子の言葉を聞かなきゃ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100800100071.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/Morning/morning⑦.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/Morning/morning%E2%91%A6.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "美味しいそば屋なら\\n知ってるぞ",
+        "translation": "我知道一家\\n好吃的荞麦面店哦",
+        "grade": "perfect",
+        "referenceText": "美味しいそば屋なら知ってるぞ"
+      },
+      {
+        "original": "ファミレスなんかが\\nいいと思うぞ？",
+        "translation": "我觉得家庭餐厅什么的\\n很不错哦",
+        "grade": "good",
+        "referenceText": "ファミレスなんかがいいと思うぞ？"
+      },
+      {
+        "original": "家によんで手料理を\\n振る舞うのは？",
+        "translation": "叫到家里来\\n亲自做菜怎么样？",
+        "grade": "normal",
+        "referenceText": "家によんで手料理を振る舞うのは？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100800100091.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/Morning/morning⑨.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/Morning/morning%E2%91%A8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "いつも事務所の中を\\n拭いてくれてるよな",
+        "translation": "总是帮忙\\n擦事物所里的东西呢",
+        "grade": "perfect",
+        "referenceText": "いつも事務所の中を拭いてくれてるよな"
+      },
+      {
+        "original": "いや、えらいよ！",
+        "translation": "不、很了不起啊！",
+        "grade": "good",
+        "referenceText": "いや、えらいよ！"
+      },
+      {
+        "original": "ピカピカにするのが\\nすきなのか？",
+        "translation": "闪闪发光的感觉\\n很喜欢吗？",
+        "grade": "normal",
+        "referenceText": "ピカピカにするのがすきなのか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100800100151.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/Morning/morning⑮.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/Morning/morning%E2%91%AE.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "霧子はすごく\\n勉強が得意そうだ",
+        "translation": "很擅长学习啊",
+        "grade": "perfect",
+        "referenceText": "霧子はすごく勉強が得意そうだ"
+      },
+      {
+        "original": "文房具が増えてくと\\nワクワクするよな",
+        "translation": "文具变多了\\n会很兴奋呢",
+        "grade": "good",
+        "referenceText": "文房具が増えてくとワクワクするよな"
+      },
+      {
+        "original": "新品の文房具使うの\\n躊躇っちゃうよな",
+        "translation": "用全新的文具之前\\n会很犹豫吧",
+        "grade": "normal",
+        "referenceText": "新品の文房具使うの躊躇っちゃうよな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200801302.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/【かぜかんむりのこどもたち】幽谷霧子/果てへの旅.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E6%9E%9C%E3%81%A6%E3%81%B8%E3%81%AE%E6%97%85.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "待っててくれ\\n傘持ってくよ",
+        "translation": "等一下\\n我去拿伞",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "待っててくれ傘持ってくよ"
+      },
+      {
+        "original": "ははは\\n雪だ",
+        "translation": "哈哈哈\\n是雪",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ははは雪だ"
+      },
+      {
+        "original": "くしゅっ……",
+        "translation": "阿嚏……",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "くしゅっ……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200801304.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/【かぜかんむりのこどもたち】幽谷霧子/訪い.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E8%A8%AA%E3%81%84.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8B%E3%81%9C%E3%81%8B%E3%82%93%E3%82%80%E3%82%8A%E3%81%AE%E3%81%93%E3%81%A9%E3%82%82%E3%81%9F%E3%81%A1%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "猫みたいなのがいる\\n……ほら、影",
+        "translation": "也有像小猫一样的\\n……你看，影子",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "猫みたいなのがいる……ほら、影"
+      },
+      {
+        "original": "霧子にもできてるよ\\n影",
+        "translation": "雾子也能做到哦\\n影子",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "霧子にもできてるよ影"
+      },
+      {
+        "original": "また来た……！",
+        "translation": "又来了……！",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "また来た……！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200801104.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/【琴・禽・空・華】幽谷霧子/ha ka.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E3%80%90%E7%90%B4%E3%83%BB%E7%A6%BD%E3%83%BB%E7%A9%BA%E3%83%BB%E8%8F%AF%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/ha%20ka.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%90%B4%E3%83%BB%E7%A6%BD%E3%83%BB%E7%A9%BA%E3%83%BB%E8%8F%AF%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "それじゃ空の上かも\\nしれないな",
+        "translation": "那也有可能是天上",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "それじゃ空の上かも しれないな"
+      },
+      {
+        "original": "ここにいるのは……",
+        "translation": "在这里的是……",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ここにいるのは……"
+      },
+      {
+        "original": "もし、いたら──",
+        "translation": "如果在的话——",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "もし、いたら──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/102600100101.json",
+    "character": "Luca_Ikaruga",
+    "sourceFile": "data/story/斑鳩ルカ/Morning/Morning⑩.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/Morning/Morning%E2%91%A9.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+    "choices": [
+      {
+        "original": "ファンと一緒に\\n撮ったのか？",
+        "translation": "你跟粉丝\\n一起拍的吗？",
+        "grade": "perfect",
+        "referenceText": "ファンと一緒に撮ったのか？"
+      },
+      {
+        "original": "これは、街だな……",
+        "translation": "这是，在街上吧……",
+        "grade": "good",
+        "referenceText": "これは、街だな……"
+      },
+      {
+        "original": "なかなか\\nいいじゃないか",
+        "translation": "这不是\\n挺好的嘛",
+        "grade": "normal",
+        "referenceText": "なかなかいいじゃないか"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/102600100131.json",
+    "character": "Luca_Ikaruga",
+    "sourceFile": "data/story/斑鳩ルカ/Morning/Morning⑬.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/Morning/Morning%E2%91%AC.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+    "choices": [
+      {
+        "original": "鍵がないんだが……",
+        "translation": "我找不到钥匙……",
+        "grade": "perfect",
+        "referenceText": "鍵がないんだが……"
+      },
+      {
+        "original": "使う時は\\nひと声かけてほしい",
+        "translation": "用之前\\n你知会我一声",
+        "grade": "good",
+        "referenceText": "使う時はひと声かけてほしい"
+      },
+      {
+        "original": "問題はないが……",
+        "translation": "是没问题……",
+        "grade": "normal",
+        "referenceText": "問題はないが……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202600901.json",
+    "character": "Luca_Ikaruga",
+    "sourceFile": "data/story/斑鳩ルカ/【Could Be】斑鳩ルカ/【Could Be】斑鳩ルカ01.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB01.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+    "choices": [
+      {
+        "original": "コメティックの\\n一員として──",
+        "translation": "希望路加能作为\\nCoMETIK的一员",
+        "effects": {
+          "vocal": 30,
+          "visual": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "コメティックの一員として──"
+      },
+      {
+        "original": "ルカが幸せになれる\\n仕事を任せたい",
+        "translation": "希望路加能做\\n为自己带来幸福的工作",
+        "effects": {
+          "dance": 10,
+          "visual": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "ルカが幸せになれる仕事を任せたい"
+      },
+      {
+        "original": "ルカがやりたいと\\n思うこと",
+        "translation": "希望路加能做\\n你自己想做的事",
+        "effects": {
+          "vocal": 10,
+          "dance": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "ルカがやりたいと思うこと"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202600902.json",
+    "character": "Luca_Ikaruga",
+    "sourceFile": "data/story/斑鳩ルカ/【Could Be】斑鳩ルカ/【Could Be】斑鳩ルカ02.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB02.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90Could%20Be%E3%80%91%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+    "choices": [
+      {
+        "original": "ルカを信じてるんだ",
+        "translation": "我相信路加",
+        "effects": {
+          "dance": 30,
+          "visual": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "ルカを信じてるんだ"
+      },
+      {
+        "original": "アイドルに対して",
+        "translation": "因为路加\\n对待偶像如此认真",
+        "effects": {
+          "vocal": 30,
+          "dance": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "アイドルに対して"
+      },
+      {
+        "original": "改めて思ったんだ",
+        "translation": "只是感叹一下……！",
+        "effects": {
+          "dance": 10,
+          "visual": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "改めて思ったんだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102600305.json",
+    "character": "Luca_Ikaruga",
+    "sourceFile": "data/story/斑鳩ルカ/斑鳩ルカG.R.A.D.編/5.重ならないでよ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%ABG.R.A.D.%E7%B7%A8/5.%E9%87%8D%E3%81%AA%E3%82%89%E3%81%AA%E3%81%84%E3%81%A7%E3%82%88.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB",
+    "choices": [
+      {
+        "original": "俺は、\\nプロデューサーだから",
+        "translation": "因为我\\n是制作人",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "俺は、プロデューサーだから"
+      },
+      {
+        "original": "ルカが\\nどう思ってても",
+        "translation": "无论\\n路加怎么想",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ルカがどう思ってても"
+      },
+      {
+        "original": "それが俺の仕事だから",
+        "translation": "因为这就是我的工作",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "それが俺の仕事だから"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/100400103.json",
+    "character": "Kogane_Tsukioka",
+    "sourceFile": "data/story/月岡恋鐘/W.I.N.G.編/ひとりのステージ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/W.I.N.G.%E7%B7%A8/%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%AE%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98",
+    "choices": [
+      {
+        "original": "歌に集中しよう",
+        "translation": "集中在唱歌吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "歌に集中しよう"
+      },
+      {
+        "original": "ダンスに気合をいれよう",
+        "translation": "鼓足劲跳舞吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ダンスに気合をいれよう"
+      },
+      {
+        "original": "笑顔を見せよう",
+        "translation": "展现笑容吧",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "笑顔を見せよう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200401801.json",
+    "character": "Kogane_Tsukioka",
+    "sourceFile": "data/story/月岡恋鐘/【if卡】月岡恋鐘/1.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90if%E5%8D%A1%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%84%E3%81%A4%E3%81%8B%E5%B8%B0%E3%82%8A%E3%81%9F%E3%81%8B%E5%A0%B4%E6%89%80%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98",
+    "choices": [
+      {
+        "original": "佐世保の\\nグルメ紹介かな",
+        "translation": "佐世保的美食点评吧",
+        "effects": {
+          "dance": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "佐世保のグルメ紹介かな"
+      },
+      {
+        "original": "佐世保の\\n観光地紹介かな",
+        "translation": "佐世保的景点介绍吧",
+        "effects": {
+          "visual": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "佐世保の観光地紹介かな"
+      },
+      {
+        "original": "恋鐘はどうなんだ？",
+        "translation": "恋钟是什么想法呢？",
+        "effects": {
+          "vocal": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "恋鐘はどうなんだ？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200401403.json",
+    "character": "Kogane_Tsukioka",
+    "sourceFile": "data/story/月岡恋鐘/【あなたと、月の満ちる頃】月岡恋鐘/重力相互作用.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E3%80%81%E6%9C%88%E3%81%AE%E6%BA%80%E3%81%A1%E3%82%8B%E9%A0%83%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E9%87%8D%E5%8A%9B%E7%9B%B8%E4%BA%92%E4%BD%9C%E7%94%A8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E3%81%A8%E3%80%81%E6%9C%88%E3%81%AE%E6%BA%80%E3%81%A1%E3%82%8B%E9%A0%83%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98",
+    "choices": [
+      {
+        "original": "素直な気持ちを\\n話せばいい",
+        "translation": "直率地表达自己的感情\\n就可以了",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "素直な気持ちを話せばいい"
+      },
+      {
+        "original": "写真の感想はどうだ？",
+        "translation": "不如说下对照片感想",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "写真の感想はどうだ？"
+      },
+      {
+        "original": "その人のことを\\n教えてくれ",
+        "translation": "和我说下你那个朋友的事",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "その人のことを教えてくれ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200401203.json",
+    "character": "Kogane_Tsukioka",
+    "sourceFile": "data/story/月岡恋鐘/【秋空ばくちずさんで】月岡恋鐘/3.にゃ～ん！.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%B0%E3%81%8F%E3%81%A1%E3%81%9A%E3%81%95%E3%82%93%E3%81%A7%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/3.%E3%81%AB%E3%82%83%EF%BD%9E%E3%82%93%EF%BC%81.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%B0%E3%81%8F%E3%81%A1%E3%81%9A%E3%81%95%E3%82%93%E3%81%A7%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98",
+    "choices": [
+      {
+        "original": "重たくないか？",
+        "translation": "不觉得重吗？",
+        "effects": {
+          "vocal": 10,
+          "dance": 10,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "重たくないか？"
+      },
+      {
+        "original": "もう少しで事務所だな",
+        "translation": "马上就到事务所了啊",
+        "effects": {
+          "dance": 10,
+          "visual": 10,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "もう少しで事務所だな"
+      },
+      {
+        "original": "すっかり寝入ってるな",
+        "translation": "睡得很香啊",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "すっかり寝入ってるな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200400801.json",
+    "character": "Kogane_Tsukioka",
+    "sourceFile": "data/story/月岡恋鐘/【風吹く丘にはよ来んね】月岡恋鐘/きた～？.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90%E9%A2%A8%E5%90%B9%E3%81%8F%E4%B8%98%E3%81%AB%E3%81%AF%E3%82%88%E6%9D%A5%E3%82%93%E3%81%AD%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%81%8D%E3%81%9F%EF%BD%9E%EF%BC%9F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%A2%A8%E5%90%B9%E3%81%8F%E4%B8%98%E3%81%AB%E3%81%AF%E3%82%88%E6%9D%A5%E3%82%93%E3%81%AD%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98",
+    "choices": [
+      {
+        "original": "俺も早く\\n衣替えしなきゃな！",
+        "translation": "我的衣服也得\\n快点换季才行啊！",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺も早く衣替えしなきゃな！"
+      },
+      {
+        "original": "色んな仕事に\\n挑戦しような！",
+        "translation": "来挑战\\n各种各样的工作吧！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "色んな仕事に挑戦しような！"
+      },
+      {
+        "original": "恋鐘はどんなことが\\nしたいんだ？",
+        "translation": "恋钟想要做\\n什么样的事情？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "恋鐘はどんなことがしたいんだ？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101300100011.json",
+    "character": "Natsuha_Arisugawa",
+    "sourceFile": "data/story/有栖川夏葉/Morning/Morning①.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/Morning/Morning%E2%91%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89",
+    "choices": [
+      {
+        "original": "夏葉！　おはよう！",
+        "translation": "夏叶！ 早啊！",
+        "grade": "perfect",
+        "referenceText": "夏葉！　おはよう！"
+      },
+      {
+        "original": "おはようございます",
+        "translation": "早上好",
+        "grade": "good",
+        "referenceText": "おはようございます"
+      },
+      {
+        "original": "グッドモーニング",
+        "translation": "Good Morning",
+        "grade": "normal",
+        "referenceText": "グッドモーニング"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101300100031.json",
+    "character": "Natsuha_Arisugawa",
+    "sourceFile": "data/story/有栖川夏葉/Morning/Morning③.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/Morning/Morning%E2%91%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89",
+    "choices": [
+      {
+        "original": "それじゃあこのまま\\n自主レッスンだな",
+        "translation": "那这就感觉像是\\n自主课程啊",
+        "grade": "perfect",
+        "referenceText": "それじゃあこのまま自主レッスンだな"
+      },
+      {
+        "original": "俺も走ってみるかな",
+        "translation": "我也应该跑跑步啊",
+        "grade": "good",
+        "referenceText": "俺も走ってみるかな"
+      },
+      {
+        "original": "疲れないのか？",
+        "translation": "不会累吗？",
+        "grade": "normal",
+        "referenceText": "疲れないのか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/401300100022.json",
+    "character": "Natsuha_Arisugawa",
+    "sourceFile": "data/story/有栖川夏葉/W.I.N.G.編/オーディション前⑤.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/W.I.N.G.%E7%B7%A8/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E2%91%A4.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89",
+    "choices": [
+      {
+        "original": "夏葉なら心配ない",
+        "translation": "夏叶的话我不用担心",
+        "grade": "up",
+        "referenceText": "夏葉なら心配ない"
+      },
+      {
+        "original": "いつだって\\n心配はしてるさ",
+        "translation": "不论何时\\n我都在担心你",
+        "grade": "neutral",
+        "referenceText": "いつだって心配はしてるさ"
+      },
+      {
+        "original": "油断大敵だ",
+        "translation": "不能大意",
+        "grade": "down",
+        "referenceText": "油断大敵だ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201301304.json",
+    "character": "Natsuha_Arisugawa",
+    "sourceFile": "data/story/有栖川夏葉/【マイバレンタイン】有栖川夏葉/サシイレマシュマロ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/%E3%80%90%E3%83%9E%E3%82%A4%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/%E3%82%B5%E3%82%B7%E3%82%A4%E3%83%AC%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AD.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%82%A4%E3%83%90%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%A4%E3%83%B3%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89",
+    "choices": [
+      {
+        "original": "お礼を言わないとな",
+        "translation": "要感谢她呢",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "お礼を言わないとな"
+      },
+      {
+        "original": "お返ししないとな",
+        "translation": "要给她回礼呢",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "お返ししないとな"
+      },
+      {
+        "original": "美味かったな",
+        "translation": "很好吃呢",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "美味かったな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101200100031.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/Morning/morning③.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/Morning/morning%E2%91%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "洋服も似合うと思う",
+        "translation": "我觉得洋服也很适合你",
+        "grade": "perfect",
+        "referenceText": "洋服も似合うと思う"
+      },
+      {
+        "original": "着物が一番だ",
+        "translation": "和服最棒",
+        "grade": "good",
+        "referenceText": "着物が一番だ"
+      },
+      {
+        "original": "凛世なら、\\n何を着ても大丈夫",
+        "translation": "凛世的话\\n穿什么都没问题",
+        "grade": "normal",
+        "referenceText": "凛世なら、何を着ても大丈夫"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101200100111.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/Morning/morning⑪.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/Morning/morning%E2%91%AA.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "いい返事を書こう",
+        "translation": "要认真地回信啊",
+        "grade": "perfect",
+        "referenceText": "いい返事を書こう"
+      },
+      {
+        "original": "文字って不思議だ",
+        "translation": "文字真是不可思议啊",
+        "grade": "good",
+        "referenceText": "文字って不思議だ"
+      },
+      {
+        "original": "メールより\\n手紙がいいよな",
+        "translation": "比起邮件\\n还是信更好啊",
+        "grade": "normal",
+        "referenceText": "メールより手紙がいいよな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101200100121.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/Morning/morning⑫.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/Morning/morning%E2%91%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "懐かしいな",
+        "translation": "真怀念啊",
+        "grade": "perfect",
+        "referenceText": "懐かしいな"
+      },
+      {
+        "original": "捨ててもいいぞ？",
+        "translation": "丢掉也没关系哦",
+        "grade": "good",
+        "referenceText": "捨ててもいいぞ？"
+      },
+      {
+        "original": "新しいのをあげようか？",
+        "translation": "要我给你一张新的吗",
+        "grade": "normal",
+        "referenceText": "新しいのをあげようか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101200100131.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/Morning/morning⑬.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/Morning/morning%E2%91%AC.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "きっと会いに行くよ",
+        "translation": "一定会去见你的",
+        "grade": "perfect",
+        "referenceText": "きっと会いに行くよ"
+      },
+      {
+        "original": "想像もできないな",
+        "translation": "难以想象啊",
+        "grade": "good",
+        "referenceText": "想像もできないな"
+      },
+      {
+        "original": "泣いてしまいそうだ",
+        "translation": "感觉快要哭了",
+        "grade": "normal",
+        "referenceText": "泣いてしまいそうだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/401200100021.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/W.I.N.G.編/试镜前④.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/W.I.N.G.%E7%B7%A8/%E8%AF%95%E9%95%9C%E5%89%8D%E2%91%A3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "今日は、何のために\\n頑張るんだ？",
+        "translation": "今天，是为了什么\\n而努力的？",
+        "grade": "up",
+        "referenceText": "今日は、何のために頑張るんだ？"
+      },
+      {
+        "original": "一緒にがんばった成果を\\n見せような",
+        "translation": "让我们一起见证\\n努力的成果吧",
+        "grade": "neutral",
+        "referenceText": "一緒にがんばった成果を見せような"
+      },
+      {
+        "original": "トップアイドルを\\n目指そうな",
+        "translation": "目标是\\n顶级偶像",
+        "grade": "down",
+        "referenceText": "トップアイドルを目指そうな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201200403.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【杜野凛世の印象派】杜野凛世/drawing3（かつぷめん）.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96%E3%81%AE%E5%8D%B0%E8%B1%A1%E6%B4%BE%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/drawing3%EF%BC%88%E3%81%8B%E3%81%A4%E3%81%B7%E3%82%81%E3%82%93%EF%BC%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96%E3%81%AE%E5%8D%B0%E8%B1%A1%E6%B4%BE%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "３分、計ろうな",
+        "translation": "计时三分钟",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "３分、計ろうな"
+      },
+      {
+        "original": "食べる前に、この\\nオイルを入れるんだ",
+        "translation": "在吃之前，\\n要加这包油进去",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "食べる前に、このオイルを入れるんだ"
+      },
+      {
+        "original": "お湯、熱いから\\n気を付けてくれ",
+        "translation": "水很烫\\n小心一点",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "お湯、熱いから気を付けてくれ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201200901.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【水色感情】杜野凛世/A1.君とabc（R.Morino）.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/A1.%E5%90%9B%E3%81%A8abc%EF%BC%88R.Morino%EF%BC%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "宿題、終わったか",
+        "translation": "作业做完了吗",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "宿題、終わったか"
+      },
+      {
+        "original": "──夏休み、\\nもらっちゃうんだ",
+        "translation": "放暑假了啊",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──夏休み、もらっちゃうんだ"
+      },
+      {
+        "original": "──あ、ひぐらしだ",
+        "translation": "啊，是知了",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──あ、ひぐらしだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201200904.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【水色感情】杜野凛世/B2.人の気も知らないで（Isnt）.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/B2.%E4%BA%BA%E3%81%AE%E6%B0%97%E3%82%82%E7%9F%A5%E3%82%89%E3%81%AA%E3%81%84%E3%81%A7%EF%BC%88Isnt%EF%BC%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B0%B4%E8%89%B2%E6%84%9F%E6%83%85%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "──驚いてるかな、\\nこの蝶",
+        "translation": "——这只蝴蝶\\n是不是被吓到了",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──驚いてるかな、この蝶"
+      },
+      {
+        "original": "──窓から放そうか",
+        "translation": "——从窗户放了吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──窓から放そうか"
+      },
+      {
+        "original": "──なんて蝶かな？",
+        "translation": "——是什么蝶呢？",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──なんて蝶かな？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201202101.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【片恋はあと】杜野凛世/【片恋はあと】杜野凛世01.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%9601.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "ちょっとしたもので\\n大丈夫だよ",
+        "translation": "一点小心意\\n就可以哦",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ちょっとしたもので大丈夫だよ"
+      },
+      {
+        "original": "何を\\nもらえるのかな……",
+        "translation": "会\\n收到什么呢……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "何をもらえるのかな……"
+      },
+      {
+        "original": "あまり無理しなくて\\nいいからな",
+        "translation": "不要太勉强自己\\n就行",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "あまり無理しなくていいからな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201202102.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【片恋はあと】杜野凛世/【片恋はあと】杜野凛世02.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%9602.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "特別な感情か……",
+        "translation": "特殊的感情吗……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "特別な感情か……"
+      },
+      {
+        "original": "それは──",
+        "translation": "这——",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "それは──"
+      },
+      {
+        "original": "恋愛感情って\\nことかな？",
+        "translation": "是恋爱\\n之类的感情吗",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "恋愛感情ってことかな？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201202103.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【片恋はあと】杜野凛世/【片恋はあと】杜野凛世03.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%9603.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%89%87%E6%81%8B%E3%81%AF%E3%81%82%E3%81%A8%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "そうだよな……",
+        "translation": "是啊……",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "そうだよな……"
+      },
+      {
+        "original": "どうするのが\\n正解かなんてさ……",
+        "translation": "怎么做\\n才是正确的呢……",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "どうするのが正解かなんてさ……"
+      },
+      {
+        "original": "想いを伝える\\nことは──",
+        "translation": "传达心意\\n——",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "想いを伝えることは──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101600100081.json",
+    "character": "Chiyuki_Kuwayama",
+    "sourceFile": "data/story/桑山千雪/Morning/Morning⑧.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/Morning/Morning%E2%91%A7.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA",
+    "choices": [
+      {
+        "original": "千雪の魅力が\\n詰まってると思うぞ",
+        "translation": "我倒觉得\\n充满了千雪的魅力",
+        "grade": "perfect",
+        "referenceText": "千雪の魅力が詰まってると思うぞ"
+      },
+      {
+        "original": "アイドルとしての\\n写真だからな",
+        "translation": "毕竟是作为偶像\\n的照片嘛",
+        "grade": "good",
+        "referenceText": "アイドルとしての写真だからな"
+      },
+      {
+        "original": "そのうちに\\n慣れてくるさ",
+        "translation": "不久就会习惯的",
+        "grade": "normal",
+        "referenceText": "そのうちに慣れてくるさ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201601004.json",
+    "character": "Chiyuki_Kuwayama",
+    "sourceFile": "data/story/桑山千雪/【はるかぜまち、1番地】桑山千雪/お返事なんてそんな.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%E3%81%8A%E8%BF%94%E4%BA%8B%E3%81%AA%E3%82%93%E3%81%A6%E3%81%9D%E3%82%93%E3%81%AA.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA",
+    "choices": [
+      {
+        "original": "ちょっと\\n停めるか……",
+        "translation": "要不稍稍\\n停下车……",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ちょっと停めるか……"
+      },
+      {
+        "original": "待ってて\\nくれよ……",
+        "translation": "还请等我下",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "待っててくれよ……"
+      },
+      {
+        "original": "──そういえば……",
+        "translation": "──说起来",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──そういえば……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201601001.json",
+    "character": "Chiyuki_Kuwayama",
+    "sourceFile": "data/story/桑山千雪/【はるかぜまち、1番地】桑山千雪/（筆談）.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%EF%BC%88%E7%AD%86%E8%AB%87%EF%BC%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%AF%E3%82%8B%E3%81%8B%E3%81%9C%E3%81%BE%E3%81%A1%E3%80%811%E7%95%AA%E5%9C%B0%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA",
+    "choices": [
+      {
+        "original": "『どうしたんだ？』",
+        "translation": "“怎么了吗？”",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『どうしたんだ？』"
+      },
+      {
+        "original": "『やっぱり\\n寒いか？』",
+        "translation": "“果然\\n还是冷吗？”",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "『やっぱり寒いか？』"
+      },
+      {
+        "original": "（──ええと、\\n空調は……）",
+        "translation": "（──那个\\n空调……）",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（──ええと、空調は……）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201601201.json",
+    "character": "Chiyuki_Kuwayama",
+    "sourceFile": "data/story/桑山千雪/【秋空と紅葉】桑山千雪/紅葉ひとひら.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%A8%E7%B4%85%E8%91%89%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA/%E7%B4%85%E8%91%89%E3%81%B2%E3%81%A8%E3%81%B2%E3%82%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%8B%E7%A9%BA%E3%81%A8%E7%B4%85%E8%91%89%E3%80%91%E6%A1%91%E5%B1%B1%E5%8D%83%E9%9B%AA",
+    "choices": [
+      {
+        "original": "千雪らしいな",
+        "translation": "真有千雪的风格啊",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "千雪らしいな"
+      },
+      {
+        "original": "温泉饅頭も捨てがたいな",
+        "translation": "温泉馒头也难以舍弃啊",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "温泉饅頭も捨てがたいな"
+      },
+      {
+        "original": "もうすっかり秋だな",
+        "translation": "已经完全是秋天了啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "もうすっかり秋だな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/102100100071.json",
+    "character": "Madoka_Higuchi",
+    "sourceFile": "data/story/樋口円香/Morning/produce_communications_102100100071.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99/Morning/produce_communications_102100100071.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99",
+    "choices": [
+      {
+        "original": "ありがとう！",
+        "translation": "谢谢！",
+        "grade": "perfect",
+        "referenceText": "ありがとう！"
+      },
+      {
+        "original": "まずい！",
+        "translation": "糟糕！",
+        "grade": "good",
+        "referenceText": "まずい！"
+      },
+      {
+        "original": "う、嘘だろ！",
+        "translation": "不，骗人的吧！",
+        "grade": "normal",
+        "referenceText": "う、嘘だろ！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202100401.json",
+    "character": "Madoka_Higuchi",
+    "sourceFile": "data/story/樋口円香/【カラカラカラ】樋口円香/ニガニガ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99/%E3%83%8B%E3%82%AC%E3%83%8B%E3%82%AC.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99",
+    "choices": [
+      {
+        "original": "俺の──",
+        "translation": "我的——",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺の──"
+      },
+      {
+        "original": "え？",
+        "translation": "诶？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "え？"
+      },
+      {
+        "original": "ま、円香！",
+        "translation": "圆、圆香！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ま、円香！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202100402.json",
+    "character": "Madoka_Higuchi",
+    "sourceFile": "data/story/樋口円香/【カラカラカラ】樋口円香/水、風、緑.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99/%E6%B0%B4%E3%80%81%E9%A2%A8%E3%80%81%E7%B7%91.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%82%AB%E3%83%A9%E3%80%91%E6%A8%8B%E5%8F%A3%E5%86%86%E9%A6%99",
+    "choices": [
+      {
+        "original": "（手を伸ばす）",
+        "translation": "（伸出手）",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（手を伸ばす）"
+      },
+      {
+        "original": "（腕を掴む）",
+        "translation": "（抓住胳膊）",
+        "effects": {
+          "vocal": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（腕を掴む）"
+      },
+      {
+        "original": "危ない！",
+        "translation": "危险！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "危ない！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100100100091.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/Morning/morning⑨.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/Morning/morning%E2%91%A8.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "素敵なハーモニーに\\nなったか？",
+        "translation": "唱出美妙的\\n和声了吗？",
+        "grade": "perfect",
+        "referenceText": "素敵なハーモニーになったか？"
+      },
+      {
+        "original": "本当にピーちゃんが\\n好きだな",
+        "translation": "真的很喜欢小P呢",
+        "grade": "good",
+        "referenceText": "本当にピーちゃんが好きだな"
+      },
+      {
+        "original": "ピーちゃんって\\n俺のこと？",
+        "translation": "小P\\n是指我吗？",
+        "grade": "normal",
+        "referenceText": "ピーちゃんって俺のこと？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/400100100011.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/W.I.N.G.編/オーディション前①.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/W.I.N.G.%E7%B7%A8/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E2%91%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "失敗したっていい！",
+        "translation": "就算失败了也没事！",
+        "grade": "up",
+        "referenceText": "失敗したっていい！"
+      },
+      {
+        "original": "必ず成功できる！",
+        "translation": "一定会成功的！",
+        "grade": "neutral",
+        "referenceText": "必ず成功できる！"
+      },
+      {
+        "original": "そんな弱気じゃダメだ！",
+        "translation": "不能像这样胆小！",
+        "grade": "down",
+        "referenceText": "そんな弱気じゃダメだ！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/100100102.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/W.I.N.G.編/自信のありか.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/W.I.N.G.%E7%B7%A8/%E8%87%AA%E4%BF%A1%E3%81%AE%E3%81%82%E3%82%8A%E3%81%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "レッスンは\\nつらいだけだったのか？",
+        "translation": "练习时\\n只感觉到了难受吗？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "レッスンはつらいだけだったのか？"
+      },
+      {
+        "original": "もっと自信持っていいよ",
+        "translation": "拿出自信也可以哟",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "もっと自信持っていいよ"
+      },
+      {
+        "original": "真乃はこれから伸びるよ",
+        "translation": "真乃从现在开始会成长的",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "真乃はこれから伸びるよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200101701.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/【きみと巡り行く】櫻木真乃/click.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/click.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "（キーホルダーか）",
+        "translation": "（钥匙圈吗）",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（キーホルダーか）"
+      },
+      {
+        "original": "（タオルだな）",
+        "translation": "（是毛巾啊）",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（タオルだな）"
+      },
+      {
+        "original": "（クリーム……？）",
+        "translation": "（霜……？）",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（クリーム……？）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200101702.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/【きみと巡り行く】櫻木真乃/いつものさがし.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%81%84%E3%81%A4%E3%82%82%E3%81%AE%E3%81%95%E3%81%8C%E3%81%97.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%8D%E3%81%BF%E3%81%A8%E5%B7%A1%E3%82%8A%E8%A1%8C%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "悪いな……！",
+        "translation": "麻烦你了……！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "悪いな……！"
+      },
+      {
+        "original": "よく気が付くな……！",
+        "translation": "竟然注意到了……！",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "よく気が付くな……！"
+      },
+      {
+        "original": "俺が行くべき\\nだったな……！",
+        "translation": "本来应该\\n由我去……！",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺が行くべきだったな……！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200100601.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/【しじまに華ひととき】櫻木真乃/しばしお別れ、しかしすぐに.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%80%90%E3%81%97%E3%81%98%E3%81%BE%E3%81%AB%E8%8F%AF%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%81%97%E3%81%B0%E3%81%97%E3%81%8A%E5%88%A5%E3%82%8C%E3%80%81%E3%81%97%E3%81%8B%E3%81%97%E3%81%99%E3%81%90%E3%81%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%97%E3%81%98%E3%81%BE%E3%81%AB%E8%8F%AF%E3%81%B2%E3%81%A8%E3%81%A8%E3%81%8D%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "どこかで\\nバッタリ会うかもな",
+        "translation": "说不定\\n会在哪里偶遇",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "どこかでバッタリ会うかもな"
+      },
+      {
+        "original": "きっと、\\nあっという間だぞ",
+        "translation": "肯定\\n一眨眼就过去了",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "きっと、あっという間だぞ"
+      },
+      {
+        "original": "連絡してみても\\nいいんじゃないか",
+        "translation": "保持联系\\n就好了",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "連絡してみてもいいんじゃないか"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200101402.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/【ひとつ、はたたく】櫻木真乃/はらはら、雪が重なるように.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%80%90%E3%81%B2%E3%81%A8%E3%81%A4%E3%80%81%E3%81%AF%E3%81%9F%E3%81%9F%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%81%AF%E3%82%89%E3%81%AF%E3%82%89%E3%80%81%E9%9B%AA%E3%81%8C%E9%87%8D%E3%81%AA%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%B2%E3%81%A8%E3%81%A4%E3%80%81%E3%81%AF%E3%81%9F%E3%81%9F%E3%81%8F%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "遅くなったけど、\\nその衣装──",
+        "translation": "虽然有点迟\\n但是那件衣服",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "遅くなったけど、その衣装──"
+      },
+      {
+        "original": "鳥みたいに",
+        "translation": "像鸟一样",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "鳥みたいに"
+      },
+      {
+        "original": "俺、楽しみなんだ",
+        "translation": "我很期待",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俺、楽しみなんだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102000305.json",
+    "character": "Toru_Asakura",
+    "sourceFile": "data/story/浅倉透/G.R.A.D.編/息したいだけ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%B5%85%E5%80%89%E9%80%8F/G.R.A.D.%E7%B7%A8/%E6%81%AF%E3%81%97%E3%81%9F%E3%81%84%E3%81%A0%E3%81%91.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F",
+    "choices": [
+      {
+        "original": "──息してるなら\\n命だよ、もちろん",
+        "translation": "——在呼吸的话\\n当然是活的了",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──息してるなら命だよ、もちろん"
+      },
+      {
+        "original": "──\\nのぼってるよ",
+        "translation": "──\\n有在往上攀登哟",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──のぼってるよ"
+      },
+      {
+        "original": "──走ろう\\nあと50周",
+        "translation": "──跑吧\\n还有五十圈",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──走ろう　あと50周"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102000102.json",
+    "character": "Toru_Asakura",
+    "sourceFile": "data/story/浅倉透/W.I.N.G.編/produce_events_102000102.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%B5%85%E5%80%89%E9%80%8F/W.I.N.G.%E7%B7%A8/produce_events_102000102.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F",
+    "choices": [
+      {
+        "original": "え──",
+        "translation": "咦——",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "え──"
+      },
+      {
+        "original": "いやいや、\\nそんな……",
+        "translation": "不对不对，\\n怎么可能……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "いやいや、 そんな……"
+      },
+      {
+        "original": "そ、そうか……\\nいい挨拶できてるぞ",
+        "translation": "是，是吗……\\n问候得很好啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "そ、そうか…… いい挨拶できてるぞ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102000104.json",
+    "character": "Toru_Asakura",
+    "sourceFile": "data/story/浅倉透/W.I.N.G.編/produce_events_102000104.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%B5%85%E5%80%89%E9%80%8F/W.I.N.G.%E7%B7%A8/produce_events_102000104.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%B5%85%E5%80%89%E9%80%8F",
+    "choices": [
+      {
+        "original": "わからない\\nんだよ……",
+        "translation": "我不懂啊……",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "わからないんだよ……"
+      },
+      {
+        "original": "教えて\\nほしいんだ……",
+        "translation": "希望你\\n告诉我……",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "教えてほしいんだ……"
+      },
+      {
+        "original": "空回り\\nしてるよな",
+        "translation": "我一直\\n在白忙活吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "空回りしてるよな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202000802.json",
+    "character": "Toru_Asakura",
+    "sourceFile": "data/story/浅倉透/【国道沿いに、憶光年】浅倉透/火の星.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%B5%85%E5%80%89%E9%80%8F/%E3%80%90%E5%9B%BD%E9%81%93%E6%B2%BF%E3%81%84%E3%81%AB%E3%80%81%E6%86%B6%E5%85%89%E5%B9%B4%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F/%E7%81%AB%E3%81%AE%E6%98%9F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%9B%BD%E9%81%93%E6%B2%BF%E3%81%84%E3%81%AB%E3%80%81%E6%86%B6%E5%85%89%E5%B9%B4%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F",
+    "choices": [
+      {
+        "original": "……\\nけど……",
+        "translation": "……\\n但是……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……けど……"
+      },
+      {
+        "original": "でも、自分のことも\\n大事にしないと",
+        "translation": "但是，你也得\\n保重自己",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "でも、自分のことも大事にしないと"
+      },
+      {
+        "original": "……\\n透のためなんだ",
+        "translation": "……\\n这是为了透好",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……透のためなんだ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202001001.json",
+    "character": "Toru_Asakura",
+    "sourceFile": "data/story/浅倉透/【夜はなにいろ】浅倉透/世界封切り.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%B5%85%E5%80%89%E9%80%8F/%E3%80%90%E5%A4%9C%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%84%E3%82%8D%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F/%E4%B8%96%E7%95%8C%E5%B0%81%E5%88%87%E3%82%8A.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%A4%9C%E3%81%AF%E3%81%AA%E3%81%AB%E3%81%84%E3%82%8D%E3%80%91%E6%B5%85%E5%80%89%E9%80%8F",
+    "choices": [
+      {
+        "original": "……見えるよ",
+        "translation": "……看得见啊",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……見えるよ"
+      },
+      {
+        "original": "……見えないよ",
+        "translation": "……看不见啊",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……見えないよ"
+      },
+      {
+        "original": "……わからないよ",
+        "translation": "……我不知道",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……わからないよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100500100031.json",
+    "character": "Mamimi_Tanaka",
+    "sourceFile": "data/story/田中摩美々/Morning/Morning③.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/Morning/Morning%E2%91%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85",
+    "choices": [
+      {
+        "original": "造花じゃないか！",
+        "translation": "这不是假花吗！",
+        "grade": "perfect",
+        "referenceText": "造花じゃないか！"
+      },
+      {
+        "original": "摩美々もかいでみて",
+        "translation": "摩美美也来闻闻看",
+        "grade": "good",
+        "referenceText": "摩美々もかいでみて"
+      },
+      {
+        "original": "いい香りだな",
+        "translation": "这香味不错啊",
+        "grade": "normal",
+        "referenceText": "いい香りだな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200501301.json",
+    "character": "Mamimi_Tanaka",
+    "sourceFile": "data/story/田中摩美々/【Have a bad day♥】田中摩美々/グッド・コール.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E3%80%90Have%20a%20bad%20day%E2%99%A5%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E3%82%B0%E3%83%83%E3%83%89%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90Have%20a%20bad%20day%E2%99%A5%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85",
+    "choices": [
+      {
+        "original": "こないだだってさ──",
+        "translation": "之前不是还——",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "こないだだってさ──"
+      },
+      {
+        "original": "いや……！\\nやっぱり──",
+        "translation": "不不……！\\n果然还是——",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "いや……！やっぱり──"
+      },
+      {
+        "original": "でも……",
+        "translation": "但是……",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "でも……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200501701.json",
+    "character": "Mamimi_Tanaka",
+    "sourceFile": "data/story/田中摩美々/【まみみスイッチ】田中摩美々/1.あるファンレター.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/1.%E3%81%82%E3%82%8B%E3%83%95%E3%82%A1%E3%83%B3%E3%83%AC%E3%82%BF%E3%83%BC.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85",
+    "choices": [
+      {
+        "original": "この後収録だから\\nオンにする方法を……",
+        "translation": "正好接下来有录制\\n要是能切换为『开』……",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "この後収録だからオンにする方法を……"
+      },
+      {
+        "original": "そもそも\\nオンオフってあるのか？",
+        "translation": "说到底真的有\\n开和关两种状态吗？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "そもそもオンオフってあるのか？"
+      },
+      {
+        "original": "気付かない\\nうちに──",
+        "translation": "或许是在\\n不自觉的情况下——",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "気付かないうちに──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200501702.json",
+    "character": "Mamimi_Tanaka",
+    "sourceFile": "data/story/田中摩美々/【まみみスイッチ】田中摩美々/2.収録と収録後.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/2.%E5%8F%8E%E9%8C%B2%E3%81%A8%E5%8F%8E%E9%8C%B2%E5%BE%8C.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%BE%E3%81%BF%E3%81%BF%E3%82%B9%E3%82%A4%E3%83%83%E3%83%81%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85",
+    "choices": [
+      {
+        "original": "収録でも──",
+        "translation": "录制时也是——",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "収録でも──"
+      },
+      {
+        "original": "いや……",
+        "translation": "不……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "いや……"
+      },
+      {
+        "original": "疲れてたんじゃ\\nないのか？",
+        "translation": "你是不是累了？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "疲れてたんじゃないのか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100600100011.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/Morning/Morning①.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/Morning/Morning%E2%91%A0.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "気持ちいい朝だよな",
+        "translation": "是个令人心情舒畅\\n的早晨呢",
+        "grade": "perfect",
+        "referenceText": "気持ちいい朝だよな"
+      },
+      {
+        "original": "精一杯サポートする",
+        "translation": "我会全力支持你的",
+        "grade": "good",
+        "referenceText": "精一杯サポートする"
+      },
+      {
+        "original": "何か素敵な出会いが\\nあればいいな",
+        "translation": "如果能有什么\\n美妙的邂逅就好了",
+        "grade": "normal",
+        "referenceText": "何か素敵な出会いがあればいいな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/400600100021.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/W.I.N.G.編/オーディション前④.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/W.I.N.G.%E7%B7%A8/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E2%91%A3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "でも、\\n足りないものがある",
+        "translation": "但是，\\n还有缺少的东西",
+        "grade": "up",
+        "referenceText": "でも、足りないものがある"
+      },
+      {
+        "original": "最高だ！",
+        "translation": "最棒了！",
+        "grade": "neutral",
+        "referenceText": "最高だ！"
+      },
+      {
+        "original": "似合っている",
+        "translation": "很适合你",
+        "grade": "down",
+        "referenceText": "似合っている"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200601002.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/【海と太陽のプロメッサ】白瀬咲耶/トゥタップ・イン・Ｃ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%80%90%E6%B5%B7%E3%81%A8%E5%A4%AA%E9%99%BD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A1%E3%83%83%E3%82%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%83%88%E3%82%A5%E3%82%BF%E3%83%83%E3%83%97%E3%83%BB%E3%82%A4%E3%83%B3%E3%83%BB%EF%BC%A3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B5%B7%E3%81%A8%E5%A4%AA%E9%99%BD%E3%81%AE%E3%83%97%E3%83%AD%E3%83%A1%E3%83%83%E3%82%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "──いい声だな",
+        "translation": "——真好听",
+        "effects": {
+          "vocal": 10,
+          "dance": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──いい声だな"
+      },
+      {
+        "original": "──いい天気だよな",
+        "translation": "——天气真不错",
+        "effects": {
+          "vocal": 10,
+          "visual": 10,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──いい天気だよな"
+      },
+      {
+        "original": "珍しいな",
+        "translation": "真稀奇",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "珍しいな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200601202.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/【渦と淵】白瀬咲耶/あたたかい色のつめたい波.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%80%90%E6%B8%A6%E3%81%A8%E6%B7%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%81%82%E3%81%9F%E3%81%9F%E3%81%8B%E3%81%84%E8%89%B2%E3%81%AE%E3%81%A4%E3%82%81%E3%81%9F%E3%81%84%E6%B3%A2.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B8%A6%E3%81%A8%E6%B7%B5%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "一緒に頑張ろうな",
+        "translation": "一起加油吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "一緒に頑張ろうな"
+      },
+      {
+        "original": "待ってるぞ",
+        "translation": "我等着你",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "待ってるぞ"
+      },
+      {
+        "original": "──頑張れ！",
+        "translation": "——加油！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──頑張れ！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200600701.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/【真紅一輪】白瀬咲耶/200600701.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%80%90%E7%9C%9F%E7%B4%85%E4%B8%80%E8%BC%AA%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/200600701.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%9C%9F%E7%B4%85%E4%B8%80%E8%BC%AA%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "咲耶が\\n着たいものを着よう",
+        "translation": "让咲耶\\n穿自己想穿的\\n",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "咲耶が着たいものを着よう"
+      },
+      {
+        "original": "咲耶に\\n似合うものを着よう",
+        "translation": "让咲耶\\n穿适合自己的\\n",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "咲耶に似合うものを着よう"
+      },
+      {
+        "original": "咲耶はどうしたい？",
+        "translation": "咲耶想怎么做？\\n",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "咲耶はどうしたい？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200601404.json",
+    "character": "Sakuya_Shirase",
+    "sourceFile": "data/story/白瀬咲耶/【私をときめかせて】白瀬咲耶/4.団欒.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/%E3%80%90%E7%A7%81%E3%82%92%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8B%E3%81%9B%E3%81%A6%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6/4.%E5%9B%A3%E6%AC%92.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%A7%81%E3%82%92%E3%81%A8%E3%81%8D%E3%82%81%E3%81%8B%E3%81%9B%E3%81%A6%E3%80%91%E7%99%BD%E7%80%AC%E5%92%B2%E8%80%B6",
+    "choices": [
+      {
+        "original": "（咲耶、見てたかな）",
+        "translation": "（咲耶，有看到吗）",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（咲耶、見てたかな）"
+      },
+      {
+        "original": "（感想は──）",
+        "translation": "（感想是——）",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "（感想は──）"
+      },
+      {
+        "original": "ほんと──",
+        "translation": "真的是——",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ほんと──"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/102200100011.json",
+    "character": "Koito_Fukumaru",
+    "sourceFile": "data/story/福丸小糸/Morning/produce_communications_102200100011.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/Morning/produce_communications_102200100011.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8",
+    "choices": [
+      {
+        "original": "──飴、\\n食べないか？",
+        "translation": "——糖果，\\n要吃吗？",
+        "grade": "perfect",
+        "referenceText": "──飴、食べないか？"
+      },
+      {
+        "original": "──チョコ、\\n少し溶けてるけど",
+        "translation": "——巧克力，\\n虽然有点融化了",
+        "grade": "good",
+        "referenceText": "──チョコ、少し溶けてるけど"
+      },
+      {
+        "original": "……あれ、\\n何もなかった",
+        "translation": "……欸，\\n什么都没有",
+        "grade": "normal",
+        "referenceText": "……あれ、何もなかった"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202201103.json",
+    "character": "Koito_Fukumaru",
+    "sourceFile": "data/story/福丸小糸/【あなた様へ紡ぐ】福丸小糸/きみおもふ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E6%A7%98%E3%81%B8%E7%B4%A1%E3%81%90%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E3%81%8D%E3%81%BF%E3%81%8A%E3%82%82%E3%81%B5.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%81%82%E3%81%AA%E3%81%9F%E6%A7%98%E3%81%B8%E7%B4%A1%E3%81%90%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8",
+    "choices": [
+      {
+        "original": "いい笑顔だ",
+        "translation": "很棒的笑容",
+        "effects": {
+          "visual": 25,
+          "mental": 10,
+          "sp": 15
+        },
+        "referenceText": "いい笑顔だ"
+      },
+      {
+        "original": "安心する顔だ",
+        "translation": "看你很安心呢",
+        "effects": {
+          "vocal": 10,
+          "visual": 15,
+          "mental": 10,
+          "sp": 15
+        },
+        "referenceText": "安心する顔だ"
+      },
+      {
+        "original": "楽しそうな顔だ",
+        "translation": "看你也很开心呢",
+        "effects": {
+          "dance": 10,
+          "visual": 15,
+          "mental": 10,
+          "sp": 15
+        },
+        "referenceText": "楽しそうな顔だ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202201201.json",
+    "character": "Koito_Fukumaru",
+    "sourceFile": "data/story/福丸小糸/【窓をあけて】福丸小糸/①.たったひとりのよろづのあなたへ寄给万星丛中的那一点零光.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E3%80%90%E7%AA%93%E3%82%92%E3%81%82%E3%81%91%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E2%91%A0.%E3%81%9F%E3%81%A3%E3%81%9F%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%AE%E3%82%88%E3%82%8D%E3%81%A5%E3%81%AE%E3%81%82%E3%81%AA%E3%81%9F%E3%81%B8%E5%AF%84%E7%BB%99%E4%B8%87%E6%98%9F%E4%B8%9B%E4%B8%AD%E7%9A%84%E9%82%A3%E4%B8%80%E7%82%B9%E9%9B%B6%E5%85%89.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%AA%93%E3%82%92%E3%81%82%E3%81%91%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8",
+    "choices": [
+      {
+        "original": "（なるべく\\n今の形を……）",
+        "translation": "（尽可能\\n保持现在的形式……）",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（なるべく今の形を……）"
+      },
+      {
+        "original": "（だけど無理を\\nさせるのは……）",
+        "translation": "（但我实在\\n不能让她……）",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（だけど無理をさせるのは……）"
+      },
+      {
+        "original": "言葉のかわりに……",
+        "translation": "作为话语的替代……",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "言葉のかわりに……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202201303.json",
+    "character": "Koito_Fukumaru",
+    "sourceFile": "data/story/福丸小糸/【羽をやすめて】福丸小糸/【羽をやすめて】福丸小糸03.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B803.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E7%BE%BD%E3%82%92%E3%82%84%E3%81%99%E3%82%81%E3%81%A6%E3%80%91%E7%A6%8F%E4%B8%B8%E5%B0%8F%E7%B3%B8",
+    "choices": [
+      {
+        "original": "素敵な\\n家主さんだったな",
+        "translation": "真是位\\n很棒的房东呢",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "素敵な家主さんだったな"
+      },
+      {
+        "original": "撮影日楽しみだな",
+        "translation": "好期待拍摄的那天啊",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "撮影日楽しみだな"
+      },
+      {
+        "original": "今日はどうだった？",
+        "translation": "今天感觉怎么样？",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "今日はどうだった？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202500901.json",
+    "character": "Mikoto_Aketa",
+    "sourceFile": "data/story/緋田美琴/【DIVA】緋田美琴/1 fish.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90DIVA%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/1%20fish.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90DIVA%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4",
+    "choices": [
+      {
+        "original": "俳優とか……？",
+        "translation": "演员……？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "俳優とか……？"
+      },
+      {
+        "original": "トレーナーかな",
+        "translation": "教练吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "トレーナーかな"
+      },
+      {
+        "original": "プロデューサーだ！",
+        "translation": "当制作人！",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "プロデューサーだ！"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/101700305.json",
+    "character": "Asahi_Serizawa",
+    "sourceFile": "data/story/芹沢あさひ/G.R.A.D.編/競争っす.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2/G.R.A.D.%E7%B7%A8/%E7%AB%B6%E4%BA%89%E3%81%A3%E3%81%99.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2",
+    "choices": [
+      {
+        "original": "──毎度\\nありがとうございます",
+        "translation": "——多谢\\n每次惠顾",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "──毎度ありがとうございます"
+      },
+      {
+        "original": "この子ともども\\nよろしくお願いします",
+        "translation": "这孩子\\n请您多多关照",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "この子ともどもよろしくお願いします"
+      },
+      {
+        "original": "喜んでいただけたら\\n何よりです",
+        "translation": "希望您能喜欢",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "喜んでいただけたら何よりです"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201701602.json",
+    "character": "Asahi_Serizawa",
+    "sourceFile": "data/story/芹沢あさひ/【ムーンライト・ガーデン】芹沢あさひ/201701602_已校.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2/%E3%80%90%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2/201701602_%E5%B7%B2%E6%A0%A1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%A0%E3%83%BC%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%88%E3%83%BB%E3%82%AC%E3%83%BC%E3%83%87%E3%83%B3%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2",
+    "choices": [
+      {
+        "original": "こんなところに\\nあったのか",
+        "translation": "竟然\\n在这种地方啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "こんなところにあったのか"
+      },
+      {
+        "original": "……本当はさ",
+        "translation": "……其实",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……本当はさ"
+      },
+      {
+        "original": "……このままだと\\n消えてしまう",
+        "translation": "……这样下去的话\\n会消失的",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……このままだと消えてしまう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201701201.json",
+    "character": "Asahi_Serizawa",
+    "sourceFile": "data/story/芹沢あさひ/【光は光へ】芹沢あさひ/多難へのアプローチ.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2/%E3%80%90%E5%85%89%E3%81%AF%E5%85%89%E3%81%B8%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2/%E5%A4%9A%E9%9B%A3%E3%81%B8%E3%81%AE%E3%82%A2%E3%83%97%E3%83%AD%E3%83%BC%E3%83%81.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%85%89%E3%81%AF%E5%85%89%E3%81%B8%E3%80%91%E8%8A%B9%E6%B2%A2%E3%81%82%E3%81%95%E3%81%B2",
+    "choices": [
+      {
+        "original": "楽しかったら……",
+        "translation": "要是你开心的话……",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "楽しかったら……"
+      },
+      {
+        "original": "だけどなあ",
+        "translation": "但是啊",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "だけどなあ"
+      },
+      {
+        "original": "それなら……",
+        "translation": "那么……",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "それなら……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201100803.json",
+    "character": "Juri_Saijo",
+    "sourceFile": "data/story/西城樹里/【曲がり角のランウェイ】西城樹里/「最初から、あったんだ」.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C/%E3%80%90%E6%9B%B2%E3%81%8C%E3%82%8A%E8%A7%92%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%91%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C/%E3%80%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E3%80%81%E3%81%82%E3%81%A3%E3%81%9F%E3%82%93%E3%81%A0%E3%80%8D.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%9B%B2%E3%81%8C%E3%82%8A%E8%A7%92%E3%81%AE%E3%83%A9%E3%83%B3%E3%82%A6%E3%82%A7%E3%82%A4%E3%80%91%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C",
+    "choices": [
+      {
+        "original": "頑張ったな",
+        "translation": "你很努力了",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "頑張ったな"
+      },
+      {
+        "original": "お疲れ様",
+        "translation": "辛苦了",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "お疲れ様"
+      },
+      {
+        "original": "ありがとな",
+        "translation": "谢谢你",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ありがとな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/202800404.json",
+    "character": "Haruki_Ikuta",
+    "sourceFile": "data/story/郁田はるき/【Hopeland】郁田はるき/202800404.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D/%E3%80%90Hopeland%E3%80%91%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D/202800404.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90Hopeland%E3%80%91%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D",
+    "choices": [
+      {
+        "original": "真ん中で",
+        "translation": "正中",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "真ん中で"
+      },
+      {
+        "original": "左で",
+        "translation": "左",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "左で"
+      },
+      {
+        "original": "右で",
+        "translation": "右",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "右で"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102800305.json",
+    "character": "Haruki_Ikuta",
+    "sourceFile": "data/story/郁田はるき/郁田はるき G.R.A.D.編/5決壊.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D/%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D%20G.R.A.D.%E7%B7%A8/5%E6%B1%BA%E5%A3%8A.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%83%81%E7%94%B0%E3%81%AF%E3%82%8B%E3%81%8D",
+    "choices": [
+      {
+        "original": "俺のほうこそ……",
+        "translation": "我才要说抱歉",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "俺のほうこそ……"
+      },
+      {
+        "original": "どうしたんだ…？",
+        "translation": "怎么了……？",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "どうしたんだ…？"
+      },
+      {
+        "original": "見ているしか……",
+        "translation": "因为我\\n只能驻足旁观",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "見ているしか……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102700404.json",
+    "character": "Hana_Suzuki",
+    "sourceFile": "data/story/鈴木羽那/鈴木羽那Landing Point→ユニット共通→斑鳩ルカ/羽那LandingPoint04.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3/%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3Landing%20Point%E2%86%92%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88%E5%85%B1%E9%80%9A%E2%86%92%E6%96%91%E9%B3%A9%E3%83%AB%E3%82%AB/%E7%BE%BD%E9%82%A3LandingPoint04.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3",
+    "choices": [
+      {
+        "original": "今までごめんな",
+        "translation": "请让我\\n为之前的行为道歉",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "今までごめんな"
+      },
+      {
+        "original": "……全然\\n知らなかったんだな",
+        "translation": "……我之前\\n从未考虑过",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "……全然知らなかったんだな"
+      },
+      {
+        "original": "ありがとう",
+        "translation": "谢谢你",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "ありがとう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/102700303.json",
+    "character": "Hana_Suzuki",
+    "sourceFile": "data/story/鈴木羽那/铃木羽那G.R.A.D.編/3彼女なりに.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3/%E9%93%83%E6%9C%A8%E7%BE%BD%E9%82%A3G.R.A.D.%E7%B7%A8/3%E5%BD%BC%E5%A5%B3%E3%81%AA%E3%82%8A%E3%81%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%88%B4%E6%9C%A8%E7%BE%BD%E9%82%A3",
+    "choices": [
+      {
+        "original": "彼女なりに\\n努力をしています",
+        "translation": "以她自己的方式\\n努力着",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "彼女なりに努力をしています"
+      },
+      {
+        "original": "途上の人間ですから",
+        "translation": "只是初出茅庐的新人",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "途上の人間ですから"
+      },
+      {
+        "original": "央路さんからいい影響を\\n受けていると思います",
+        "translation": "能够从你那里\\n汲取到积极的影响",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "央路さんからいい影響を受けていると思います"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200201901.json",
+    "character": "Hiori_Kazano",
+    "sourceFile": "data/story/風野灯織/【The thing is】風野灯織/1at a turning point.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E3%80%90The%20thing%20is%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/1at%20a%20turning%20point.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90The%20thing%20is%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94",
+    "choices": [
+      {
+        "original": "成人したらかな",
+        "translation": "可能是成年的时候",
+        "effects": {
+          "vocal": 10,
+          "visual": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "成人したらかな"
+      },
+      {
+        "original": "自活できたらかな",
+        "translation": "可能是能独立生活的时候",
+        "effects": {
+          "dance": 30,
+          "visual": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "自活できたらかな"
+      },
+      {
+        "original": "そう思った時からかな",
+        "translation": "可能是有这个疑问的时候",
+        "effects": {
+          "vocal": 30,
+          "dance": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "そう思った時からかな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200201702.json",
+    "character": "Hiori_Kazano",
+    "sourceFile": "data/story/風野灯織/【エバー・リメンバー・ネバー】風野灯織/手が届く  目が届く.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E3%80%90%E3%82%A8%E3%83%90%E3%83%BC%E3%83%BB%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%90%E3%83%BC%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E6%89%8B%E3%81%8C%E5%B1%8A%E3%81%8F%20%20%E7%9B%AE%E3%81%8C%E5%B1%8A%E3%81%8F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A8%E3%83%90%E3%83%BC%E3%83%BB%E3%83%AA%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC%E3%83%BB%E3%83%8D%E3%83%90%E3%83%BC%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94",
+    "choices": [
+      {
+        "original": "揚げ物だったか",
+        "translation": "是油炸食物吗",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "揚げ物だったか"
+      },
+      {
+        "original": "煮物って言ったっけ",
+        "translation": "说的炖菜来着吗",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "煮物って言ったっけ"
+      },
+      {
+        "original": "……卵焼き？",
+        "translation": "……厚蛋烧？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……卵焼き？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200200702.json",
+    "character": "Hiori_Kazano",
+    "sourceFile": "data/story/風野灯織/【伸ばす手に乗せるのは】風野灯織/止めておけばよかったのに.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E3%80%90%E4%BC%B8%E3%81%B0%E3%81%99%E6%89%8B%E3%81%AB%E4%B9%97%E3%81%9B%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E6%AD%A2%E3%82%81%E3%81%A6%E3%81%8A%E3%81%91%E3%81%B0%E3%82%88%E3%81%8B%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%AB.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E4%BC%B8%E3%81%B0%E3%81%99%E6%89%8B%E3%81%AB%E4%B9%97%E3%81%9B%E3%82%8B%E3%81%AE%E3%81%AF%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94",
+    "choices": [
+      {
+        "original": "言霊ってやつだな",
+        "translation": "真的很灵验啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "言霊ってやつだな"
+      },
+      {
+        "original": "灯織は予言者だ",
+        "translation": "灯织是预言家啊",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "灯織は予言者だ"
+      },
+      {
+        "original": "ここまで晴れると\\nいいことがありそう",
+        "translation": "这里放晴了\\n是个好兆头",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ここまで晴れるといいことがありそう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200200801.json",
+    "character": "Hiori_Kazano",
+    "sourceFile": "data/story/風野灯織/【落下予測地点】風野灯織/見えていますか.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E3%80%90%E8%90%BD%E4%B8%8B%E4%BA%88%E6%B8%AC%E5%9C%B0%E7%82%B9%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E8%A6%8B%E3%81%88%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99%E3%81%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%90%BD%E4%B8%8B%E4%BA%88%E6%B8%AC%E5%9C%B0%E7%82%B9%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94",
+    "choices": [
+      {
+        "original": "ご明察だ",
+        "translation": "真敏锐啊",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ご明察だ"
+      },
+      {
+        "original": "いや、灯織に来た\\nオファーだよ",
+        "translation": "邀请的人\\n确实是灯织哦",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "いや、灯織に来たオファーだよ"
+      },
+      {
+        "original": "実はな……",
+        "translation": "其实……",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "実はな……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/101800100071.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/Morning/Morning⑦.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/Morning/Morning%E2%91%A6.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "もっと大きい\\n仕事を見せてあげよう",
+        "translation": "给他们看\\n更大的工作吧",
+        "grade": "perfect",
+        "referenceText": "もっと大きい仕事を見せてあげよう"
+      },
+      {
+        "original": "良い家族じゃないか",
+        "translation": "真是不错的家人呢",
+        "grade": "good",
+        "referenceText": "良い家族じゃないか"
+      },
+      {
+        "original": "確かに、\\n少し恥ずかしいな",
+        "translation": "确实有点害羞呢",
+        "grade": "normal",
+        "referenceText": "確かに、少し恥ずかしいな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communication_cheers/401800100021.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/W.I.N.G.編/オーディション前④.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/W.I.N.G.%E7%B7%A8/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E2%91%A3.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%B7%E3%83%A7%E3%83%B3%E5%89%8D%E9%81%B8%E6%8A%9E%E8%82%A2_%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "今日も冬優子は最高だ",
+        "translation": "今天的冬优子是最棒的",
+        "grade": "up",
+        "referenceText": "今日も冬優子は最高だ"
+      },
+      {
+        "original": "いつも通りやろう",
+        "translation": "老样子吧",
+        "grade": "neutral",
+        "referenceText": "いつも通りやろう"
+      },
+      {
+        "original": "油断はするなよ",
+        "translation": "不要掉链子哦",
+        "grade": "down",
+        "referenceText": "油断はするなよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201801002.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/【multi-angle】黛冬優子/2 真白に焦がれる.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90multi-angle%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/2%20%E7%9C%9F%E7%99%BD%E3%81%AB%E7%84%A6%E3%81%8C%E3%82%8C%E3%82%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90multi-angle%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "──そうだ、\\n席は取ったか？",
+        "translation": "——对了\\n你找到座位了吗？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "──そうだ、席は取ったか？"
+      },
+      {
+        "original": "……えっと、\\n悪かった……？",
+        "translation": "……那\\n抱歉啦……？",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……えっと、悪かった……？"
+      },
+      {
+        "original": "……ちなみに俺は",
+        "translation": "……顺带一提，我",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……ちなみに俺は"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201801701.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/【ア・冬優子イズム】黛冬優子/1 三人称虚数 7.30校.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/1%20%E4%B8%89%E4%BA%BA%E7%A7%B0%E8%99%9A%E6%95%B0%207.30%E6%A0%A1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "根底にある\\n魅力か……",
+        "translation": "在本质上的\\n魅力吗……",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "根底にある魅力か……"
+      },
+      {
+        "original": "慎重になって\\n当然だ",
+        "translation": "当然也得\\n谨慎对待",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "慎重になって当然だ"
+      },
+      {
+        "original": "断るのも手だよ",
+        "translation": "拒绝也是方法之一",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "断るのも手だよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201801703.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/【ア・冬優子イズム】黛冬優子/3 イリイズム再考 7.30校.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/3%20%E3%82%A4%E3%83%AA%E3%82%A4%E3%82%BA%E3%83%A0%E5%86%8D%E8%80%83%207.30%E6%A0%A1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%BB%E5%86%AC%E5%84%AA%E5%AD%90%E3%82%A4%E3%82%BA%E3%83%A0%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "『俺の目から見た\\n冬優子は……』",
+        "translation": "\"在我眼中的\\n冬优子是……\"",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『俺の目から見た冬優子は……』"
+      },
+      {
+        "original": "『今日は\\n星が綺麗だ』",
+        "translation": "\"今晚\\n星星真美\"",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『今日は星が綺麗だ』"
+      },
+      {
+        "original": "『回り道も\\n悪くないよ』",
+        "translation": "\"绕些弯路\\n也不错\"",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "『回り道も悪くないよ』"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200701701.json",
+    "character": "Yuika_Mitsumine",
+    "sourceFile": "data/story/三峰結華/【待ちぼうけ次回予告】三峰結華/1.同室ABC.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E5%BE%85%E3%81%A1%E3%81%BC%E3%81%86%E3%81%91%E6%AC%A1%E5%9B%9E%E4%BA%88%E5%91%8A%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/1.%E5%90%8C%E5%AE%A4ABC.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%BE%85%E3%81%A1%E3%81%BC%E3%81%86%E3%81%91%E6%AC%A1%E5%9B%9E%E4%BA%88%E5%91%8A%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF",
+    "choices": [
+      {
+        "original": "じゃあA",
+        "translation": "那就A",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "じゃあA"
+      },
+      {
+        "original": "Bかな",
+        "translation": "B吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "Bかな"
+      },
+      {
+        "original": "Cで",
+        "translation": "听C",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "C"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200300903.json",
+    "character": "Meguru_Hachimiya",
+    "sourceFile": "data/story/八宮めぐる/【日々を紡ぐインヴェルノ】八宮めぐる/電波の海を泳ぐ.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E6%97%A5%E3%80%85%E3%82%92%E7%B4%A1%E3%81%90%E3%82%A4%E3%83%B3%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%8E%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E9%9B%BB%E6%B3%A2%E3%81%AE%E6%B5%B7%E3%82%92%E6%B3%B3%E3%81%90.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%97%A5%E3%80%85%E3%82%92%E7%B4%A1%E3%81%90%E3%82%A4%E3%83%B3%E3%83%B4%E3%82%A7%E3%83%AB%E3%83%8E%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B",
+    "choices": [
+      {
+        "original": "なるはやで帰ろう",
+        "translation": "尽快赶回去吧",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "なるはやで帰ろう"
+      },
+      {
+        "original": "コンビニに寄るか",
+        "translation": "去趟便利店吧",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "コンビニに寄るか"
+      },
+      {
+        "original": "──おっ",
+        "translation": "——噢？",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "――おっ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200900801.json",
+    "character": "Kaho_Komiya",
+    "sourceFile": "data/story/小宮果穂/【キャッチ・ザ・フォール！】小宮果穂/判明！ふたりの相違点.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E5%88%A4%E6%98%8E%EF%BC%81%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%AE%E7%9B%B8%E9%81%95%E7%82%B9.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%AD%E3%83%A3%E3%83%83%E3%83%81%E3%83%BB%E3%82%B6%E3%83%BB%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%EF%BC%81%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82",
+    "choices": [
+      {
+        "original": "なんの種目に出たんだ？",
+        "translation": "参加过什么项目呢？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "何の種目に出たんだ？"
+      },
+      {
+        "original": "応援団とかやったか？",
+        "translation": "当过啦啦队吗？",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "応援団とかやったか？"
+      },
+      {
+        "original": "優勝できたか？",
+        "translation": "取得过优胜吗？",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "優勝できたか？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200800404.json",
+    "character": "Kiriko_Yukoku",
+    "sourceFile": "data/story/幽谷霧子/【霧・音・燦・燦】幽谷霧子/ほしをひとまわり.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E3%80%90%E9%9C%A7%E3%83%BB%E9%9F%B3%E3%83%BB%E7%87%A6%E3%83%BB%E7%87%A6%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90/%E3%81%BB%E3%81%97%E3%82%92%E3%81%B2%E3%81%A8%E3%81%BE%E3%82%8F%E3%82%8A.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E9%9C%A7%E3%83%BB%E9%9F%B3%E3%83%BB%E7%87%A6%E3%83%BB%E7%87%A6%E3%80%91%E5%B9%BD%E8%B0%B7%E9%9C%A7%E5%AD%90",
+    "choices": [
+      {
+        "original": "霧子も\\nおかえりだぞ？",
+        "translation": "也得对雾子说“欢迎回来”哦？",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "霧子もおかえりだぞ？"
+      },
+      {
+        "original": "星が見えないことは\\nあるけどな",
+        "translation": "虽然也有\\n看不见星星的时候就是了呢",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "星がみえないことはあるけどな"
+      },
+      {
+        "original": "霧子も、\\n早く帰らなきゃな",
+        "translation": "雾子也是\\n得快点回来呢",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "霧子も、早く帰らなきゃな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201301701.json",
+    "character": "Natsuha_Arisugawa",
+    "sourceFile": "data/story/有栖川夏葉/【TOTTを誓って】有栖川夏葉/いつかはやってくる話.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/%E3%80%90TOTT%E3%82%92%E8%AA%93%E3%81%A3%E3%81%A6%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89/%E3%81%84%E3%81%A4%E3%81%8B%E3%81%AF%E3%82%84%E3%81%A3%E3%81%A6%E3%81%8F%E3%82%8B%E8%A9%B1.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90TOTT%E3%82%92%E8%AA%93%E3%81%A3%E3%81%A6%E3%80%91%E6%9C%89%E6%A0%96%E5%B7%9D%E5%A4%8F%E8%91%89",
+    "choices": [
+      {
+        "original": "よかった……！",
+        "translation": "太好了……！",
+        "effects": {
+          "vocal": 30,
+          "visual": 10,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "よかった……"
+      },
+      {
+        "original": "早とちりして\\nすまん……！",
+        "translation": "我会错意了\\n抱歉……！",
+        "effects": {
+          "vocal": 10,
+          "dance": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "早とちりしてすまん……！"
+      },
+      {
+        "original": "──でも……",
+        "translation": "——可是……",
+        "effects": {
+          "dance": 10,
+          "visual": 30,
+          "mental": 15,
+          "sp": 20
+        },
+        "referenceText": "──でも……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201201002.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【十二月短篇】杜野凛世/夜、と呼べばはいと言ふ.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E5%A4%9C%E3%80%81%E3%81%A8%E5%91%BC%E3%81%B9%E3%81%B0%E3%81%AF%E3%81%84%E3%81%A8%E8%A8%80%E3%81%B5.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "忘れ物取りに、\\n事務所にさ",
+        "translation": "有东西忘在事务所了，\\n要回去拿一下",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "忘れ物取りに、事務所にさ"
+      },
+      {
+        "original": "──っくしゅん！",
+        "translation": "——啊嚏！",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "――っくしゅん！"
+      },
+      {
+        "original": "寮に戻るんなら\\n送るぞ？",
+        "translation": "要我送你回宿舍吗？",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "寮に戻るんなら送るぞ？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201201004.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【十二月短篇】杜野凛世/歳末些事.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E6%AD%B3%E6%9C%AB%E4%BA%9B%E4%BA%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E5%8D%81%E4%BA%8C%E6%9C%88%E7%9F%AD%E7%AF%87%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "なんか、な",
+        "translation": "总感觉",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "なんか、な"
+      },
+      {
+        "original": "それ\\nくれた人がさ──",
+        "translation": "说起来\\n给我日历的人啊——",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "それくれた人がさ――"
+      },
+      {
+        "original": "えいっ！\\n考える間に破ろう",
+        "translation": "算了！\\n趁思考的时候撕了吧",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "えいっ！考える間に破ろう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201200302.json",
+    "character": "Rinze_Morino",
+    "sourceFile": "data/story/杜野凛世/【想ひいろは】杜野凛世/雨宿り.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E3%80%90%E6%83%B3%E3%81%B2%E3%81%84%E3%82%8D%E3%81%AF%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96/%E9%9B%A8%E5%AE%BF%E3%82%8A.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%83%B3%E3%81%B2%E3%81%84%E3%82%8D%E3%81%AF%E3%80%91%E6%9D%9C%E9%87%8E%E5%87%9B%E4%B8%96",
+    "choices": [
+      {
+        "original": "やっぱり上着を\\n貸そうか？",
+        "translation": "果然这件外套\\n还是先借给你吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "やっぱり上着を貸そうか？"
+      },
+      {
+        "original": "……なんか、\\n誰もいないな",
+        "translation": "……怎么说呢，\\n周围一个人都没有呢",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "……なんか、誰もいないな"
+      },
+      {
+        "original": "早く晴れてほしいよな",
+        "translation": "要是快点放晴就好了啊",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "早く晴れて欲しいよな"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_communications/100100100151.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/Morning/Morning⑮.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/Morning/Morning%E2%91%AE.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/Morning%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "大自然のロケで\\n富士山の頂上だ",
+        "translation": "大自然的外景拍摄\\n在富士山的山顶上",
+        "grade": "perfect",
+        "referenceText": "大自然のロケで富士山の頂上だ"
+      },
+      {
+        "original": "ホラ―映画の撮影で\\n夜の森ロケはどうだ？",
+        "translation": "在夜晚的树林中\\n拍摄恐怖片怎么样？",
+        "grade": "good",
+        "referenceText": "ホラー映画の撮影で夜の森ロケはどうだ？"
+      },
+      {
+        "original": "屋内撮影でもいい？",
+        "translation": "室内摄影也可以吗？",
+        "grade": "normal",
+        "referenceText": "屋内撮影でもいい？"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200100903.json",
+    "character": "Mano_Sakuragi",
+    "sourceFile": "data/story/櫻木真乃/【深染め、いろみぐさ】櫻木真乃/空の下.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E3%80%90%E6%B7%B1%E6%9F%93%E3%82%81%E3%80%81%E3%81%84%E3%82%8D%E3%81%BF%E3%81%90%E3%81%95%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83/%E7%A9%BA%E3%81%AE%E4%B8%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E6%B7%B1%E6%9F%93%E3%82%81%E3%80%81%E3%81%84%E3%82%8D%E3%81%BF%E3%81%90%E3%81%95%E3%80%91%E6%AB%BB%E6%9C%A8%E7%9C%9F%E4%B9%83",
+    "choices": [
+      {
+        "original": "うん、確かに\\n落ち着いたよ",
+        "translation": "嗯，确实\\n平静下来了",
+        "effects": {
+          "vocal": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "うん、確かに落ち着いたよ"
+      },
+      {
+        "original": "レッスンにも\\n取り入れてみるか",
+        "translation": "要不加入\\n课程吧",
+        "effects": {
+          "visual": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "レッスンにも取り入れてみるか"
+      },
+      {
+        "original": "──どこからか\\nいい匂いがする……",
+        "translation": "——从哪里\\n传来了香气……",
+        "effects": {
+          "dance": 20,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "――どこからかいい匂いがする……"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200501201.json",
+    "character": "Mamimi_Tanaka",
+    "sourceFile": "data/story/田中摩美々/【アバウト-ナイト-ライト】田中摩美々/雨のち晴れとか.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E3%80%90%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88-%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%88%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85/%E9%9B%A8%E3%81%AE%E3%81%A1%E6%99%B4%E3%82%8C%E3%81%A8%E3%81%8B.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%82%A2%E3%83%90%E3%82%A6%E3%83%88-%E3%83%8A%E3%82%A4%E3%83%88-%E3%83%A9%E3%82%A4%E3%83%88%E3%80%91%E7%94%B0%E4%B8%AD%E6%91%A9%E7%BE%8E%E3%80%85",
+    "choices": [
+      {
+        "original": "今はとことん\\n休憩することにする",
+        "translation": "现在就休息个够",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "今はとことん 休憩することにする"
+      },
+      {
+        "original": "この後の撮影で──",
+        "translation": "之后拍摄时——",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "この後の撮影で────"
+      },
+      {
+        "original": "虹がかかることを\\n期待してみる",
+        "translation": "试着期待天空出现彩虹",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "虹がかかることを 期待してみる"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/101100102.json",
+    "character": "Juri_Saijo",
+    "sourceFile": "data/story/西城樹里/W.I.N.G.編/2.ここから、アタシらしく.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C/W.I.N.G.%E7%B7%A8/2.%E3%81%93%E3%81%93%E3%81%8B%E3%82%89%E3%80%81%E3%82%A2%E3%82%BF%E3%82%B7%E3%82%89%E3%81%97%E3%81%8F.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%83%97%E3%83%AD%E3%83%87%E3%83%A5%E3%83%BC%E3%82%B9%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88_%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C",
+    "choices": [
+      {
+        "original": "だったら\\n笑わないのはどうだ？",
+        "translation": "那就\\n不要笑怎么样？",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "だったら笑わないのはどうだ？"
+      },
+      {
+        "original": "樹里は\\n笑顔も可愛いと思うぞ",
+        "translation": "我认为树里\\n你的笑容也很可爱",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "樹里は笑顔も可愛いと思うぞ"
+      },
+      {
+        "original": "格好いい\\n決めポ－ズを撮ろう",
+        "translation": "那就拍摄\\n帅气的招牌姿势吧",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "格好いい決めポーズを撮ろう"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/200200601.json",
+    "character": "Hiori_Kazano",
+    "sourceFile": "data/story/風野灯織/【マフラー直して、心は解けて】風野灯織/足下にご用心.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E3%80%90%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E7%9B%B4%E3%81%97%E3%81%A6%E3%80%81%E5%BF%83%E3%81%AF%E8%A7%A3%E3%81%91%E3%81%A6%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94/%E8%B6%B3%E4%B8%8B%E3%81%AB%E3%81%94%E7%94%A8%E5%BF%83.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E7%9B%B4%E3%81%97%E3%81%A6%E3%80%81%E5%BF%83%E3%81%AF%E8%A7%A3%E3%81%91%E3%81%A6%E3%80%91%E9%A2%A8%E9%87%8E%E7%81%AF%E7%B9%94",
+    "choices": [
+      {
+        "original": "ほら、つかまって",
+        "translation": "来，抓住我",
+        "effects": {
+          "visual": 15,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "ほら、つかまって"
+      },
+      {
+        "original": "待ってろ、今──",
+        "translation": "等一下，我现在——",
+        "effects": {
+          "vocal": 15,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "待ってろ、今――"
+      },
+      {
+        "original": "手を貸すよ",
+        "translation": "我来帮你",
+        "effects": {
+          "visual": 15,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "手を貸すよ"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201801801.json",
+    "character": "Fuyuko_Mayuzumi",
+    "sourceFile": "data/story/黛冬優子/【誘爆ハートビート】黛冬優子/【誘爆ハートビート】黛冬優子01.csv",
+    "verification": "Two exact answers in the same event; retain the independently verified spelling and the source CSV spelling as an explicit alias.",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%9001.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90",
+    "choices": [
+      {
+        "original": "冬優子も楽しいか？",
+        "translation": "冬优子也觉得开心吗？",
+        "effects": {
+          "vocal": 25,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "冬優子も楽しいか？"
+      },
+      {
+        "original": "子どもなら\\nどう思うのかな？",
+        "translation": "换做是小孩子\\n会是什么感受呢？",
+        "effects": {
+          "dance": 25,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "子供ならどう思うのかな？"
+      },
+      {
+        "original": "また今度来ようかな",
+        "translation": "要不下次再来吧",
+        "effects": {
+          "visual": 25,
+          "mental": 10,
+          "sp": 10
+        },
+        "referenceText": "また今度来ようかな"
+      }
+    ]
+  }
+]

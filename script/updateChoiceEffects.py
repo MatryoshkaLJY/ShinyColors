@@ -6,6 +6,7 @@ resumable; the checked-in catalogue is replaced only after all requests succeed.
 """
 import argparse
 from collections import Counter
+from copy import deepcopy
 from datetime import datetime, timezone
 import hashlib
 import html
@@ -146,12 +147,31 @@ def parse_tables(parser):
 
 
 def apply_corrections(groups, corrections):
-    """Preserve verified transcription fixes when rebuilding from the Wiki."""
+    """Preserve verified option, table and missing-group fixes on rebuilds."""
     for correction in corrections:
+        if correction.get('add'):
+            addition = {key: deepcopy(correction[key]) for key in ('kind', 'title', 'source', 'choices', 'character')
+                        if key in correction}
+            existing = [group for group in groups if all(group.get(key) == addition.get(key)
+                        for key in ('kind', 'title', 'source', 'character'))]
+            if existing and any(group != addition for group in existing):
+                raise ValueError(f'Conflicting supplementary group: {correction}')
+            if not existing:
+                groups.append(addition)
+            continue
         applied = False
         for group in groups:
             if (all(group.get(key) == correction[key] for key in ('kind', 'character', 'title') if key in correction)
                     and ('groupSource' not in correction or group.get('source') == correction['groupSource'])):
+                if 'choices' in correction:
+                    original = sorted(correction['matchChoices'])
+                    corrected = sorted(choice['text'] for choice in correction['choices'])
+                    if sorted(choice['text'] for choice in group['choices']) not in (original, corrected):
+                        continue
+                    group['choices'] = [{**deepcopy(choice), 'source': correction['source']}
+                                        for choice in correction['choices']]
+                    applied = True
+                    continue
                 for choice in group['choices']:
                     matches = (choice.get('grade') == correction['grade'] if 'grade' in correction else
                                'matchText' in correction and choice.get('text') in (correction['matchText'], correction['text']))
@@ -222,8 +242,10 @@ def main():
     if counts['morning'] < 300 or counts['audition'] < 100 or counts['event'] < 500:
         raise ValueError(f'Too few parsed groups: {counts}; existing catalogue preserved')
     output = {'updatedAt': datetime.now(timezone.utc).date().isoformat(),
-              'attribution': 'Shinycolors Wiki contributors',
-              'license': 'https://creativecommons.org/licenses/by-nc-sa/4.0/', 'groups': groups}
+              'attribution': 'Shinycolors Wiki contributors; Japanese reference sources are cited per group or choice',
+              'license': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+              'licenseScope': 'The CC license notice covers English Wiki-derived tables. Japanese reference records cite their sources individually; game text belongs to its original rights holders.',
+              'groups': groups}
     target = ROOT / 'src/data/choice-effects.json'
     target.parent.mkdir(exist_ok=True)
     target.with_suffix('.json.tmp').write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')

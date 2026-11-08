@@ -94,6 +94,41 @@ class ImportTest(unittest.TestCase):
         importer.apply_corrections(groups, [correction])
         self.assertEqual(groups, rebuilt)
 
+    def test_verified_table_replacement_checks_originals_and_is_idempotent(self):
+        group = {'kind': 'event', 'title': 'table', 'source': 'english wiki', 'choices': [
+            {'text': 'A+20', 'effects': {'mental': 5}}, {'text': 'B', 'effects': {'mental': 5}},
+            {'text': 'C', 'effects': {'mental': 5}}]}
+        correction = {'kind': 'event', 'title': 'table', 'groupSource': 'english wiki',
+                      'matchChoices': ['A+20', 'B', 'C'], 'source': 'verified reference', 'choices': [
+                          {'text': 'A', 'effects': {'vocal': 20, 'mental': 5}},
+                          {'text': 'B', 'effects': {'dance': 20, 'mental': 5}},
+                          {'text': 'C', 'effects': {'visual': 20, 'mental': 5}}]}
+        unrelated = {**deepcopy(group), 'source': 'other card'}
+        groups = [deepcopy(group), deepcopy(unrelated)]
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(groups[0]['choices'][0], {'text': 'A', 'effects': {'vocal': 20, 'mental': 5}, 'source': 'verified reference'})
+        self.assertEqual(groups[1], unrelated)
+        fixed = deepcopy(groups)
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(groups, fixed)
+        stale = deepcopy(group)
+        stale['choices'][0]['text'] = 'a different question'
+        with self.assertRaises(ValueError):
+            importer.apply_corrections([stale], [correction])
+
+    def test_verified_supplement_is_not_duplicated_and_conflicts_fail(self):
+        correction = {'add': True, 'kind': 'event', 'title': 'new event', 'source': 'verified reference',
+                      'choices': [{'text': 'A', 'effects': {'vocal': 20}}, {'text': 'B', 'effects': {'dance': 20}}]}
+        groups = []
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(len(groups), 1)
+        importer.apply_corrections(groups, [correction])
+        self.assertEqual(len(groups), 1)
+        conflict = deepcopy(correction)
+        conflict['choices'][0]['effects'] = {'vocal': 99}
+        with self.assertRaises(ValueError):
+            importer.apply_corrections(groups, [conflict])
+
 
 if __name__ == '__main__':
     unittest.main()

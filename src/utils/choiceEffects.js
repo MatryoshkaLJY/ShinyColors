@@ -17,6 +17,9 @@ export const choiceKind = path => {
 export const CHOICE_HINT_KEY = '__sczhChoiceHint'
 
 const signature = choices => choices.map(normalizeChoice).sort().join('\u0000')
+const choiceTexts = choice => [choice.text, ...(choice.aliases || [])]
+const groupSignatures = choices => choices.reduce((sets, choice) => sets.flatMap(texts =>
+  choiceTexts(choice).map(text => [...texts, text])), [[]]).map(signature)
 const effectSignature = choice => JSON.stringify([choice.grade || null,
   Object.entries(choice.effects || {}).sort()])
 
@@ -49,15 +52,18 @@ export const createChoiceResolver = groups => {
   const index = new Map()
   const morningByCharacter = new Map()
   groups.forEach(group => {
-    const key = `${group.kind}:${signature(group.choices.map(c => c.text))}`
-    const candidates = index.get(key) || []
-    candidates.push(group)
-    index.set(key, candidates)
+    for (const sig of new Set(groupSignatures(group.choices))) {
+      const key = `${group.kind}:${sig}`
+      const candidates = index.get(key) || []
+      candidates.push(group)
+      index.set(key, candidates)
+    }
     if (group.kind === 'morning' && group.character) {
       const character = morningByCharacter.get(group.character) || new Map()
       group.choices.forEach(choice => {
-        const text = normalizeChoice(choice.text)
-        character.set(text, [...(character.get(text) || []), withSource(choice, group)])
+        for (const text of new Set(choiceTexts(choice).map(normalizeChoice))) {
+          character.set(text, [...(character.get(text) || []), withSource(choice, group)])
+        }
       })
       morningByCharacter.set(group.character, character)
     }
@@ -78,7 +84,7 @@ export const createChoiceResolver = groups => {
     const results = texts.map(text => {
       const key = normalizeChoice(text)
       const matches = candidates.flatMap(group => group.choices
-        .filter(choice => normalizeChoice(choice.text) === key)
+        .filter(choice => choiceTexts(choice).some(text => normalizeChoice(text) === key))
         .map(choice => withSource(choice, group)))
       // Contradictory Wiki entries must never turn into a confident hint.
       return unambiguousEffect(matches)

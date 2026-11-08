@@ -32,6 +32,35 @@ test('a shared option alone, incomplete groups and another event category cannot
   assert.equal(resolve('audition', choices.map(c => c.text)), null)
 })
 
+test('explicit spellings match the same complete event without accepting unlisted variants', () => {
+  const aliased = { ...group, choices: [
+    { ...choices[0], aliases: ['公園に行こう'] },
+    { ...choices[1], aliases: ['デパートの屋上に行こう'] }, choices[2]
+  ] }
+  const lookup = createChoiceResolver([aliased])
+  for (const first of [choices[0].text, '公園に行こう']) {
+    for (const second of [choices[1].text, 'デパートの屋上に行こう']) {
+      const effects = lookup('event', [second, choices[2].text, first])
+      assert.equal(effects[0].effects.dance, 20)
+      assert.equal(effects[2].effects.vocal, 20)
+    }
+  }
+  assert.equal(lookup('event', ['公園に行こうね', choices[1].text, choices[2].text]), null)
+  assert.equal(lookup('audition', ['公園に行こう', choices[1].text, choices[2].text]), null)
+})
+
+test('morning aliases remain character-scoped and contradictory alias effects stay unknown', () => {
+  const morning = { kind: 'morning', title: '1', source: 'wiki', character: 'Mei_Izumi', choices: [
+    { text: '回答A', aliases: ['回答Ａ別表記'], grade: 'perfect' },
+    { text: '回答B', grade: 'good' }, { text: '回答C', grade: 'normal' }
+  ] }
+  const lookup = createChoiceResolver([morning])
+  assert.equal(lookup('morning', ['回答Ａ別表記', '未知の回答'], 'Mei_Izumi')[0].grade, 'perfect')
+  assert.equal(lookup('morning', ['回答Ａ別表記', '未知の回答'], 'Hana_Suzuki'), null)
+  const conflicting = { ...morning, choices: morning.choices.map((choice, i) => i ? choice : { ...choice, grade: 'normal' }) }
+  assert.equal(createChoiceResolver([morning, conflicting])('morning', ['回答Ａ別表記', '未知の回答'], 'Mei_Izumi'), null)
+})
+
 test('conflicting sources suppress only the ambiguous effect', () => {
   const other = { ...group, choices: choices.map((c, i) => i === 0 ? { ...c, effects: { visual: 40 } } : c) }
   const results = createChoiceResolver([group, other])('event', choices.map(c => c.text))
@@ -158,7 +187,7 @@ test('bundled Wiki catalogue includes real data for all three option types', () 
   const lookup = createChoiceResolver(catalogue.groups)
   assert.equal(lookup('event', choices.map(c => c.text))[0].effects.vocal, 20)
   for (const record of catalogue.groups) {
-    assert.match(record.source, /^https:\/\/shinycolors\.wiki\/wiki\//)
+    assert.match(record.source, /^https:\/\/(?:shinycolors\.wiki\/wiki|wikiwiki\.jp\/shinycolors)\//)
     assert.ok(record.choices.length >= 2 && record.choices.length <= 3)
   }
 })
@@ -270,6 +299,35 @@ test('Chiyoko Big Chance choices retain their stat effects after translation, ca
     for (const { hint } of resolveDisplayedChoices(displayed, lookup)) {
       const expected = choices.find(choice => choice.original === hint.original)
       assert.deepEqual(hint.effect?.effects, expected.effects, `${path}: ${hint.original}`)
+    }
+  }
+})
+
+test('all independently verified repairs resolve the complete original scenario after translation and cache replay', () => {
+  const { groups } = JSON.parse(readFileSync(new URL('../src/data/choice-effects.json', import.meta.url)))
+  const scenarios = JSON.parse(readFileSync(new URL('./fixtures/verified-choice-repairs.json', import.meta.url)))
+  const lookup = createChoiceResolver(groups)
+  assert.ok(scenarios.length >= 100)
+  for (const { path, character, choices, effectSource } of scenarios) {
+    assert.match(effectSource, /^https:\/\/wikiwiki\.jp\/shinycolors\//)
+    const reference = lookup(choiceKind(path), choices.map(choice => choice.referenceText), character)
+    assert.ok(reference?.every(Boolean), `${path}: canonical reference spelling`)
+    choices.forEach((expected, index) => {
+      if (expected.grade) assert.equal(reference[index].grade, expected.grade)
+      else assert.deepEqual(reference[index].effects, expected.effects)
+    })
+    const tracks = [{ speaker: characters[character]?.names[0] || 'プロデューサー', text: 'opening' },
+      ...choices.map(choice => ({ select: choice.original })), { label: 'end' }]
+    captureChoiceGroups(tracks, path, lookup, identifyCharacter)
+    tracks.slice(1, -1).forEach((track, index) => { track.select = choices[index].translation })
+    const cached = JSON.parse(JSON.stringify(tracks))
+    captureChoiceGroups(cached, path, lookup, identifyCharacter)
+    const displayed = cached.filter(track => track.select).reverse().map(track => ({ item: {}, hint: track[CHOICE_HINT_KEY] }))
+    for (const { hint } of resolveDisplayedChoices(displayed, lookup)) {
+      const expected = choices.find(choice => choice.original === hint.original)
+      assert.ok(hint.effect, `${path}: missing ${hint.original}`)
+      if (expected.grade) assert.equal(hint.effect.grade, expected.grade, `${path}: ${hint.original}`)
+      else assert.deepEqual(hint.effect.effects, expected.effects, `${path}: ${hint.original}`)
     }
   }
 })
