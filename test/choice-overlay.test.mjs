@@ -95,6 +95,16 @@ test('hints live in the canvas scene, preserve stat colors, and do not intercept
   assert.equal(s.parent.children.length, 1)
 })
 
+test('approximate effects are visibly marked while retaining their stat values', t => {
+  const s = setup(t)
+  s.choices[0].hint.effect.match = { type: 'fuzzy', similarity: .91 }
+  s.overlay.show(s.player, s.choices)
+  const panel = s.parent.children[1].children[0]
+  assert.equal(panel.children[1].text, 'Vo +20')
+  assert.match(panel.children.at(-1).text, /近似匹配/)
+  s.overlay.hide()
+})
+
 test('scaled/translated parents use local coordinates; missing hints and viewport edges remain visible', t => {
   const s = setup(t)
   s.parent.scale = 2

@@ -1,14 +1,16 @@
 # 选项效果离线检查
 
-生成时间：2026-11-08T11:55:50.441Z。剧情来源：[SCTranslationData](https://github.com/ShinyGroup/SCTranslationData/tree/60d451090aea86631815a0522238eb5f3d196e1b)。
+生成时间：2026-11-08T12:22:19.598Z。剧情来源：[SCTranslationData](https://github.com/ShinyGroup/SCTranslationData/tree/60d451090aea86631815a0522238eb5f3d196e1b)。
 
-扫描 5623 份剧情 CSV，检查支持类别中的 1309 组选项：1280 组全部匹配，2 组部分匹配，27 组未匹配。
+扫描 5623 份剧情 CSV，检查支持类别中的 1309 组选项：1289 组全部匹配，2 组部分匹配，18 组未匹配。
 
-共 3926 个选项，84 个未匹配。动态选项池 0 个，CSV 解析警告 42 份。
+匹配模式：exact-then-fuzzy。完整匹配中有 9 组为近似匹配，单独列在下方；这些结果是推测，尚需核实。
 
-按现象分类：7 组存在原文差异候选，20 组没有找到近似记录，2 组存在效果冲突。
+共 3926 个选项，57 个未匹配。动态选项池 0 个，CSV 解析警告 42 份。
 
-范围：仅覆盖该本地快照保留的原始日文。缺失表示当前查找器无法返回效果，不等同于已确认 Wiki 错字；数值本身及游戏内渲染仍需另行核实。候选记录仅供人工核对，不自动赋予效果。
+按现象分类：1 组存在原文差异候选，17 组没有找到近似记录，2 组存在效果冲突。
+
+范围：仅覆盖该本地快照保留的原始日文。缺失表示当前查找器无法返回效果，不等同于已确认 Wiki 错字；数值本身及游戏内渲染仍需另行核实。近似匹配不会验证 Wiki 数值，文本相似度也不是正确率。
 
 Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 提供；本报告提取并整理了选项文字用于比对，各候选保留来源链接。剧情原文和译文的权利归各自权利人。
 
@@ -16,7 +18,81 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 
 效果库 SHA-256：d0eb1ca910a7a30d1b9939516afe3d20ccb87ca4cb20d42b9839fb316d8e73bf
 
-## 剧情分支：29 组需要核对
+## 近似匹配：9 组需要确认
+
+### 三峰結華/【お試し、みつゴコロ】三峰結華/消したい、もしくは覚えていたい
+
+剧情：`/produce_events/200700402.json` · 原文文件：[data/story/三峰結華/【お試し、みつゴコロ】三峰結華/消したい、もしくは覚えていたい.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E3%81%8A%E8%A9%A6%E3%81%97%E3%80%81%E3%81%BF%E3%81%A4%E3%82%B4%E3%82%B3%E3%83%AD%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E6%B6%88%E3%81%97%E3%81%9F%E3%81%84%E3%80%81%E3%82%82%E3%81%97%E3%81%8F%E3%81%AF%E8%A6%9A%E3%81%88%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84.csv)
+
+- 嬉しい間違いだよ → [嬉しい間違いだよ](https://shinycolors.wiki/wiki/P-SSR1_Yuika)（文本相似度 100%）
+- お兄さんっ子だったのか → [お兄さんっ子だったのか](https://shinycolors.wiki/wiki/P-SSR1_Yuika)（文本相似度 100%）
+- 親しみやすさが\\n１上がった、だな → [親しみやすさが1つ上がった、だな](https://shinycolors.wiki/wiki/P-SSR1_Yuika)（文本相似度 93%）
+
+### 八宮めぐる/【小さな夜のトロイメライ】八宮めぐる/ON\_消失のクライシス
+
+剧情：`/produce_events/200300701.json` · 原文文件：[data/story/八宮めぐる/【小さな夜のトロイメライ】八宮めぐる/ON\_消失のクライシス.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E5%B0%8F%E3%81%95%E3%81%AA%E5%A4%9C%E3%81%AE%E3%83%88%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%A9%E3%82%A4%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/ON_%E6%B6%88%E5%A4%B1%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9.csv)
+
+- 待ちの戦法でいこう → [待ちの戦法で行こう](https://shinycolors.wiki/wiki/P-SR2_Meguru)（文本相似度 89%）
+- まあ落ち着こう → [まあ落ち着こう](https://shinycolors.wiki/wiki/P-SR2_Meguru)（文本相似度 100%）
+- これは試合だ── → [これは試合だ――](https://shinycolors.wiki/wiki/P-SR2_Meguru)（文本相似度 100%）
+
+### 小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂02
+
+剧情：`/produce_events/200902002.json` · 原文文件：[data/story/小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂02.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%8202.csv)
+
+- （一雨きそうだ） → [一雨きそうだ](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 100%）
+- （PCの電源を\\n抜いておこう） → [PCの電源を抜いておこう](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 100%）
+- （梅雨だもんな） → [梅雨だもんな](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 100%）
+
+### 小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂04
+
+剧情：`/produce_events/200902004.json` · 原文文件：[data/story/小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂04.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%8204.csv)
+
+- 言葉、見つかりそうかな → [言葉、見つかりそうかな](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 100%）
+- 果穂は今どんなことを\\n考えてるかな → [果穂は今どんなことを考えてるかな](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 100%）
+- ヒントになりそうかな → [ヒントなりそうかな](https://shinycolors.wiki/wiki/P-SSR13_Kaho)（文本相似度 90%）
+
+### 月岡恋鐘/【ビ～♡バップ海岸】月岡恋鐘/音楽の話～
+
+剧情：`/produce_events/200400502.json` · 原文文件：[data/story/月岡恋鐘/【ビ～♡バップ海岸】月岡恋鐘/音楽の話～.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90%E3%83%93%EF%BD%9E%E2%99%A1%E3%83%90%E3%83%83%E3%83%97%E6%B5%B7%E5%B2%B8%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A9%B1%EF%BD%9E.csv)
+
+- アンプに繋ごうか → [アンプに繋ごうか](https://shinycolors.wiki/wiki/P-SR2_Kogane)（文本相似度 100%）
+- ふたつとも、\\nくれないか……？ → [ふたつともくれないか…?](https://shinycolors.wiki/wiki/P-SR2_Kogane)（文本相似度 100%）
+- ……うん。サンキュ → […うん。サンキュ](https://shinycolors.wiki/wiki/P-SR2_Kogane)（文本相似度 100%）
+
+### 緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴02
+
+剧情：`/produce_events/202501202.json` · 原文文件：[data/story/緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴02.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B402.csv)
+
+- 寒くない、寒くない\\n寒くない → [寒くない、寒くない、寒くない](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+- 大事だよな → [大事だよな](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+- 美琴もやるのか？ → [美琴もやるのか?](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+
+### 緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴03
+
+剧情：`/produce_events/202501203.json` · 原文文件：[data/story/緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴03.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B403.csv)
+
+- 行きたくなったか？ → [行きたくなったか?](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+- それに── → [それに────](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+- 俺もそう思うよ → [俺もそう思うよ](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)（文本相似度 100%）
+
+### 西城樹里/W.I.N.G.編/4.輝きの可能性
+
+剧情：`/produce_events/101100103.json` · 原文文件：[data/story/西城樹里/W.I.N.G.編/4.輝きの可能性.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C/W.I.N.G.%E7%B7%A8/4.%E8%BC%9D%E3%81%8D%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7.csv)
+
+- ちょっと柄の悪い\\nク－ルアイドル → [ちょっと柄の悪いクールアイドル](https://shinycolors.wiki/wiki/Juri_Saijo/Commus)（文本相似度 93%）
+- スポ－ティな\\n爽やかアイドル → [スポーティな爽やかアイドル](https://shinycolors.wiki/wiki/Juri_Saijo/Commus)（文本相似度 92%）
+- 歌って踊れる\\nスーパーアイドル → [歌って踊れるスーパーアイドル](https://shinycolors.wiki/wiki/Juri_Saijo/Commus)（文本相似度 100%）
+
+### 黛冬優子/【オ♡フ♡レ♡コ】黛 冬優子/静寂の頃はまだ遠く
+
+剧情：`/produce_events/201800404.json` · 原文文件：[data/story/黛冬優子/【オ♡フ♡レ♡コ】黛 冬優子/静寂の頃はまだ遠く.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E3%82%AA%E2%99%A1%E3%83%95%E2%99%A1%E3%83%AC%E2%99%A1%E3%82%B3%E3%80%91%E9%BB%9B%20%E5%86%AC%E5%84%AA%E5%AD%90/%E9%9D%99%E5%AF%82%E3%81%AE%E9%A0%83%E3%81%AF%E3%81%BE%E3%81%A0%E9%81%A0%E3%81%8F.csv)
+
+- なんだか寂しいよな → [なんだか寂しいよな](https://shinycolors.wiki/wiki/P-SSR1_Fuyuko)（文本相似度 100%）
+- 美味しいものが多いしな → [美味しいものが多いしな](https://shinycolors.wiki/wiki/P-SSR1_Fuyuko)（文本相似度 100%）
+- 雪、綺麗だもんな → [雪、奇麗だもんな](https://shinycolors.wiki/wiki/P-SSR1_Fuyuko)（文本相似度 86%）
+
+## 剧情分支：20 组需要核对
 
 ### MEMちょ/W.I.N.G.編/2.バズらせのプロ
 
@@ -114,66 +190,6 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 - ルビー次第だ
 - アイを越える\\nアイドルになれる
 
-### 三峰結華/【お試し、みつゴコロ】三峰結華/消したい、もしくは覚えていたい
-
-剧情：`/produce_events/200700402.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/三峰結華/【お試し、みつゴコロ】三峰結華/消したい、もしくは覚えていたい.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E3%80%90%E3%81%8A%E8%A9%A6%E3%81%97%E3%80%81%E3%81%BF%E3%81%A4%E3%82%B4%E3%82%B3%E3%83%AD%E3%80%91%E4%B8%89%E5%B3%B0%E7%B5%90%E8%8F%AF/%E6%B6%88%E3%81%97%E3%81%9F%E3%81%84%E3%80%81%E3%82%82%E3%81%97%E3%81%8F%E3%81%AF%E8%A6%9A%E3%81%88%E3%81%A6%E3%81%84%E3%81%9F%E3%81%84.csv)
-
-缺失原文：
-
-- 嬉しい間違いだよ
-- お兄さんっ子だったのか
-- 親しみやすさが\\n１上がった、だな
-
-候选：[消したい、もしくは覚えていたい](https://shinycolors.wiki/wiki/P-SSR1_Yuika)
-
-- お兄さんっ子だったのか
-- 親しみやすさが1つ上がった、だな
-- 嬉しい間違いだよ
-
-### 八宮めぐる/【小さな夜のトロイメライ】八宮めぐる/ON\_消失のクライシス
-
-剧情：`/produce_events/200300701.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
-
-原文文件：[data/story/八宮めぐる/【小さな夜のトロイメライ】八宮めぐる/ON\_消失のクライシス.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/%E3%80%90%E5%B0%8F%E3%81%95%E3%81%AA%E5%A4%9C%E3%81%AE%E3%83%88%E3%83%AD%E3%82%A4%E3%83%A1%E3%83%A9%E3%82%A4%E3%80%91%E5%85%AB%E5%AE%AE%E3%82%81%E3%81%90%E3%82%8B/ON_%E6%B6%88%E5%A4%B1%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9.csv)
-
-缺失原文：
-
-- 待ちの戦法でいこう
-- まあ落ち着こう
-- これは試合だ──
-
-### 小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂02
-
-剧情：`/produce_events/200902002.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
-
-原文文件：[data/story/小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂02.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%8202.csv)
-
-缺失原文：
-
-- （一雨きそうだ）
-- （PCの電源を\\n抜いておこう）
-- （梅雨だもんな）
-
-### 小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂04
-
-剧情：`/produce_events/200902004.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂04.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%82/%E3%80%90%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%81%98%E3%82%83%E3%81%AA%E3%81%8F%E3%81%AA%E3%81%A3%E3%81%9F%E3%82%89%E3%80%91%E5%B0%8F%E5%AE%AE%E6%9E%9C%E7%A9%8204.csv)
-
-缺失原文：
-
-- 言葉、見つかりそうかな
-- 果穂は今どんなことを\\n考えてるかな
-- ヒントになりそうかな
-
-候选：[横に並んでくれる人](https://shinycolors.wiki/wiki/P-SSR13_Kaho)
-
-- 果穂は今どんなことを考えてるかな
-- ヒントなりそうかな
-- 言葉、見つかりそうかな
-
 ### 斑鳩ルカ/【※CAUTION※】斑鳩 ルカ/3間違えば取り返しがつかない
 
 剧情：`/produce_events/302600803.json` · 0/2 个选项已匹配 · 没有找到至少两个原文相同的候选组
@@ -255,24 +271,6 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 - そんなこと気にするな
 - いつもの恋鐘はどこにいったんだ
 
-### 月岡恋鐘/【ビ～♡バップ海岸】月岡恋鐘/音楽の話～
-
-剧情：`/produce_events/200400502.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/月岡恋鐘/【ビ～♡バップ海岸】月岡恋鐘/音楽の話～.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E3%80%90%E3%83%93%EF%BD%9E%E2%99%A1%E3%83%90%E3%83%83%E3%83%97%E6%B5%B7%E5%B2%B8%E3%80%91%E6%9C%88%E5%B2%A1%E6%81%8B%E9%90%98/%E9%9F%B3%E6%A5%BD%E3%81%AE%E8%A9%B1%EF%BD%9E.csv)
-
-缺失原文：
-
-- アンプに繋ごうか
-- ふたつとも、\\nくれないか……？
-- ……うん。サンキュ
-
-候选：[音楽の話～](https://shinycolors.wiki/wiki/P-SR2_Kogane)
-
-- ふたつともくれないか……？
-- ……うん。サンキュ
-- アンプに繋ごうか
-
 ### 有馬かな/W.I.N.G.編/いつかのために
 
 剧情：`/produce_events/180200104.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
@@ -351,54 +349,6 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 - 考えすぎ\\nかもしれないな
 - ──たとえば
 
-### 緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴02
-
-剧情：`/produce_events/202501202.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴02.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B402.csv)
-
-缺失原文：
-
-- 寒くない、寒くない\\n寒くない
-- 大事だよな
-- 美琴もやるのか？
-
-候选：[self-suggestion](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)
-
-- 大事だよな
-- 美琴もやるのか？
-- 寒くない、寒くない、寒くない
-
-### 緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴03
-
-剧情：`/produce_events/202501203.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/緋田美琴/【SUGARLESS】緋田美琴/【SUGARLESS】緋田美琴03.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B4/%E3%80%90SUGARLESS%E3%80%91%E7%B7%8B%E7%94%B0%E7%BE%8E%E7%90%B403.csv)
-
-缺失原文：
-
-- 行きたくなったか？
-- それに──
-- 俺もそう思うよ
-
-候选：[skip](https://shinycolors.wiki/wiki/P-SSR7_Mikoto)
-
-- それに────
-- 俺もそう思うよ
-- 行きたくなったか？
-
-### 西城樹里/W.I.N.G.編/4.輝きの可能性
-
-剧情：`/produce_events/101100103.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
-
-原文文件：[data/story/西城樹里/W.I.N.G.編/4.輝きの可能性.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E8%A5%BF%E5%9F%8E%E6%A8%B9%E9%87%8C/W.I.N.G.%E7%B7%A8/4.%E8%BC%9D%E3%81%8D%E3%81%AE%E5%8F%AF%E8%83%BD%E6%80%A7.csv)
-
-缺失原文：
-
-- ちょっと柄の悪い\\nク－ルアイドル
-- スポ－ティな\\n爽やかアイドル
-- 歌って踊れる\\nスーパーアイドル
-
 ### 郁田はるき/郁田阳希 Landing Point篇,共通→斑鳩ルカ/郁田阳希 Landing Point篇05
 
 剧情：`/produce_events/102800405.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
@@ -410,24 +360,6 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 - ……『だけ』じゃ\\nないだろう
 - だけど\\n求めることは
 - ……\\nなくしてないよ
-
-### 黛冬優子/【オ♡フ♡レ♡コ】黛 冬優子/静寂の頃はまだ遠く
-
-剧情：`/produce_events/201800404.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/黛冬優子/【オ♡フ♡レ♡コ】黛 冬優子/静寂の頃はまだ遠く.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90/%E3%80%90%E3%82%AA%E2%99%A1%E3%83%95%E2%99%A1%E3%83%AC%E2%99%A1%E3%82%B3%E3%80%91%E9%BB%9B%20%E5%86%AC%E5%84%AA%E5%AD%90/%E9%9D%99%E5%AF%82%E3%81%AE%E9%A0%83%E3%81%AF%E3%81%BE%E3%81%A0%E9%81%A0%E3%81%8F.csv)
-
-缺失原文：
-
-- なんだか寂しいよな
-- 美味しいものが多いしな
-- 雪、綺麗だもんな
-
-候选：[静寂の頃はまだ遠く](https://shinycolors.wiki/wiki/P-SSR1_Fuyuko)
-
-- 美味しいものが多いしな
-- 雪、奇麗だもんな
-- なんだか寂しいよな
 
 ## CSV 解析警告
 

@@ -7,7 +7,7 @@ import { captureChoiceGroups, createChoiceResolver, createChoiceCharacterResolve
 import { installChoiceHooks } from './story/choiceHooks'
 import { createChoiceOverlay } from '../utils/choiceOverlay'
 
-const resolve = createChoiceResolver(catalogue.groups)
+const resolve = createChoiceResolver(catalogue.groups, { characters })
 const identifyCharacter = createChoiceCharacterResolver(characters)
 
 // This must run before translation. The serializable annotation also survives

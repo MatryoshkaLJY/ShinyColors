@@ -1,5 +1,7 @@
 // Match original choices as a set: morning communication shuffles their order.
 // Keep this independent of the game and DOM so mismatches can be tested offline.
+import { createFuzzyChoiceResolver } from './choiceFuzzy.js'
+
 export const normalizeChoice = text => (typeof text === 'string' ? text : '')
   .normalize('NFKC')
   .replace(/\\n|\\r/g, '')
@@ -48,9 +50,10 @@ export const createChoiceCharacterResolver = characters => {
   }
 }
 
-export const createChoiceResolver = groups => {
+export const createChoiceResolver = (groups, { fuzzy = true, characters = {} } = {}) => {
   const index = new Map()
   const morningByCharacter = new Map()
+  let fuzzyResolve
   groups.forEach(group => {
     for (const sig of new Set(groupSignatures(group.choices))) {
       const key = `${group.kind}:${sig}`
@@ -72,6 +75,13 @@ export const createChoiceResolver = groups => {
     if (!kind || texts.length < 2 || texts.some(text => !normalizeChoice(text))) return null
     const candidates = (index.get(`${kind}:${signature(texts)}`) || [])
       .filter(group => kind !== 'morning' || !character || group.character === character)
+    // Known exact conflicts stay unknown. Fuzzy matching only fills a missing
+    // complete group, using a one-to-one assignment and a runner-up margin.
+    if (!candidates.length && fuzzy) {
+      if (!fuzzyResolve) fuzzyResolve = createFuzzyChoiceResolver(groups, normalizeChoice, characters)
+      const results = fuzzyResolve(kind, texts, character)
+      if (results) return results
+    }
     // A typo or variant in one Wiki cell must not hide the other two answers.
     // Scope individual morning answers to their character; identical wording
     // can carry a different grade in another character's communication.
@@ -110,7 +120,7 @@ export const captureChoiceGroups = (tracks, path, resolve, identifyCharacter = (
   if (!Array.isArray(tracks)) return
   const kind = choiceKind(path)
   if (!kind) return
-  const character = kind === 'morning' ? identifyCharacter(tracks) : null
+  const character = identifyCharacter(tracks)
   let group = []
   const flush = () => {
     if (group.length > 1) {

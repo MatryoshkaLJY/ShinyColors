@@ -32,12 +32,12 @@ test('a shared option alone, incomplete groups and another event category cannot
   assert.equal(resolve('audition', choices.map(c => c.text)), null)
 })
 
-test('explicit spellings match the same complete event without accepting unlisted variants', () => {
+test('explicit spellings in strict mode do not accept unlisted variants', () => {
   const aliased = { ...group, choices: [
     { ...choices[0], aliases: ['公園に行こう'] },
     { ...choices[1], aliases: ['デパートの屋上に行こう'] }, choices[2]
   ] }
-  const lookup = createChoiceResolver([aliased])
+  const lookup = createChoiceResolver([aliased], { fuzzy: false })
   for (const first of [choices[0].text, '公園に行こう']) {
     for (const second of [choices[1].text, 'デパートの屋上に行こう']) {
       const effects = lookup('event', [second, choices[2].text, first])

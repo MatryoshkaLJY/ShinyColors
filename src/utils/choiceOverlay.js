@@ -135,7 +135,8 @@ export const createChoiceOverlay = (aoba, enabled, report = () => {}) => {
           ? stats.map(stat => text(stat.text, 17, colors[stat.stat] || 0xffffff))
           : [text(formatChoiceEffect(hint?.kind, hint?.effect), 17)]
         labels.forEach(label => panel.addChild(label))
-        const source = text(hint?.effect ? 'Wiki · 基础效果' : 'Wiki 暂未收录或选项未匹配', 12)
+        const source = text(hint?.effect?.match?.type === 'fuzzy' ? '近似匹配 · Wiki 基础效果' :
+          hint?.effect ? 'Wiki · 基础效果' : 'Wiki 暂未收录或选项未匹配', 12)
         source.alpha = .75
         panel.addChild(source)
         root.addChild(panel)

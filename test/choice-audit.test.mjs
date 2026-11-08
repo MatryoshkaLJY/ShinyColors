@@ -38,6 +38,23 @@ test('audit identifies a typo candidate without assigning its effect or reportin
   assert.equal(report.failures[0].candidates[0].source, group.source)
 })
 
+test('audit separates inferred matches from exact coverage and supports an exact-only comparison', () => {
+  const long = { ...group, choices: [
+    { text: '帰りに公園を一緒に散歩しよう', effects: { vocal: 20 } },
+    { text: '次の仕事の話をしよう', effects: { dance: 20 } },
+    { text: '練習の成果を見せてほしい', effects: { visual: 20 } }
+  ] }
+  const input = [long.choices[0].text, '次のお仕事の話をしよう', long.choices[2].text]
+  const fuzzy = auditScenarios([scenarioFor(input)], [long], characters)
+  assert.equal(fuzzy.summary.matchedGroups, 1)
+  assert.equal(fuzzy.summary.fuzzyGroups, 1)
+  assert.equal(fuzzy.fuzzyMatches.length, 1)
+  assert.ok(fuzzy.fuzzyMatches[0].matches.every(match => match.effect.match.type === 'fuzzy'))
+  const exact = auditScenarios([scenarioFor(input)], [long], characters, { fuzzy: false })
+  assert.equal(exact.summary.unmatchedGroups, 1)
+  assert.equal(exact.summary.fuzzyGroups, 0)
+})
+
 test('repeated Wiki text cannot count the same source answer twice when proposing candidates', () => {
   const duplicate = { ...group, choices: [group.choices[0], group.choices[0], group.choices[0]] }
   const report = auditScenarios([scenarioFor(['回答A', '回答X', '回答Y'])], [duplicate], characters)
@@ -82,7 +99,7 @@ test('ambiguous scenario metadata and malformed CSVs are reported instead of sil
   assert.equal(report.csvWarnings[0].errors[0].code, 'TooFewFields')
 })
 
-test('CLI produces reproducible source hashes, readable source links and a nonzero strict result for gaps', () => {
+test('CLI produces source hashes and links, and strict mode rejects gaps or inferred results', () => {
   const directory = mkdtempSync(join(tmpdir(), 'sc-choice-audit-test-'))
   try {
     mkdirSync(join(directory, 'data/story'), { recursive: true })
@@ -104,5 +121,24 @@ test('CLI produces reproducible source hashes, readable source links and a nonze
     writeFileSync(join(directory, 'data/story/scene.csv'), csvFor(['回答A', '回答B', '回答C']))
     const clean = spawnSync(process.execPath, [...command, '--strict'], { encoding: 'utf8' })
     assert.equal(clean.status, 0, clean.stderr)
+    const long = { ...group, choices: [
+      { text: '帰りに公園を一緒に散歩しよう', effects: { vocal: 20 } },
+      { text: '次の仕事の話をしよう', effects: { dance: 20 } },
+      { text: '練習の成果を見せてほしい', effects: { visual: 20 } }
+    ] }
+    writeFileSync(join(directory, 'catalogue.json'), JSON.stringify({ groups: [long] }))
+    writeFileSync(join(directory, 'data/story/scene.csv'), csvFor([long.choices[0].text, '次のお仕事の話をしよう', long.choices[2].text]))
+    const inferred = spawnSync(process.execPath, [...command, '--strict'], { encoding: 'utf8' })
+    assert.equal(inferred.status, 1, inferred.stderr)
+    const inferredReport = JSON.parse(readFileSync(output, 'utf8'))
+    assert.equal(inferredReport.summary.unmatchedGroups, 0)
+    assert.equal(inferredReport.summary.fuzzyGroups, 1)
+    assert.match(readFileSync(join(directory, 'report.md'), 'utf8'), /近似匹配：1 组需要确认/)
+    const strictText = spawnSync(process.execPath, [...command, '--exact'], { encoding: 'utf8' })
+    assert.equal(strictText.status, 0, strictText.stderr)
+    const exactReport = JSON.parse(readFileSync(output, 'utf8'))
+    assert.equal(exactReport.sources.matching, 'exact-only')
+    assert.equal(exactReport.summary.unmatchedGroups, 1)
+    assert.equal(exactReport.summary.fuzzyGroups, 0)
   } finally { rmSync(directory, { recursive: true, force: true }) }
 })
