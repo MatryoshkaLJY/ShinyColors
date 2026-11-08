@@ -1754,12 +1754,13 @@
           }
         },
         {
-          "text": "元気いっぱいに行こう！",
+          "text": "元気いっぱいにいこう！",
           "effects": {
             "dance": 20,
             "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/プロデュースイベント_園田智代子"
         }
       ]
     },

@@ -1,0 +1,24 @@
+[
+  {
+    "path": "/assets/json/produce_events/101000103.json",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/園田智代子/W.I.N.G.編/ビッグチャンスにご用心.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/プロデュースイベント_園田智代子",
+    "choices": [
+      {
+        "original": "いつも通りで\\nいこう！",
+        "translation": "按平常来吧！",
+        "effects": { "vocal": 20, "mental": 5, "sp": 10 }
+      },
+      {
+        "original": "楽しくやろう！",
+        "translation": "开心地干吧！",
+        "effects": { "visual": 20, "mental": 5, "sp": 10 }
+      },
+      {
+        "original": "元気いっぱいに\\nいこう！",
+        "translation": "充满元气地上吧！",
+        "effects": { "dance": 20, "mental": 5, "sp": 10 }
+      }
+    ]
+  }
+]

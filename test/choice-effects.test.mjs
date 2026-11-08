@@ -254,3 +254,22 @@ test('Amana audition choices retain all three grades after translation, caching 
     }
   }
 })
+
+test('Chiyoko Big Chance choices retain their stat effects after translation, caching and shuffling', () => {
+  const { groups } = JSON.parse(readFileSync(new URL('../src/data/choice-effects.json', import.meta.url)))
+  const scenarios = JSON.parse(readFileSync(new URL('./fixtures/chiyoko-wing.json', import.meta.url)))
+  const lookup = createChoiceResolver(groups)
+  for (const { path, choices } of scenarios) {
+    const tracks = [{ speaker: 'プロデューサー', text: 'opening' },
+      ...choices.map(choice => ({ select: choice.original })), { label: 'end' }]
+    captureChoiceGroups(tracks, path, lookup, identifyCharacter)
+    tracks.slice(1, -1).forEach((track, index) => { track.select = choices[index].translation })
+    const cached = JSON.parse(JSON.stringify(tracks))
+    captureChoiceGroups(cached, path, lookup, identifyCharacter)
+    const displayed = cached.filter(track => track.select).reverse().map(track => ({ item: {}, hint: track[CHOICE_HINT_KEY] }))
+    for (const { hint } of resolveDisplayedChoices(displayed, lookup)) {
+      const expected = choices.find(choice => choice.original === hint.original)
+      assert.deepEqual(hint.effect?.effects, expected.effects, `${path}: ${hint.original}`)
+    }
+  }
+})
