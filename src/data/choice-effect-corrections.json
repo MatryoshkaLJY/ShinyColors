@@ -4761,5 +4761,85 @@
       }
     ],
     "source": "https://wikiwiki.jp/shinycolors/%E3%80%90%E8%AA%98%E7%88%86%E3%83%8F%E3%83%BC%E3%83%88%E3%83%93%E3%83%BC%E3%83%88%E3%80%91%E9%BB%9B%E5%86%AC%E5%84%AA%E5%AD%90"
+  },
+  {
+    "kind": "event",
+    "groupSource": "https://shinycolors.wiki/wiki/P-SSR4_Chiyoko",
+    "title": "アイドル魂のみせどころなのです",
+    "matchChoices": [
+      "（共演者の子がこっちに――）",
+      "（改めて拍手だ……！）",
+      "あ、ディレクターが――"
+    ],
+    "choices": [
+      {
+        "text": "（共演者の子がこっちに――）",
+        "aliases": [
+          "（共演者の子がこっちに──）"
+        ],
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      },
+      {
+        "text": "（改めて拍手だ……！）",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      },
+      {
+        "text": "（あ、ディレクターが――）",
+        "aliases": [
+          "（あ、ディレクターが──）"
+        ],
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      }
+    ],
+    "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
+  },
+  {
+    "kind": "event",
+    "groupSource": "https://shinycolors.wiki/wiki/P-SSR4_Chiyoko",
+    "title": "恐怖はなんとか抑えられるらしい",
+    "matchChoices": [
+      "智代子らしくていい",
+      "いい子って評判だったぞ",
+      "さすがのリアクションだ"
+    ],
+    "choices": [
+      {
+        "text": "智代子らしくていい",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      },
+      {
+        "text": "いい子だって評判だぞ",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      },
+      {
+        "text": "さすがのリアクションだ",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        }
+      }
+    ],
+    "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
   }
 ]

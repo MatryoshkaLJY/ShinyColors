@@ -1,12 +1,12 @@
 # 选项效果离线检查
 
-生成时间：2026-11-08T11:42:32.008Z。剧情来源：[SCTranslationData](https://github.com/ShinyGroup/SCTranslationData/tree/60d451090aea86631815a0522238eb5f3d196e1b)。
+生成时间：2026-11-08T11:55:50.441Z。剧情来源：[SCTranslationData](https://github.com/ShinyGroup/SCTranslationData/tree/60d451090aea86631815a0522238eb5f3d196e1b)。
 
-扫描 5623 份剧情 CSV，检查支持类别中的 1309 组选项：1278 组全部匹配，2 组部分匹配，29 组未匹配。
+扫描 5623 份剧情 CSV，检查支持类别中的 1309 组选项：1280 组全部匹配，2 组部分匹配，27 组未匹配。
 
-共 3926 个选项，90 个未匹配。动态选项池 0 个，CSV 解析警告 42 份。
+共 3926 个选项，84 个未匹配。动态选项池 0 个，CSV 解析警告 42 份。
 
-按现象分类：8 组存在原文差异候选，21 组没有找到近似记录，2 组存在效果冲突。
+按现象分类：7 组存在原文差异候选，20 组没有找到近似记录，2 组存在效果冲突。
 
 范围：仅覆盖该本地快照保留的原始日文。缺失表示当前查找器无法返回效果，不等同于已确认 Wiki 错字；数值本身及游戏内渲染仍需另行核实。候选记录仅供人工核对，不自动赋予效果。
 
@@ -14,9 +14,9 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 
 剧情数据 SHA-256：c09446a63ab7cb46cffe2b9db2d8fb394b0e2fd77ec0c34cf9bad361f2a126fc
 
-效果库 SHA-256：1ed1832aa9208832ebc90318c2f2fd082036e6cd05cb6fbee6825595aa3a0326
+效果库 SHA-256：d0eb1ca910a7a30d1b9939516afe3d20ccb87ca4cb20d42b9839fb316d8e73bf
 
-## 剧情分支：31 组需要核对
+## 剧情分支：29 组需要核对
 
 ### MEMちょ/W.I.N.G.編/2.バズらせのプロ
 
@@ -143,36 +143,6 @@ Wiki 候选内容来自 Shinycolors Wiki 贡献者，按 [CC BY-NC-SA 4.0](https
 - 待ちの戦法でいこう
 - まあ落ち着こう
 - これは試合だ──
-
-### 園田智代子/【You're My Dream】園田智代子/アイドル魂の見せどころなのです
-
-剧情：`/produce_events/201000903.json` · 0/3 个选项已匹配 · 没有找到至少两个原文相同的候选组
-
-原文文件：[data/story/園田智代子/【You're My Dream】園田智代子/アイドル魂の見せどころなのです.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90You're%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E9%AD%82%E3%81%AE%E8%A6%8B%E3%81%9B%E3%81%A9%E3%81%93%E3%82%8D%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99.csv)
-
-缺失原文：
-
-- （あ、\\nディレクターが──）
-- （共演者の子が\\nこっちに──）
-- （改めて拍手だ……！）
-
-### 園田智代子/【You're My Dream】園田智代子/恐怖はなんとか抑えられるらしい
-
-剧情：`/produce_events/201000904.json` · 0/3 个选项已匹配 · 有至少两个原文相同的候选组，需核对其余文字
-
-原文文件：[data/story/園田智代子/【You're My Dream】園田智代子/恐怖はなんとか抑えられるらしい.csv](https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90You're%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E6%81%90%E6%80%96%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E6%8A%91%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B%E3%82%89%E3%81%97%E3%81%84.csv)
-
-缺失原文：
-
-- さすがの\\nリアクションだ
-- 智代子らしくていい
-- いい子だって\\n評判だぞ
-
-候选：[恐怖はなんとか抑えられるらしい](https://shinycolors.wiki/wiki/P-SSR4_Chiyoko)
-
-- 智代子らしくていい
-- いい子って評判だったぞ
-- さすがのリアクションだ
 
 ### 小宮果穂/【アイドルじゃなくなったら】小宮果穂/【アイドルじゃなくなったら】小宮果穂02
 

@@ -33863,25 +33863,36 @@
       "choices": [
         {
           "text": "（共演者の子がこっちに――）",
+          "aliases": [
+            "（共演者の子がこっちに──）"
+          ],
           "effects": {
-            "mental": 10,
+            "dance": 20,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
           "text": "（改めて拍手だ……！）",
           "effects": {
-            "mental": 10,
+            "vocal": 20,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "あ、ディレクターが――",
+          "text": "（あ、ディレクターが――）",
+          "aliases": [
+            "（あ、ディレクターが──）"
+          ],
           "effects": {
             "visual": 20,
-            "mental": 10,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },
@@ -33894,25 +33905,28 @@
           "text": "智代子らしくていい",
           "effects": {
             "vocal": 20,
-            "mental": 10,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
-          "text": "いい子って評判だったぞ",
+          "text": "いい子だって評判だぞ",
           "effects": {
             "dance": 20,
-            "mental": 10,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         },
         {
           "text": "さすがのリアクションだ",
           "effects": {
             "visual": 20,
-            "mental": 10,
+            "mental": 5,
             "sp": 10
-          }
+          },
+          "source": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90"
         }
       ]
     },

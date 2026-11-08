@@ -5008,5 +5008,85 @@
         "referenceText": "また今度来ようかな"
       }
     ]
+  },
+  {
+    "path": "/assets/json/produce_events/201000903.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【You're My Dream】園田智代子/アイドル魂の見せどころなのです.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90You%27re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E9%AD%82%E3%81%AE%E8%A6%8B%E3%81%9B%E3%81%A9%E3%81%93%E3%82%8D%E3%81%AA%E3%81%AE%E3%81%A7%E3%81%99.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "verification": "Verified the canonical Japanese Wiki page using its curly apostrophe; compare full choices and preserve explicit dash variants.",
+    "choices": [
+      {
+        "original": "（改めて拍手だ……！）",
+        "translation": "（得再为她鼓掌……！）",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（改めて拍手だ……！）"
+      },
+      {
+        "original": "（共演者の子が\\nこっちに──）",
+        "translation": "（一起出演的那位偶像\\n往这边——）",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（共演者の子がこっちに――）"
+      },
+      {
+        "original": "（あ、\\nディレクターが──）",
+        "translation": "（啊，\\n是导播——）",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "（あ、ディレクターが――）"
+      }
+    ]
+  },
+  {
+    "path": "/assets/json/produce_events/201000904.json",
+    "character": "Chiyoko_Sonoda",
+    "sourceFile": "data/story/園田智代子/【You're My Dream】園田智代子/恐怖はなんとか抑えられるらしい.csv",
+    "source": "https://github.com/ShinyGroup/SCTranslationData/blob/60d451090aea86631815a0522238eb5f3d196e1b/data/story/%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E3%80%90You%27re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90/%E6%81%90%E6%80%96%E3%81%AF%E3%81%AA%E3%82%93%E3%81%A8%E3%81%8B%E6%8A%91%E3%81%88%E3%82%89%E3%82%8C%E3%82%8B%E3%82%89%E3%81%97%E3%81%84.csv",
+    "effectSource": "https://wikiwiki.jp/shinycolors/%E3%80%90You%E2%80%99re%20My%20Dream%E3%80%91%E5%9C%92%E7%94%B0%E6%99%BA%E4%BB%A3%E5%AD%90",
+    "verification": "Verified the canonical Japanese Wiki page using its curly apostrophe; compare full choices and preserve explicit dash variants.",
+    "choices": [
+      {
+        "original": "いい子だって\\n評判だぞ",
+        "translation": "大家都说\\n你很善良呢",
+        "effects": {
+          "dance": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "いい子だって評判だぞ"
+      },
+      {
+        "original": "智代子らしくていい",
+        "translation": "很像智代子就很好",
+        "effects": {
+          "vocal": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "智代子らしくていい"
+      },
+      {
+        "original": "さすがの\\nリアクションだ",
+        "translation": "这反应\\n不愧是你",
+        "effects": {
+          "visual": 20,
+          "mental": 5,
+          "sp": 10
+        },
+        "referenceText": "さすがのリアクションだ"
+      }
+    ]
   }
 ]
