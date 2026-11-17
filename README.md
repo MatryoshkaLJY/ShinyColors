@@ -61,7 +61,11 @@ pnpm deploy
 
 各设备按脚本管理器设置的周期检查更新；需要立即更新时，在管理器中手动检查更新。已打开的游戏页面应在更新完成后整页刷新。本地服务器只用于本地安装和调试，多设备更新直接使用上面的 HTTPS 地址。
 
-程序和内置选项效果库随 Release 更新；汉化译文通过 `config.origin` 加载。
+效果库每天在北京时间 04:17 附近自动检查 Wiki（GitHub 排队可能延迟）。[Publish userscript](https://github.com/MatryoshkaLJY/ShinyColors/actions/workflows/publish-userscript.yml) 会重新发现卡片列表，抓取新卡与已有页面，保留已核实的修正和补充记录；数据有变化且通过校验、测试及构建后，自动提交效果库并在同一次运行中发布新版。各设备开启脚本管理器的自动更新后即可收到，无需手动改库。新卡在 Wiki 录入效果前，仍可能显示数据暂缺。
+
+定时检查没有数据变化且当前提交已经发布时，不创建新版本。页面请求失败、旧事件或选项数量减少、修正目标失效、测试失败时，保留上一份成功发布的版本；数据已经提交但发布失败时，下次检查会补发。可在 Actions 查看运行结果。需要立即检查时，选择 Publish userscript → Run workflow → master，保留默认勾选的 `refresh_choices`；取消勾选可仅重新构建现有数据。
+
+定时更新与发布使用仓库自带的 `GITHUB_TOKEN`，不需要另配个人访问令牌。自动提交不会触发另一次 push 工作流，因此抓取、校验、提交与发布在同一次运行中完成，见 [GitHub 触发规则](https://docs.github.com/en/actions/how-tos/write-workflows/choose-when-workflows-run/trigger-a-workflow)。程序和内置选项效果库随 Release 更新；汉化译文通过 `config.origin` 加载。
 
 ### 选项效果提示
 
@@ -82,7 +86,7 @@ python3 -m unittest discover -s test -p 'test_*.py'
 npm run build
 ```
 
-更新脚本缓存 Wiki 响应，支持中断后重跑。要重新获取最新页面，指定新的缓存目录：`python3 script/updateChoiceEffects.py --cache /tmp/sc-choice-wiki-new`。请求失败或解析结果不完整时不会覆盖已有数据。
+更新脚本缓存 Wiki 响应，支持中断后重跑；缓存默认 24 小时过期，`--max-cache-age 0` 强制重新抓取，`--cache /tmp/sc-choice-wiki-new` 可指定独立缓存目录。定时流程每次使用新目录。只有数据内容变化才写入文件，检查日期或记录顺序变化不会单独触发发布。请求失败、字段无效、旧事件或选项数量减少时拒绝覆盖已有数据；已核实的修正目标也必须仍然存在。`--report /tmp/choice-update.json` 可保存变化摘要；`--output /tmp/choice-effects.json` 可输出到其他位置，若需检查覆盖退化，应先将现有库复制到该位置。
 
 手动补充时，在 `groups` 中添加 `kind`（`event` / `morning` / `audition`）、`title`、`source` 和完整的 `choices`。剧情选项使用 `effects`（`vocal`、`dance`、`visual`、`mental`、`sp`）；早间对话使用 `character`（`choice-characters.json` 中的键）和 `grade`（`perfect` / `good` / `normal`），试镜前对话使用 `grade`（`up` / `neutral` / `down`）。每个 `text` 必须是游戏原始日文。已核实的抄录错误可写入 `src/data/choice-effect-corrections.json`，附上核对来源；更新脚本会自动应用这些修正，避免重建时丢失。修正也应同步反馈 Wiki。整组表格修正使用 `choices` 和 `matchChoices`（修正前的完整选项文字）校验目标；补充缺失组使用 `add: true`。已核实的原文写法差异可在对应选项的 `aliases` 中列出，别名限定在所属选项组或角色内。
 

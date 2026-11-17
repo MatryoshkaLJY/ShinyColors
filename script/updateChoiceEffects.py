@@ -16,6 +16,7 @@ from pathlib import Path
 import re
 import time
 from urllib.parse import quote, unquote, urlencode
+from urllib.error import HTTPError
 from urllib.request import Request, urlopen
 
 WIKI = 'https://shinycolors.wiki'
@@ -184,9 +185,71 @@ def apply_corrections(groups, corrections):
     return groups
 
 
-def fetch(url, cache, delay):
+def validate_groups(groups, previous=()):
+    """Reject malformed records and source-level coverage loss before writing."""
+    for group in groups:
+        kind = group.get('kind')
+        if (kind not in ('event', 'morning', 'audition') or not isinstance(group.get('title'), str)
+                or not isinstance(group.get('source'), str) or not group['source'].startswith('https://')
+                or not isinstance(group.get('choices'), list) or not 2 <= len(group['choices']) <= 3
+                or kind == 'morning' and group.get('character') not in CHARACTERS):
+            raise ValueError(f'Invalid choice group: {group}')
+        for choice in group['choices']:
+            if (not isinstance(choice.get('text'), str) or not choice['text'].strip()
+                    or not isinstance(choice.get('aliases', []), list)
+                    or any(not isinstance(alias, str) or not alias.strip() for alias in choice.get('aliases', []))):
+                raise ValueError(f'Invalid choice text: {choice}')
+            if kind == 'event':
+                effects = choice.get('effects')
+                if (not isinstance(effects, dict) or not effects
+                        or any(stat not in ('vocal', 'dance', 'visual', 'mental', 'sp') or type(value) is not int
+                               for stat, value in effects.items())):
+                    raise ValueError(f'Invalid choice effects: {choice}')
+            elif choice.get('grade') not in (('perfect', 'good', 'normal') if kind == 'morning' else ('up', 'neutral', 'down')):
+                raise ValueError(f'Invalid choice grade: {choice}')
+    # Global totals alone can hide a broken old page behind newly added cards.
+    # Check groups and answer counts separately for every existing source/event.
+    def coverage(records, answers=False):
+        counts = Counter()
+        for group in records:
+            counts[(group['source'], group['kind'], group['title'], group.get('character'))] += len(group['choices']) if answers else 1
+        return counts
+    for answers in (False, True):
+        old, new = coverage(previous, answers), coverage(groups, answers)
+        missing = [(key, count, new[key]) for key, count in old.items() if new[key] < count]
+        if missing:
+            raise ValueError(f'Coverage decreased ({"choices" if answers else "groups"}); existing catalogue preserved: {missing}')
+
+
+def save_catalogue(groups, target):
+    previous = json.loads(target.read_text(encoding='utf-8')) if target.exists() else None
+    # Exact duplicates are common where several cards share an event.
+    unique = {json.dumps(group, ensure_ascii=False, sort_keys=True): group for group in groups}
+    groups = list(unique.values())
+    validate_groups(groups, previous['groups'] if previous else ())
+    output = {'updatedAt': datetime.now(timezone.utc).date().isoformat(),
+              'attribution': 'Shinycolors Wiki contributors; Japanese reference sources are cited per group or choice',
+              'license': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
+              'licenseScope': 'The CC license notice covers English Wiki-derived tables. Japanese reference records cite their sources individually; game text belongs to its original rights holders.',
+              'groups': groups}
+
+    def content(catalogue):
+        return {**{key: value for key, value in catalogue.items() if key not in ('updatedAt', 'groups')},
+                'groups': sorted(json.dumps(group, ensure_ascii=False, sort_keys=True) for group in catalogue['groups'])}
+    changed = previous is None or content(output) != content(previous)
+    if changed:
+        target.parent.mkdir(parents=True, exist_ok=True)
+        temporary = target.with_suffix('.json.tmp')
+        temporary.write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+        temporary.replace(target)
+    return {'changed': changed, 'updatedAt': output['updatedAt'] if changed else previous['updatedAt'],
+            'previousGroups': len(previous['groups']) if previous else 0,
+            'groups': len(groups), 'byKind': dict(Counter(group['kind'] for group in groups))}
+
+
+def fetch(url, cache, delay, max_age=86400):
     path = cache / (hashlib.sha256(url.encode()).hexdigest() + '.txt')
-    if path.exists():
+    if path.exists() and max_age > 0 and time.time() - path.stat().st_mtime < max_age:
         return path.read_text(encoding='utf-8')
     for attempt in range(4):
         try:
@@ -196,8 +259,8 @@ def fetch(url, cache, delay):
             path.write_text(text, encoding='utf-8')
             time.sleep(delay)
             return text
-        except Exception:
-            if attempt == 3:
+        except Exception as error:
+            if attempt == 3 or isinstance(error, HTTPError) and error.code in (400, 401, 403, 404, 429):
                 raise
             time.sleep(3 * (attempt + 1))
 
@@ -207,14 +270,23 @@ def main():
     ap.add_argument('--cache', type=Path, default=Path('/tmp/sc-choice-wiki-cache'))
     ap.add_argument('--delay', type=float, default=1.0)
     ap.add_argument('--batch-size', type=int, default=10)
+    ap.add_argument('--max-cache-age', type=float, default=86400, help='Cache lifetime in seconds; 0 forces fresh requests')
+    ap.add_argument('--output', type=Path, default=ROOT / 'src/data/choice-effects.json')
+    ap.add_argument('--report', type=Path, help='Write a machine-readable change summary')
     args = ap.parse_args()
+    if args.batch_size < 1 or args.delay < 0 or args.max_cache_age < 0:
+        ap.error('batch-size must be positive; delay and max-cache-age must be nonnegative')
     args.cache.mkdir(parents=True, exist_ok=True)
+    def request(url):
+        return fetch(url, args.cache, args.delay, args.max_cache_age)
     listing = Tables()
-    listing.feed(fetch(WIKI + '/wiki/Card_List/Produce', args.cache, args.delay))
+    listing.feed(request(WIKI + '/wiki/Card_List/Produce'))
     cards = sorted(p for p in listing.links if re.match(r'^P-(?:UR|SSR|SR|R)\d+ ', p) and '/' not in p)
-    catalogue = json.loads(fetch(WIKI + '/w/api.php?' + urlencode({
+    catalogue = json.loads(request(WIKI + '/w/api.php?' + urlencode({
         'action': 'query', 'list': 'categorymembers', 'cmtitle': 'Category:Character Commus',
-        'cmlimit': 500, 'format': 'json'}), args.cache, args.delay))
+        'cmlimit': 500, 'format': 'json'})))
+    if catalogue.get('continue'):
+        raise ValueError('Wiki character listing was truncated; existing catalogue preserved')
     commus = [p['title'] for p in catalogue['query']['categorymembers'] if p['ns'] == 0]
     pages = commus + cards
     if len(commus) < 25 or len(cards) < 300:
@@ -225,7 +297,7 @@ def main():
         text = '\n'.join('<div data-sczh-source="' + html.escape(p, quote=True) + '">\n{{:' + p + '}}\n</div>' for p in batch)
         url = WIKI + '/w/api.php?' + urlencode({'action': 'parse', 'text': text, 'prop': 'text',
             'contentmodel': 'wikitext', 'format': 'json', 'formatversion': 2})
-        parsed = json.loads(fetch(url, args.cache, args.delay))
+        parsed = json.loads(request(url))
         content = parsed['parse']['text']
         if 'post-expand-template-inclusion' in content or 'mw-parser-output' not in content:
             raise ValueError('Wiki template expansion failed; reduce --batch-size')
@@ -235,22 +307,15 @@ def main():
         print(f'{min(offset + len(batch), len(pages))}/{len(pages)} pages, {len(groups)} choice groups', flush=True)
     corrections = json.loads((ROOT / 'src/data/choice-effect-corrections.json').read_text(encoding='utf-8'))
     apply_corrections(groups, corrections)
-    # Exact duplicates are common where several cards share an event.
-    unique = {json.dumps(g, ensure_ascii=False, sort_keys=True): g for g in groups}
-    groups = list(unique.values())
+    groups = list({json.dumps(group, ensure_ascii=False, sort_keys=True): group for group in groups}.values())
     counts = Counter(g['kind'] for g in groups)
     if counts['morning'] < 300 or counts['audition'] < 100 or counts['event'] < 500:
         raise ValueError(f'Too few parsed groups: {counts}; existing catalogue preserved')
-    output = {'updatedAt': datetime.now(timezone.utc).date().isoformat(),
-              'attribution': 'Shinycolors Wiki contributors; Japanese reference sources are cited per group or choice',
-              'license': 'https://creativecommons.org/licenses/by-nc-sa/4.0/',
-              'licenseScope': 'The CC license notice covers English Wiki-derived tables. Japanese reference records cite their sources individually; game text belongs to its original rights holders.',
-              'groups': groups}
-    target = ROOT / 'src/data/choice-effects.json'
-    target.parent.mkdir(exist_ok=True)
-    target.with_suffix('.json.tmp').write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-    target.with_suffix('.json.tmp').replace(target)
-    print(f'Saved {target}: {dict(counts)}')
+    report = save_catalogue(groups, args.output)
+    if args.report:
+        args.report.parent.mkdir(parents=True, exist_ok=True)
+        args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    print(json.dumps(report, ensure_ascii=False))
 
 
 if __name__ == '__main__':

@@ -3,7 +3,15 @@ name: Publish userscript
 on:
   push:
     branches: [master]
+  schedule:
+    # 04:17 China Standard Time. Avoid the busiest top-of-hour schedule.
+    - cron: '17 20 * * *'
   workflow_dispatch:
+    inputs:
+      refresh_choices:
+        description: Fetch the latest Wiki choice effects before publishing
+        type: boolean
+        default: true
 
 permissions:
   contents: read
@@ -16,43 +24,103 @@ jobs:
   publish:
     if: github.repository == 'MatryoshkaLJY/ShinyColors' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 30
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with:
           persist-credentials: false
+      - name: Refresh choice effects from Wiki
+        id: refresh
+        if: github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.refresh_choices)
+        run: |
+          python3 script/updateChoiceEffects.py \
+            --cache "$RUNNER_TEMP/choice-wiki-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" \
+            --report "$RUNNER_TEMP/choice-update.json"
+          if git diff --quiet -- src/data/choice-effects.json; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+            echo 'Wiki choice effects are unchanged; existing catalogue retained.' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+            python3 - <<'PY' >> "$GITHUB_STEP_SUMMARY"
+          import json, os
+          from pathlib import Path
+          report = json.loads((Path(os.environ['RUNNER_TEMP']) / 'choice-update.json').read_text())
+          print(f"Choice effects refreshed: {report['previousGroups']} → {report['groups']} groups.")
+          PY
+          fi
+      - name: Decide whether a release is needed
+        id: plan
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REFRESH_CHANGED: ${{ steps.refresh.outputs.changed }}
+        run: |
+          publish=true
+          if [ "$GITHUB_EVENT_NAME" = schedule ] && [ "$REFRESH_CHANGED" != true ]; then
+            # Retry publication if an earlier run committed data but failed
+            # before releasing it. A missing release also needs a first build.
+            latest_sha="$(gh api "repos/${GITHUB_REPOSITORY}/releases/latest" --jq .target_commitish || true)"
+            if [ "$latest_sha" = "$GITHUB_SHA" ]; then
+              publish=false
+            fi
+          fi
+          echo "publish=$publish" >> "$GITHUB_OUTPUT"
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        if: steps.plan.outputs.publish == 'true'
         with:
           node-version: '22'
           package-manager-cache: false
       - name: Install dependencies from lockfile
+        if: steps.plan.outputs.publish == 'true'
         run: |
           npm install --global pnpm@10.11.0
           pnpm install --frozen-lockfile --ignore-scripts
       - name: Test
+        if: steps.plan.outputs.publish == 'true'
         run: |
           pnpm test
           python3 -m unittest discover -s test -p 'test_*.py'
       - name: Build and verify release
+        if: steps.plan.outputs.publish == 'true'
         run: |
           pnpm build
           pnpm verify:userscript
           node -e 'console.log("USERSCRIPT_VERSION=" + require("./script/userscript.cjs").scriptVersion())' >> "$GITHUB_ENV"
-      - name: Publish versioned release
+      - name: Commit validated catalogue
+        if: steps.refresh.outputs.changed == 'true'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
           current_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/master" --jq .object.sha)"
           if [ "$current_sha" != "$GITHUB_SHA" ]; then
+            echo 'A newer commit is on master; retry the refresh against that version.'
+            exit 1
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -- src/data/choice-effects.json
+          git commit -m 'chore: refresh choice effects'
+          gh auth setup-git
+          git push origin HEAD:master
+          echo "RELEASE_SHA=$(git rev-parse HEAD)" >> "$GITHUB_ENV"
+      - name: Publish versioned release
+        if: steps.plan.outputs.publish == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          current_sha="$(gh api "repos/${GITHUB_REPOSITORY}/git/ref/heads/master" --jq .object.sha)"
+          release_sha="${RELEASE_SHA:-$GITHUB_SHA}"
+          if [ "$current_sha" != "$release_sha" ]; then
             echo 'A newer commit is on master; skipping this release.'
             exit 0
           fi
           cat > dist/release-notes.md <<EOF
           自动构建版本：${USERSCRIPT_VERSION}
 
-          源码：https://github.com/${GITHUB_REPOSITORY}/commit/${GITHUB_SHA}
+          源码：https://github.com/${GITHUB_REPOSITORY}/commit/${release_sha}
+
+          效果库每日自动检查 Wiki；新卡数据在 Wiki 收录并通过校验后随新版分发。
 
           安装或更新 ShinyColors.user.js。各设备安装一次后，开启用户脚本管理器的自动更新。
 
@@ -61,6 +129,6 @@ jobs:
           gh release create "userscript-${USERSCRIPT_VERSION}" \
             dist/ShinyColors.user.js dist/ShinyColors.meta.js \
             dist/LICENSE-code.txt dist/LICENSE-effects.txt dist/LICENSE-dependencies.txt \
-            --repo "$GITHUB_REPOSITORY" --target "$GITHUB_SHA" \
+            --repo "$GITHUB_REPOSITORY" --target "$release_sha" \
             --title "Userscript ${USERSCRIPT_VERSION}" \
             --notes-file dist/release-notes.md --latest

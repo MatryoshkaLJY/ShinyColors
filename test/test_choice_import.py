@@ -1,8 +1,12 @@
 import importlib.util
 import json
+import os
 from copy import deepcopy
 from pathlib import Path
+from tempfile import TemporaryDirectory
 import unittest
+from unittest.mock import patch, MagicMock
+from urllib.error import HTTPError
 
 spec = importlib.util.spec_from_file_location('importer', Path(__file__).resolve().parent.parent / 'script/updateChoiceEffects.py')
 importer = importlib.util.module_from_spec(spec)
@@ -128,6 +132,89 @@ class ImportTest(unittest.TestCase):
         conflict['choices'][0]['effects'] = {'vocal': 99}
         with self.assertRaises(ValueError):
             importer.apply_corrections(groups, [conflict])
+
+    def sample_group(self, title='event'):
+        return {'kind': 'event', 'title': title, 'source': 'https://shinycolors.wiki/wiki/P-SSR1_Mano', 'choices': [
+            {'text': 'A', 'effects': {'vocal': 20}}, {'text': 'B', 'effects': {'dance': 20}},
+            {'text': 'C', 'effects': {'visual': 20}}]}
+
+    def test_unchanged_data_preserves_file_and_date_despite_order_and_duplicates(self):
+        with TemporaryDirectory() as directory:
+            target = Path(directory) / 'catalogue.json'
+            groups = [self.sample_group(), self.sample_group('second event')]
+            self.assertTrue(importer.save_catalogue(groups, target)['changed'])
+            data = json.loads(target.read_text())
+            data['updatedAt'] = '2020-01-01'
+            target.write_text(json.dumps(data), encoding='utf-8')
+            before = target.read_bytes()
+            result = importer.save_catalogue(list(reversed(groups)) + [groups[0]], target)
+            self.assertFalse(result['changed'])
+            self.assertEqual(result['updatedAt'], '2020-01-01')
+            self.assertEqual(target.read_bytes(), before)
+
+    def test_new_event_updates_atomically_and_retains_previous_choices(self):
+        with TemporaryDirectory() as directory:
+            target = Path(directory) / 'nested/catalogue.json'
+            first, second = self.sample_group(), self.sample_group('new card event')
+            importer.save_catalogue([first], target)
+            result = importer.save_catalogue([first, second], target)
+            self.assertTrue(result['changed'])
+            self.assertEqual((result['previousGroups'], result['groups']), (1, 2))
+            self.assertEqual(json.loads(target.read_text())['groups'], [first, second])
+            self.assertFalse(target.with_suffix('.json.tmp').exists())
+
+    def test_new_cards_cannot_hide_missing_old_events_or_options(self):
+        with TemporaryDirectory() as directory:
+            target = Path(directory) / 'catalogue.json'
+            old, new = self.sample_group(), self.sample_group('new event')
+            importer.save_catalogue([old], target)
+            before = target.read_bytes()
+            for replacement in ([new, self.sample_group('another new event')],
+                                [{**old, 'choices': old['choices'][:2]}, new]):
+                with self.assertRaisesRegex(ValueError, 'Coverage decreased'):
+                    importer.save_catalogue(replacement, target)
+                self.assertEqual(target.read_bytes(), before)
+
+    def test_invalid_records_never_replace_existing_catalogue(self):
+        with TemporaryDirectory() as directory:
+            target = Path(directory) / 'catalogue.json'
+            group = self.sample_group()
+            importer.save_catalogue([group], target)
+            before = target.read_bytes()
+            for change in ({'effects': {'vocal': 'unknown'}}, {'text': ''}, {'aliases': ['']}, {'effects': {'unexpected': 20}}):
+                invalid = deepcopy(group)
+                invalid['choices'][0].update(change)
+                with self.assertRaises(ValueError):
+                    importer.save_catalogue([invalid], target)
+                self.assertEqual(target.read_bytes(), before)
+
+    def test_response_cache_expires_and_forced_refresh_bypasses_a_fresh_cache(self):
+        with TemporaryDirectory() as directory, patch.object(importer, 'urlopen') as request, patch.object(importer.time, 'sleep'):
+            cache = Path(directory)
+            response = MagicMock()
+            response.__enter__.return_value.read.return_value = b'first'
+            request.return_value = response
+            self.assertEqual(importer.fetch('https://example.com/wiki', cache, 1), 'first')
+            self.assertEqual(importer.fetch('https://example.com/wiki', cache, 1), 'first')
+            self.assertEqual(request.call_count, 1)
+            path = next(cache.iterdir())
+            os.utime(path, (0, 0))
+            response.__enter__.return_value.read.return_value = b'fresh'
+            self.assertEqual(importer.fetch('https://example.com/wiki', cache, 1), 'fresh')
+            self.assertEqual(request.call_count, 2)
+            response.__enter__.return_value.read.return_value = b'forced'
+            self.assertEqual(importer.fetch('https://example.com/wiki', cache, 1, max_age=0), 'forced')
+            self.assertEqual(request.call_count, 3)
+
+    def test_rate_limit_stops_immediately_without_retrying_or_caching_an_error(self):
+        with TemporaryDirectory() as directory, patch.object(importer, 'urlopen',
+                side_effect=HTTPError('https://example.com/wiki', 429, 'Too Many Requests', {}, None)) as request, \
+                patch.object(importer.time, 'sleep') as sleep:
+            with self.assertRaises(HTTPError):
+                importer.fetch('https://example.com/wiki', Path(directory), 1)
+            self.assertEqual(request.call_count, 1)
+            sleep.assert_not_called()
+            self.assertEqual(list(Path(directory).iterdir()), [])
 
 
 if __name__ == '__main__':
